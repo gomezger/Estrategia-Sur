@@ -178,6 +178,46 @@ ol {
 	text-transform: uppercase;
 }
 
+
+.logo-carousel {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 0px;
+	margin: 0;
+	color: #fff;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	max-width: 300px;
+	border: solid 0.2em #571010c2;
+	position: relative;
+}
+
+.logo-carousel:hover .leer-mas{
+	display: table-cell;	
+}
+
+.logo-carousel .leer-mas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 1.5px;
+	max-width: 300px;
+	background-color: #350a0acb;
+	vertical-align: middle;
+	padding-top: 1.5em; 
+}
+.logo-carousel .leer-mas:hover {	
+	-webkit-transition: all 0.25s linear;
+	-moz-transition: all 0.25s linear;
+	-o-transition: all 0.25s linear;
+	transition: all 0.25s linear;	
+}
+
 /* Preloder */
 
 #preloder {
@@ -199,7 +239,7 @@ ol {
 	margin-top: -13px;
 	margin-left: -13px;
 	border-radius: 60px;
-	animation: loader 0.8s linear infinite;
+	animation: loader 0.5s linear infinite;
 	-webkit-animation: loader 0.8s linear infinite;
 }
 
@@ -483,6 +523,7 @@ ol {
 	position: relative;
 	top: 50px;
 	opacity: 0;
+	text-shadow: 5px 5px 40px rgb(0, 0, 0);
 }
 
 .single-slide .primary-btn {
@@ -2353,6 +2394,11 @@ ol {
 /* Small Mobile : 320px. */
 
 @media only screen and (max-width: 479px) {
+
+	.logo-carousel {
+		max-width: 180px;
+	}
+
 	.section-title h2 {
 		font-size: 30px;
 	}
