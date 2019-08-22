@@ -189,7 +189,7 @@ ol {
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
 	max-width: 300px;
-	border: solid 0.2em #571010c2;
+	/* border: solid 0.2em #5710103b; */
 	position: relative;
 }
 
@@ -202,13 +202,9 @@ ol {
 	top: 0;
 	left: 0;
 	display: none;
-	font-size: 18px;
-	font-weight: 700;
+	font-size: 16px;
 	color: #fff;
-	letter-spacing: 1.5px;
-	max-width: 300px;
 	background-color: #350a0acb;
-	vertical-align: middle;
 	padding-top: 1.5em; 
 }
 .logo-carousel .leer-mas:hover {	
@@ -606,8 +602,19 @@ ol {
 	background: #233EDE;
 	border-radius: 50%;
 	line-height: 83px;
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 	margin-top: -34px;
+	color: #FFF;
+	font-size: 2.5em;
+	font-weight: 100;
+	cursor: pointer;
+}
+
+.single-features .feature-text .feature-icon:hover {
+	background: rgb(4, 10, 47);
+	color: rgb(245, 245, 245);
+	-webkit-transition: all 0.2s linear 0.1s;
+	transition: all 0.2s linear 0.1s;
 }
 
 .single-features .feature-text h5 {
@@ -620,7 +627,7 @@ ol {
 }
 
 .single-features .feature-text p {
-	color: #7b7b7b;
+	color: #555555;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 30px;
@@ -889,12 +896,71 @@ ol {
 }
 
 /*---------------------
+  Contacto
+-----------------------*/
+
+.contacto-section {
+	background-image: url("../img/bg-orange-2.jpg");
+	padding: 50px 0;
+	background-position: center;
+	background-size: 100% auto;
+	color: #FFF;	
+}
+
+.contacto-section .titulo-contacto{
+	font-family: "Roboto", Ariel;
+	text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.contacto-section .dato-contacto{
+    font-size: 1.1em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.contacto-section .texto-contacto{
+	color: #EEE;	
+}
+.form-control {
+	color: #FFF;
+	border: none;
+	border-radius: 2px;
+	margin-top: 5px;
+	font-size: 0.95em;
+	background-color: rgba(204, 102, 55, 0.239);
+	border: solid 0.05em #FFF;
+	outline: none;
+}
+.form-control:focus {
+	background-color: rgba(204, 102, 55, 0.377);
+	outline: none;
+}
+
+.form-control::placeholder { /* Microsoft Edge */ 
+    color: rgb(255, 255, 255); 
+} 
+
+.form-control:focus {
+	outline: none;
+}
+
+.btn-enviar {
+	width: 100%;
+	text-align: center;
+	background-color: #f7f7f7;
+}
+
+/*---------------------
   Footer
 -----------------------*/
 
 .footer-section {
-	height: 641px;
+	height: 500px;
 	padding-top: 109px;
+	background-color: #060a0f;
+	background-position: center;
+	background-size: 100% auto;
 }
 
 .footer-content {
@@ -2188,9 +2254,10 @@ ol {
 		margin: 5px 5px 30px;
 		border-radius: 0;
 		float: right;
-		background-color: #233EDE;
+		background-color: rgb(59, 10, 10);
 		position: relative;
 		top: -56px;
+		border-radius: 0.1em;
 	}
 	.slicknav_nav a:hover {
 		border-radius: 0;
