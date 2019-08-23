@@ -203,6 +203,7 @@ ol {
 }
 
 .logo-carousel .leer-mas {
+	font-family: 'Montserrat', sans-serif;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -609,11 +610,11 @@ ol {
 
 .single-features .feature-text .feature-icon {
 	display: inline-block;
-	height: 88px;
-	width: 88px;
-	background: #233EDE;
+	height: 65px;
+	width: 65px;
+	background: rgb(153, 58, 58);
 	border-radius: 50%;
-	line-height: 83px;
+	line-height: 62px;
 	margin-bottom: 25px;
 	margin-top: -34px;
 	color: #FFF;
