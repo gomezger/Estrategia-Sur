@@ -178,6 +178,11 @@ ol {
 	text-transform: uppercase;
 }
 
+.title-carousel{
+	text-transform: uppercase;
+	font-size: 0.7em;
+}
+
 
 .logo-carousel {
 	display: inline-block;
@@ -188,7 +193,7 @@ ol {
 	color: #fff;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
-	max-width: 300px;
+	width: 210px;
 	/* border: solid 0.2em #5710103b; */
 	position: relative;
 }
@@ -202,7 +207,7 @@ ol {
 	top: 0;
 	left: 0;
 	display: none;
-	font-size: 16px;
+	font-size: 13.5px;
 	color: #fff;
 	background-color: #350a0acb;
 	padding-top: 1.5em; 
@@ -283,10 +288,11 @@ ol {
 -----------------------*/
 
 .header-section {
-	height: 142px;
+	height: 120px;
 	position: fixed;
 	width: 100%;
 	z-index: 9;
+	padding-top: 5px;
 }
 
 .header-section:after {
@@ -295,20 +301,20 @@ ol {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.712);
 	content: "";
 	z-index: -1;
 }
 
 .main-menu {
 	position: relative;
-	padding-top: 55px;
+	padding-top: 42px;
 }
 
 .main-menu .logo {
 	position: absolute;
 	left: 50%;
-	top: 30px;
+	top: 15px;
 	margin-left: -42.5px;
 }
 
@@ -491,8 +497,8 @@ ol {
 -----------------------*/
 
 .single-slide {
-	height: 895px;
-	padding-top: 343px;
+	height: 700px;
+	padding-top: 250px;
 	text-align: center;
 }
 
@@ -513,13 +519,14 @@ ol {
 
 .single-slide h1 {
 	color: #fff;
-	font-size: 130px;
+	font-size: 95px;
 	font-weight: 500;
 	margin-bottom: 45px;
 	position: relative;
-	top: 50px;
+	top: 45px;
 	opacity: 0;
-	text-shadow: 5px 5px 40px rgb(0, 0, 0);
+	text-shadow: 4px 4px 15px rgb(0, 0, 0);
+	font-family: 'Montserrat', sans-serif;
 }
 
 .single-slide .primary-btn {
@@ -956,8 +963,8 @@ ol {
 -----------------------*/
 
 .footer-section {
-	height: 500px;
-	padding-top: 109px;
+	height: 350px;
+	padding-top: 60px;
 	background-color: #060a0f;
 	background-position: center;
 	background-size: 100% auto;
@@ -1677,8 +1684,14 @@ ol {
 -----------------------*/
 
 .contact-section {
-	position: relative;
+	position: relative;	
+	background-image: url("../img/bg-white.jpg");
+	padding: 50px 0;
+	background-position: center;
+	background-size: 100% auto;
+	color: #FFF;	
 }
+
 
 .map {
 	position: absolute;
@@ -1695,12 +1708,12 @@ ol {
 }
 
 .contact-info {
-	padding-top: 89px;
-	padding-bottom: 100px;
+	padding-top: 0px;
+	padding-bottom: 20px;
 }
 
 .contact-info .contact-details {
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 
 .contact-info .contact-details h2 {
@@ -1729,37 +1742,44 @@ ol {
 
 .contact-info .contact-form input {
 	width: 100%;
-	border: 3px solid #e1e1e1;
-	height: 55px;
-	padding-left: 30px;
+	border: 2px solid #e1e1e1;
+	height: 40px;
+	padding-left: 10px;
 	color: #7b7b7b;
 	font-size: 15px;
 	font-weight: 400;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
+}
+.contact-info .contact-form input:focus,.contact-info .contact-form textarea:focus{
+	border-bottom: 2px solid #501313e3;
+	-webkit-transition: all 0.25s linear;
+	-moz-transition: all 0.25s linear;
+	-o-transition: all 0.25s linear;
+	transition: all 0.25s linear;	
 }
 
 .contact-info .contact-form textarea {
 	width: 100%;
-	height: 216px;
+	height: 180px;
 	border: 3px solid #e1e1e1;
-	padding-left: 30px;
+	padding-left: 10px;
 	padding-top: 15px;
 	color: #7b7b7b;
 	font-size: 15px;
 	font-weight: 400;
-	margin-bottom: 26px;
+	margin-bottom: 15px;
 	resize: none;
 }
 
 .contact-info .contact-form button {
-	background: #233EDE;
+	background: rgb(155, 14, 14);
 	border: none;
 	color: #fff;
 	display: block;
-	padding: 20px 45px;
+	padding: 10px 25px;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: 700;
 	cursor: pointer;
 }
@@ -2208,12 +2228,16 @@ ol {
 	.element-section {
 		padding-bottom: 30px;
 	}
+	.contact-section{
+		background-size: auto 100%;
+		height: auto;
+	}
 	.contact-info {
 		padding-bottom: 70px;
 	}
 	.map {
 		position: relative;
-		margin-bottom: 100px;
+		margin-bottom: 0px;
 		height: 500px;
 		width: 100%;
 	}
@@ -2254,10 +2278,17 @@ ol {
 		margin: 5px 5px 30px;
 		border-radius: 0;
 		float: right;
-		background-color: rgb(59, 10, 10);
+		/* background-color: rgb(168, 63, 63); */
 		position: relative;
-		top: -56px;
+		top: -67px;
 		border-radius: 0.1em;
+		width: 56px;
+		height: 40px;
+	}
+	.slicknav_btn .slicknav_icon-bar{
+		width: 36px;
+		margin-bottom: 8px; 
+		height: 3px;
 	}
 	.slicknav_nav a:hover {
 		border-radius: 0;
@@ -2443,18 +2474,26 @@ ol {
 	.single-blog-item .blog-text h2 {
 		font-size: 30px;
 	}
+	
+	.contact-section{
+		background-size: auto 100%;
+		height: auto;
+	}
 	.contact-info {
-		padding-bottom: 70px;
+		padding-bottom: 70x;
 	}
 	.map {
 		position: relative;
-		margin-bottom: 100px;
-		height: 500px;
+		margin-bottom: 0px;
+		height: 400px;
 		width: 100%;
 	}
 	.search-bar-tablecell input {
 		width: 100%;
 		margin-bottom: 20px;
+	}
+	.site-btn{
+		width: 100%;
 	}
 }
 
