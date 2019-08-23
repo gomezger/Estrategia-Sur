@@ -526,7 +526,7 @@ ol {
 .single-slide h1 {
 	color: #fff;
 	font-size: 95px;
-	font-weight: 500;
+	font-weight: 600;
 	margin-bottom: 45px;
 	position: relative;
 	top: 45px;
@@ -598,6 +598,10 @@ ol {
   Features
 -----------------------*/
 
+.features-paneles{
+	display: none;
+}
+
 .single-features .features-img img {
 	min-width: 100%;
 }
@@ -622,6 +626,19 @@ ol {
 	font-weight: 100;
 	cursor: pointer;
 	border: 1.5px solid rgb(153, 58, 58);
+}
+
+
+.single-features .feature-text .feature-icon-mas {
+	display: inline-block;
+	height: 65px;
+	width: 65px;
+	background: rgb(153, 58, 58);
+	border-radius: 50%;
+	line-height: 59px;
+	margin-bottom: 25px;
+	margin-top: -34px;
+	font-size: 2.2em;
 }
 
 .single-features .feature-text .feature-icon:hover {

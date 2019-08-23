@@ -29,19 +29,25 @@
     <!-- Script -->
     <script src="https://kit.fontawesome.com/591d68fa75.js"></script>
     <script>
-        $(document).ready(function() {
-            $('a[href^="#"]').click(function() {
-                var destino = $(this.hash);
-                if (destino.length == 0) {
-                    destino = $('a[name="' + this.hash.substr(1) + '"]');
-                }
-                if (destino.length == 0) {
-                    destino = $('html');
-                }
-                $('html, body').animate({ scrollTop: destino.offset().top }, 500);
-                return false;
-            });
-        });
+
+        let paneles = false;
+
+        function abrir(tipo){
+            if(tipo==='paneles'){          
+                if(!paneles){
+                    $(".features-paneles").slideDown( "slow");
+                    var etop = $('.features-paneles').offset().top;
+                    $('html, body').animate({
+                        scrollTop: etop-200
+                    }, 1000);                
+                }else{
+                    $(".features-paneles").slideUp( "slow");     
+                }           
+                paneles=!paneles;
+
+
+            }
+        }
     </script>
 </head>
 
@@ -112,23 +118,23 @@
                 <div class="single-slide set-bg active" data-setbg="img/carousel1.jpg">
                     <!-- <a href="https://www.youtube.com/watch?v=SEVuD_djKrU" class="play-btn pop-up"><i class="fa fa-play"></i></a> -->
                     <h1 class="title-carousel">Estrategia Sur</h1>
-                    <a href="#un-anclaje" class="logo-carousel p-0 m-0">
+                    <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/nova.jpg">
                         <div class="leer-mas col-12 h-100">Leer más</div>
                     </a>
-                    <a href="#un-anclaje" class="logo-carousel p-0 m-0">
+                    <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/bervill.jpg">
                         <div class="leer-mas col-12 h-100">Leer más</div>
                     </a>
-                    <a href="#un-anclaje" class="logo-carousel p-0 m-0">
+                    <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/acerolatina.jpg">
                         <div class="leer-mas col-12 h-100">Leer más</div>
                     </a>
-                    <a href="#un-anclaje" class="logo-carousel p-0 m-0">
+                    <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/friolatina.jpg">
                         <div class="leer-mas col-12 h-100">Leer más</div>
                     </a>
-                    <a href="#un-anclaje" class="logo-carousel p-0 m-0">
+                    <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/bervill.jpg">
                         <div class="leer-mas col-12 h-100">Leer más</div>
                     </a>
@@ -136,15 +142,15 @@
                 <div class="single-slide set-bg" data-setbg="img/carousel1.jpg">
                     <!-- <a href="https://www.youtube.com/watch?v=SEVuD_djKrU" class="play-btn pop-up"><i class="fa fa-play"></i></a> -->
                     <h1 class="title-carousel">Paneles Aislantes</h1>
-                    <a href="#un-anclaje" class="logo-carousel p-0 m-0">
+                    <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/acerolatina.jpg">
                         <div class="leer-mas col-12 h-100">Leer más</div>
                     </a>
-                    <a href="#un-anclaje" class="logo-carousel p-0 m-0">
+                    <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/friolatina.jpg">
                         <div class="leer-mas col-12 h-100">Leer más</div>
                     </a>
-                    <a href="#un-anclaje" class="logo-carousel p-0 m-0">
+                    <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/bervill.jpg">
                         <div class="leer-mas col-12 h-100">Leer más</div>
                     </a>
@@ -152,20 +158,15 @@
                 <div class="single-slide set-bg" data-setbg="img/carousel1.jpg">
                     <!-- <a href="https://www.youtube.com/watch?v=SEVuD_djKrU" class="play-btn pop-up"><i class="fa fa-play"></i></a> -->
                     <h1 class="title-carousel">Casas Industrializadas</h1>
-                    <a href="#un-anclaje" class="logo-carousel p-0 m-0">
+                    <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/nova.jpg">
                         <div class="leer-mas col-12 h-100">Leer más</div>
                     </a>
-                    <a href="#un-anclaje" class="logo-carousel p-0 m-0">
+                    <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/friolatina.jpg">
                         <div class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                 </div>
-            <!-- <div class="single-slide set-bg" data-setbg="img/bg-2.jpg">
-                <a href="https://www.youtube.com/watch?v=SEVuD_djKrU" class="play-btn pop-up"><i class="fa fa-play"></i></a>
-                <h1>Be Fit.Top Trainer</h1>
-                <a href="#un-anclaje"  class="primary-btn">Read More</a>
-            </div> -->
         </div>
     </section>
     <!-- Hero Slider End -->
@@ -174,6 +175,8 @@
     <!-- Features Section Begin -->
     <section id="servicios" class="features-section spad">
         <div class="container">
+
+            <!-- FILA GENERAL -->
             <div class="row">
                 <div class="col-md-4">
                     <div class="single-features">
@@ -181,7 +184,7 @@
                             <img src="img/features/paneles.jpg" alt="Paneles Aislantes">
                         </div>
                         <div class="feature-text">
-                            <div class="feature-icon">
+                            <div onclick="abrir('paneles')" class="feature-icon">
                                 <i class="fas fa-angle-double-down pt-2"></i>
                             </div>
                             <h5>Paneles Aislantes</h5>
@@ -213,6 +216,56 @@
                         <div class="feature-text">
                             <div class="feature-icon">
                                 <i class="fas fa-angle-double-down pt-2"></i>
+                            </div>
+                            <h5>SERVICIOS  PROFESIONALES</h5>
+                            <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
+                                nulla pretium, vitae ornare leo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix mt-5"></div>
+
+            <!-- SEGUNDA FILA: GRUPO LTN PANELES TERMICOS -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-features features-paneles">
+                        <div class="features-img">
+                            <img src="img/features/acero-latina.jpg" alt="Paneles Aislantes">
+                        </div>
+                        <div class="feature-text">
+                            <div class="feature-icon feature-icon-mas">
+                                <i class="fas fa-plus pt-2"></i>
+                            </div>
+                            <h5>Paneles Aislantes</h5>
+                            <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
+                                nulla pretium, vitae ornare leo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-features features-paneles">
+                        <div class="features-img">
+                            <img src="img/features/feature-2.jpg" alt="Casas industrializadas">
+                        </div>
+                        <div class="feature-text">
+                            <div class="feature-icon feature-icon-mas">
+                                <i class="fas fa-plus pt-2"></i>
+                            </div>
+                            <h5>Casas Industrializadas</h5>
+                            <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
+                                nulla pretium, vitae ornare leo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-features features-paneles">
+                        <div class="features-img">
+                            <img src="img/features/feature-1.jpg" alt="">
+                        </div>
+                        <div class="feature-text">
+                            <div class="feature-icon feature-icon-mas">
+                                <i class="fas fa-plus pt-2"></i>
                             </div>
                             <h5>SERVICIOS  PROFESIONALES</h5>
                             <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
