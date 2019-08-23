@@ -334,6 +334,7 @@ ol {
 	float: none;
 	display: inline-block;
 	padding: 4px;
+	width: auto;
 }
 
 .main-menu ul li a {
@@ -346,23 +347,27 @@ ol {
 
 .main-menu ul li:nth-child(1) {
 	float: left;
-	margin-right: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
 	padding: 4px;
 }
 
 .main-menu ul li:nth-child(2) {
 	float: left;
 	margin-right: 20px;
+	margin-left: 20px;
 	padding: 4px;
 }
 
 .main-menu ul li:nth-child(3) {
-	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
 	padding: 4px;
 }
 
 .main-menu ul li:nth-child(4) {
-	margin-right: 35px;
+	margin-right: 20px;
+	margin-left: 20px;
 	padding: 4px;
 }
 
@@ -2253,10 +2258,10 @@ ol {
 		display: none;
 	}
 	.header-section {
-		height: 125px;
+		height: 80px;
 	}
 	.main-menu {
-		padding-top: 20px;
+		padding-top: 10px;
 	}
 	.main-menu .logo {
 		position: relative;
@@ -2264,6 +2269,10 @@ ol {
 		top: 0;
 		margin-left: 0;
 		display: inline-block;
+	}
+	.main-menu .logo a {
+		width: 55px;
+		height: 55px;
 	}
 	.slicknav_menu {
 		display: block;
@@ -2278,9 +2287,9 @@ ol {
 		margin: 5px 5px 30px;
 		border-radius: 0;
 		float: right;
-		/* background-color: rgb(168, 63, 63); */
+		background-color: rgba(56, 56, 56, 0.247);
 		position: relative;
-		top: -67px;
+		top: -54px;
 		border-radius: 0.1em;
 		width: 56px;
 		height: 40px;
@@ -2418,6 +2427,11 @@ ol {
 	}
 	.single-blog-item .blog-img {
 		height: 250px;
+	}
+	.footer-section {
+		padding-bottom: 30px;
+		background-size: auto 100% ;
+		height: auto;;
 	}
 	.footer-content .footer-menu {
 		margin-bottom: 60px;
