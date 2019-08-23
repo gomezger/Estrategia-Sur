@@ -11,7 +11,7 @@
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,300i,400,500,700,900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -22,13 +22,27 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
+
     <!-- Icono -->
     <link rel="icon" type="image/png" href="img/logo.png" />
 
     <!-- Script -->
     <script src="https://kit.fontawesome.com/591d68fa75.js"></script>
-
-
+    <script>
+        $(document).ready(function() {
+            $('a[href^="#"]').click(function() {
+                var destino = $(this.hash);
+                if (destino.length == 0) {
+                    destino = $('a[name="' + this.hash.substr(1) + '"]');
+                }
+                if (destino.length == 0) {
+                    destino = $('html');
+                }
+                $('html, body').animate({ scrollTop: destino.offset().top }, 500);
+                return false;
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -51,8 +65,8 @@
                             <ul>
                                 <li><a href="#">Inicio</a></li>
                                 <li><a href="#nosotros">Nosotros</a></li>
-                                <li><a href="#servicios">Servicios</a></li>
-                                <li><a href="#contacto">Contacto</a></li>
+                                <li><a href="#servicios" >Servicios</a></li>
+                                <li><a href="#contacto" name="contacto" >Contacto</a></li>
                                 <li class="search-btn search-trigger"></li>
                             </ul>
                         </nav>
@@ -99,11 +113,7 @@
                     <!-- <a href="https://www.youtube.com/watch?v=SEVuD_djKrU" class="play-btn pop-up"><i class="fa fa-play"></i></a> -->
                     <h1 class="title-carousel">Estrategia Sur</h1>
                     <a href="#un-anclaje" class="logo-carousel p-0 m-0">
-                        <img class="col-12 p-0 m-0" src="img/logos_empresas/acerolatina.jpg">
-                        <div class="leer-mas col-12 h-100">Leer más</div>
-                    </a>
-                    <a href="#un-anclaje" class="logo-carousel p-0 m-0">
-                        <img class="col-12 p-0 m-0" src="img/logos_empresas/friolatina.jpg">
+                        <img class="col-12 p-0 m-0" src="img/logos_empresas/nova.jpg">
                         <div class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                     <a href="#un-anclaje" class="logo-carousel p-0 m-0">
@@ -111,7 +121,11 @@
                         <div class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                     <a href="#un-anclaje" class="logo-carousel p-0 m-0">
-                        <img class="col-12 p-0 m-0" src="img/logos_empresas/nova.jpg">
+                        <img class="col-12 p-0 m-0" src="img/logos_empresas/acerolatina.jpg">
+                        <div class="leer-mas col-12 h-100">Leer más</div>
+                    </a>
+                    <a href="#un-anclaje" class="logo-carousel p-0 m-0">
+                        <img class="col-12 p-0 m-0" src="img/logos_empresas/friolatina.jpg">
                         <div class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                     <a href="#un-anclaje" class="logo-carousel p-0 m-0">
@@ -135,6 +149,18 @@
                         <div class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                 </div>
+                <div class="single-slide set-bg" data-setbg="img/carousel1.jpg">
+                    <!-- <a href="https://www.youtube.com/watch?v=SEVuD_djKrU" class="play-btn pop-up"><i class="fa fa-play"></i></a> -->
+                    <h1 class="title-carousel">Casas Industrializadas</h1>
+                    <a href="#un-anclaje" class="logo-carousel p-0 m-0">
+                        <img class="col-12 p-0 m-0" src="img/logos_empresas/nova.jpg">
+                        <div class="leer-mas col-12 h-100">Leer más</div>
+                    </a>
+                    <a href="#un-anclaje" class="logo-carousel p-0 m-0">
+                        <img class="col-12 p-0 m-0" src="img/logos_empresas/friolatina.jpg">
+                        <div class="leer-mas col-12 h-100">Leer más</div>
+                    </a>
+                </div>
             <!-- <div class="single-slide set-bg" data-setbg="img/bg-2.jpg">
                 <a href="https://www.youtube.com/watch?v=SEVuD_djKrU" class="play-btn pop-up"><i class="fa fa-play"></i></a>
                 <h1>Be Fit.Top Trainer</h1>
@@ -152,7 +178,7 @@
                 <div class="col-md-4">
                     <div class="single-features">
                         <div class="features-img">
-                            <img src="img/features/paneles.jpg" alt="">
+                            <img src="img/features/paneles.jpg" alt="Paneles Aislantes">
                         </div>
                         <div class="feature-text">
                             <div class="feature-icon">
@@ -167,7 +193,7 @@
                 <div class="col-md-4">
                     <div class="single-features">
                         <div class="features-img">
-                            <img src="img/features/acero-latina.jpg" alt="">
+                            <img src="img/features/casas.jpg" alt="Casas industrializadas">
                         </div>
                         <div class="feature-text">
                             <div class="feature-icon">
@@ -195,7 +221,7 @@
                     </div>
                 </div>
             </div>
-            <div id="contacto"></div>
+            <div id="contacto" name="contacto"></div>
         </div>
     </section>
     <!-- Features Section End -->
@@ -260,121 +286,6 @@
                 style="border:0" allowfullscreen></iframe></div>
     </section>
     <!-- Contact Section End -->
-
-    <!-- Contacto section Begin -->
-    <section class="contacto-section col-12 d-none">
-        <div class="container">
-            <div class="row">
-
-                <!-- Columna 1 PRINCIPIO-->
-                <div class="col-12 col-md-4 float-right">
-
-                    <div class="titulo-contacto col-12 float-left m-0 p-0 mb-2">
-                        Ventas
-                    </div>
-
-                    <!-- Telefono  -->
-                    <div class="dato-contacto col-12 m-0 p-0 clearfix pb-1">
-                        <div class="icon-contacto float-left p-0 m-0 pr-2">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="texto-contacto float-left">
-                            (0291) 5172235
-                        </div> 
-                    </div>
-
-                    <!-- Correo  -->
-                    <div class="dato-contacto col-12 m-0 p-0 clearfix mb-4">
-                        <div class="icon-contacto float-left p-0 m-0 pr-2">
-                            <i class="far fa-envelope"></i>
-                        </div>
-                        <div class="texto-contacto float-left">
-                            info@estrategiasur.com.ar
-                        </div> 
-                    </div>
-
-
-                    <div class="titulo-contacto col-12 float-left mt-4 mb-2 m-0 p-0 ">
-                        Horario de atención
-                    </div>
-
-                    <!-- Horario 1  -->
-                    <div class="dato-contacto col-12 m-0 p-0 clearfix pb-1">
-                        <div class="icon-contacto float-left p-0 m-0 pr-2">
-                                <i class="fas fa-chevron-right"></i>
-                        </div>
-                        <div class="texto-contacto float-left">
-                            Lunes a viernes: 9:00 a 18.00
-                        </div> 
-                    </div>
-                    <!-- Horario 2  -->
-                    <div class="dato-contacto col-12 m-0 p-0 clearfix mb-4">
-                        <div class="icon-contacto float-left p-0 m-0 pr-2">
-                            <i class="fas fa-chevron-right"></i>
-                        </div>
-                        <div class="texto-contacto float-left">
-                            Sábado y Domingo: sin atención
-                        </div> 
-                    </div>
-
-                    <div class="titulo-contacto col-12 float-left mt-4 mb-2 m-0 p-0 ">
-                        Ubicación
-                    </div>
-
-                    <!-- DIRECCION  -->
-                    <div class="dato-contacto col-12 m-0 p-0 clearfix pb-1">
-                        <div class="icon-contacto float-left p-0 m-0 pr-2">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="texto-contacto float-left">
-                            Brasil 1272 - Bahía Blanca
-                        </div> 
-                    </div>
-                </div>
-                <!-- Columna 1 FIN-->
-                
-                <!-- Columna 2 Principio -->
-                <div class="col-12 col-md-4">
-                    a
-                </div>
-                <!-- Columna 2 FIN-->
-
-
-                <!-- Columna 3 Principio -->
-                <div class="col-12 col-md-4 float-left">
-                    <div class="titulo-contacto col-12 float-left mb-2 m-0 p-0 ">
-                        Dejanos tu consulta
-                    </div>
-
-                    <form (ngSubmit)="onSubmit(contactoForm)" #contactoForm="ngForm">
-                        <div class="form-group">
-                            <input type="text" class="form-control p-1 pl-2 mb-1" name="nombre-es" #nombre="ngModel" placeholder="Nombre *"
-                                    required
-                                    [(ngModel)]="mensaje.nombre" 
-                                    >
-                
-                            <input required type="text" class="form-control p-1 pl-2 mb-1" id="apellido" name="apellido-es" #apellido="ngModel" placeholder="Apellido *"
-                                    [(ngModel)]="mensaje.apellido">
-                
-                            <input required type="text" class="form-control p-1 pl-2 mb-1" id="email" name="correo-es" #correo="ngModel" placeholder="Correo *"
-                                    [(ngModel)]="mensaje.correo">
-                
-                                    <input required type="text" class="form-control p-1 pl-2 mb-2" id="telefono" name="telefono-es" #telefono="ngModel" placeholder="Teléfono  *"
-                                    [(ngModel)]="mensaje.telefono">
-                            
-                
-                            <textarea required type="text" class="form-control p-1 pl-2 mb-1" id="consulta" name="consulta-es" #consulta="ngModel" rows="7" placeholder="Consulta *"
-                                        [(ngModel)]="mensaje.consulta"></textarea>
-                        </div> 
-                        <button type="submit" class="btn btn-enviar" [disabled]="!contactoForm.form.valid">Enviar</button>
-                    </form>
-                </div>
-                <!-- columna 3 FIN-->
-
-            </div>
-        </div>
-    </section>
-    <!-- Contacto section End -->
 
 
     <!-- Features Section End -->
@@ -592,6 +503,8 @@
     <script src="js/circle-progress.min.js"></script>
     <script src="js/jquery.barfiller.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
 </body>
 
 </html>

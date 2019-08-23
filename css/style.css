@@ -531,7 +531,7 @@ ol {
 	position: relative;
 	top: 45px;
 	opacity: 0;
-	text-shadow: 4px 4px 15px rgb(0, 0, 0);
+	text-shadow: 4px 4px 25px rgb(0, 0, 0);
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -621,11 +621,12 @@ ol {
 	font-size: 2.5em;
 	font-weight: 100;
 	cursor: pointer;
+	border: 1.5px solid rgb(153, 58, 58);
 }
 
 .single-features .feature-text .feature-icon:hover {
-	background: rgb(4, 10, 47);
-	color: rgb(245, 245, 245);
+	background: rgb(236, 230, 230);	
+	color: rgb(153, 58, 58);
 	-webkit-transition: all 0.2s linear 0.1s;
 	transition: all 0.2s linear 0.1s;
 }
@@ -1741,9 +1742,12 @@ ol {
 .contact-info .contact-details .address li {
 	list-style: none;
 	font-size: 14px;
-	color: #353535;
 	font-weight: 500;
 	margin-bottom: 13px;
+	color: #881d1d;
+}
+.contact-info .contact-details .address li span{
+	color: #353535;
 }
 
 .contact-info .contact-form input {
@@ -1778,7 +1782,7 @@ ol {
 }
 
 .contact-info .contact-form button {
-	background: rgb(155, 14, 14);
+	background: #d8262c;
 	border: none;
 	color: #fff;
 	display: block;
