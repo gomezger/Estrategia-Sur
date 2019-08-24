@@ -351,7 +351,6 @@ ol {
 	margin-right: 20px;
 	margin-left: 20px;
 	padding: 4px;
-	text-align: right;
 }
 
 .main-menu ul li:nth-child(2) {
@@ -359,14 +358,12 @@ ol {
 	margin-right: 20px;
 	margin-left: 20px;
 	padding: 4px;
-	text-align: right;
 }
 
 .main-menu ul li:nth-child(3) {
 	margin-right: 20px;
 	margin-left: 20px;
 	padding: 4px;
-	text-align: right;
 }
 
 .main-menu ul li:nth-child(4) {
@@ -605,7 +602,7 @@ ol {
 }
 
 
-.features-paneles, .features-casas{
+.features-paneles, .features-casas, .features-servicios{
 	display: none;
 }
 
@@ -2362,6 +2359,7 @@ ol {
 	}
 	.main-menu ul li {
 		display: block;
+		
 	}
 	.main-menu ul {
 		text-align: center;
