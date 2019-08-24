@@ -30,23 +30,23 @@
     <script src="https://kit.fontawesome.com/591d68fa75.js"></script>
     <script>
 
-        let paneles = false;
+        /**
+         * Desplaza hasta el div con clase o id "div"
+         */ 
+        function desplazar(div){
+            var etop = $(div).offset().top;
+            $('html, body').animate({
+                scrollTop: etop-200
+            }, 1000); 
+        }
 
-        function abrir(tipo){
-            if(tipo==='paneles'){          
-                if(!paneles){
-                    $(".features-paneles").slideDown( "slow");
-                    var etop = $('.features-paneles').offset().top;
-                    $('html, body').animate({
-                        scrollTop: etop-200
-                    }, 1000);                
-                }else{
-                    $(".features-paneles").slideUp( "slow");     
-                }           
-                paneles=!paneles;
-
-
-            }
+        /**
+         * Abre una clase
+         */ 
+        function abrirDesplazar(tipo){
+            $(".second-features").hide();
+            $(".features-"+tipo).slideDown("slow");
+            desplazar(".features-"+tipo);
         }
     </script>
 </head>
@@ -69,10 +69,10 @@
                         </div>
                         <nav class="mobile-menu">
                             <ul>
-                                <li><a href="#">Inicio</a></li>
-                                <li><a href="#nosotros">Nosotros</a></li>
-                                <li><a href="#servicios" >Servicios</a></li>
-                                <li><a href="#contacto" name="contacto" >Contacto</a></li>
+                                <li><a onclick="desplazar('body')" href="#">Inicio</a></li>
+                                <li><a onclick="desplazar('#nosotros')" href="#nosotros">Nosotros</a></li>
+                                <li><a onclick="desplazar('.features-section')" href="#servicios" >Servicios</a></li>
+                                <li><a onclick="desplazar('.contact-section')" href="#contacto" name="contacto" >Contacto</a></li>
                                 <li class="search-btn search-trigger"></li>
                             </ul>
                         </nav>
@@ -120,23 +120,23 @@
                     <h1 class="title-carousel">Estrategia Sur</h1>
                     <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/nova.jpg">
-                        <div class="leer-mas col-12 h-100">Leer más</div>
+                        <div onclick="abrirDesplazar('casas')" class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                     <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/bervill.jpg">
-                        <div class="leer-mas col-12 h-100">Leer más</div>
+                        <div onclick="abrirDesplazar('paneles')" class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                     <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/acerolatina.jpg">
-                        <div class="leer-mas col-12 h-100">Leer más</div>
+                        <div onclick="abrirDesplazar('paneles')" class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                     <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/friolatina.jpg">
-                        <div class="leer-mas col-12 h-100">Leer más</div>
+                        <div onclick="abrirDesplazar('paneles')" class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                     <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/bervill.jpg">
-                        <div class="leer-mas col-12 h-100">Leer más</div>
+                        <div onclick="abrirDesplazar('casas')" class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                 </div>
                 <div class="single-slide set-bg" data-setbg="img/carousel1.jpg">
@@ -144,15 +144,15 @@
                     <h1 class="title-carousel">Paneles Aislantes</h1>
                     <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/acerolatina.jpg">
-                        <div class="leer-mas col-12 h-100">Leer más</div>
+                        <div onclick="abrirDesplazar('paneles')" class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                     <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/friolatina.jpg">
-                        <div class="leer-mas col-12 h-100">Leer más</div>
+                        <div onclick="abrirDesplazar('paneles')" class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                     <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/bervill.jpg">
-                        <div class="leer-mas col-12 h-100">Leer más</div>
+                        <div onclick="abrirDesplazar('paneles')" class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                 </div>
                 <div class="single-slide set-bg" data-setbg="img/carousel1.jpg">
@@ -160,16 +160,33 @@
                     <h1 class="title-carousel">Casas Industrializadas</h1>
                     <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/nova.jpg">
-                        <div class="leer-mas col-12 h-100">Leer más</div>
+                        <div onclick="abrirDesplazar('casas')" class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                     <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/friolatina.jpg">
-                        <div class="leer-mas col-12 h-100">Leer más</div>
+                        <div onclick="abrirDesplazar('casas')" class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                 </div>
         </div>
     </section>
     <!-- Hero Slider End -->
+
+    <!-- NOSOTROS SECTION Begin  -->
+    <section class="contact-section nosotros-section">
+        <div class="container">
+                <h2 class="text-center col-12 pt-3 pb-2 mb-0">Estrategia Sur </h2>
+                <h3 class="text-center col-12 pt-0"> Agencia Comercial</h3>
+            <p class="text-center col-12 pb-3">
+                    Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
+                        nulla pretium, vitae ornare leo.
+                        Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
+                            nulla pretium, vitae ornare leo.
+            </p>
+        </div>
+    </section>
+    
+
+    <!-- NOSOTROS SECTION End  -->
 
 
     <!-- Features Section Begin -->
@@ -178,13 +195,13 @@
 
             <!-- FILA GENERAL -->
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" onclick="abrirDesplazar('paneles')" >
                     <div class="single-features">
                         <div class="features-img">
                             <img src="img/features/paneles.jpg" alt="Paneles Aislantes">
                         </div>
                         <div class="feature-text">
-                            <div onclick="abrir('paneles')" class="feature-icon">
+                            <div class="feature-icon">
                                 <i class="fas fa-angle-double-down pt-2"></i>
                             </div>
                             <h5>Paneles Aislantes</h5>
@@ -193,7 +210,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" onclick="abrirDesplazar('casas')" >
                     <div class="single-features">
                         <div class="features-img">
                             <img src="img/features/casas.jpg" alt="Casas industrializadas">
@@ -208,10 +225,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" onclick="abrirDesplazar('servicios')" >
                     <div class="single-features">
                         <div class="features-img">
-                            <img src="img/features/feature-3.jpg" alt="">
+                            <img src="img/features/servicios.jpg" alt="">
                         </div>
                         <div class="feature-text">
                             <div class="feature-icon">
@@ -229,9 +246,9 @@
             <!-- SEGUNDA FILA: GRUPO LTN PANELES TERMICOS -->
             <div class="row">
                 <div class="col-md-4">
-                    <div class="single-features features-paneles">
+                    <div class="single-features second-features features-paneles">
                         <div class="features-img">
-                            <img src="img/features/acero-latina.jpg" alt="Paneles Aislantes">
+                            <img src="img/features/acero-latina.jpg" alt="Acero Latina">
                         </div>
                         <div class="feature-text">
                             <div class="feature-icon feature-icon-mas">
@@ -244,9 +261,9 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="single-features features-paneles">
+                    <div class="single-features second-features features-paneles">
                         <div class="features-img">
-                            <img src="img/features/feature-2.jpg" alt="Casas industrializadas">
+                            <img src="img/features/frio-latina.jpg" alt="Frio Latina">
                         </div>
                         <div class="feature-text">
                             <div class="feature-icon feature-icon-mas">
@@ -259,15 +276,81 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="single-features features-paneles">
+                    <div class="single-features second-features features-paneles">
                         <div class="features-img">
-                            <img src="img/features/feature-1.jpg" alt="">
+                            <img src="img/features/bervill.jpg" alt="Bervill">
                         </div>
                         <div class="feature-text">
                             <div class="feature-icon feature-icon-mas">
                                 <i class="fas fa-plus pt-2"></i>
                             </div>
                             <h5>SERVICIOS  PROFESIONALES</h5>
+                            <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
+                                nulla pretium, vitae ornare leo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SEGUNDA FILA: CASAS INDUSTRIALIZADAS -->
+            <div class="row">
+                <div class="col-md-4 dos-features">
+                    <div class="single-features  second-features features-casas">
+                        <div class="features-img">
+                            <img src="img/features/nova.jpg" alt="Nova Fusión">
+                        </div>
+                        <div class="feature-text">
+                            <div class="feature-icon feature-icon-mas">
+                                <i class="fas fa-plus pt-2"></i>
+                            </div>
+                            <h5>Nova Fusión</h5>
+                            <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
+                                nulla pretium, vitae ornare leo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 dos-features">
+                    <div class="single-features second-features features-casas">
+                        <div class="features-img">
+                            <img src="img/features/casa-latina.jpg" alt="Casa Latina">
+                        </div>
+                        <div class="feature-text">
+                            <div class="feature-icon feature-icon-mas">
+                                <i class="fas fa-plus pt-2"></i>
+                            </div>
+                            <h5>Casa Latina</h5>
+                            <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
+                                nulla pretium, vitae ornare leo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SEGUNDA FILA: SERVICIOS -->
+            <div class="row">
+                <div class="col-md-4 dos-features">
+                    <div class="single-features second-features features-servicios">
+                        <div class="features-img">
+                            <img src="img/features/diseno-planos.jpg" alt="Diseño y planos">
+                        </div>
+                        <div class="feature-text">
+                            <div class="feature-icon feature-icon-mas">
+                                <i class="fas fa-plus pt-2"></i>
+                            </div>
+                            <h5>Diseño y planos</h5>
+                            <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
+                                nulla pretium, vitae ornare leo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 dos-features">
+                    <div class="single-features second-features features-servicios">
+                        <div class="features-img">
+                            <img src="img/features/administracion.jpg" alt="Administración al costo">
+                        </div>
+                        <div class="feature-text">
+                            <div class="feature-icon feature-icon-mas">
+                                <i class="fas fa-plus pt-2"></i>
+                            </div>
+                            <h5>Administración al costo</h5>
                             <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
                                 nulla pretium, vitae ornare leo.</p>
                         </div>
@@ -509,7 +592,7 @@
                 <div class="col-lg-12">
                     <div class="footer-content">
                         <div class="footer-logo">
-                            <a href="#"><img src="img/logo_footer_largo.png" alt=""></a>
+                            <a href="#"><img src="img/logo_footer_largo_original.png" alt=""></a>
                         </div>
                         <div class="footer-menu">
                             <ul>

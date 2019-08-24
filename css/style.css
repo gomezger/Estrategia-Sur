@@ -351,6 +351,7 @@ ol {
 	margin-right: 20px;
 	margin-left: 20px;
 	padding: 4px;
+	text-align: right;
 }
 
 .main-menu ul li:nth-child(2) {
@@ -358,12 +359,14 @@ ol {
 	margin-right: 20px;
 	margin-left: 20px;
 	padding: 4px;
+	text-align: right;
 }
 
 .main-menu ul li:nth-child(3) {
 	margin-right: 20px;
 	margin-left: 20px;
 	padding: 4px;
+	text-align: right;
 }
 
 .main-menu ul li:nth-child(4) {
@@ -597,8 +600,12 @@ ol {
 /*---------------------
   Features
 -----------------------*/
+.dos-features{
+	margin-left: 10%;
+}
 
-.features-paneles{
+
+.features-paneles, .features-casas{
 	display: none;
 }
 
@@ -1161,6 +1168,29 @@ ol {
 /*---------------------
   About Us
 -----------------------*/
+
+.nosotros-section h2{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	color: #330606;
+	margin-bottom: 45px;
+}
+.nosotros-section h3{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #330606;
+	margin-bottom: 45px;
+}
+.nosotros-section p{
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #222;
+}
 
 .about-us-area .section-title {
 	margin-bottom: 23px;
@@ -1810,6 +1840,9 @@ ol {
 	font-weight: 700;
 	cursor: pointer;
 }
+.contact-info .contact-form button:hover {
+	background: #b61b20;
+}
 
 /*---------------------
   Elements
@@ -2193,6 +2226,9 @@ ol {
 	.about-callto-text {
 		text-align: center;
 	}
+	.dos-features{
+		margin-left: 0; 
+	}
 	.features-section .single-features {
 		text-align: center;
 		margin-bottom: 50px;
@@ -2357,6 +2393,10 @@ ol {
 	}
 	.single-slide h1 {
 		font-size: 65px;
+	}
+	
+	.dos-features{
+		margin-left: 0; 
 	}
 	.features-section .single-features {
 		text-align: center;
