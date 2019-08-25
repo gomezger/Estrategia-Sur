@@ -36,8 +36,10 @@
         function desplazar(div){
             var etop = $(div).offset().top;
             $('html, body').animate({
-                scrollTop: etop-200
-            }, 1000); 
+                scrollTop: etop-100
+            }, 0);
+            $('.slicknav_nav').slideUp(600);
+
         }
 
         /**
@@ -51,7 +53,7 @@
     </script>
 </head>
 
-<body>
+<body class="inicio">
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
@@ -69,10 +71,10 @@
                         </div>
                         <nav class="mobile-menu">
                             <ul>
-                                <li><a onclick="desplazar('body')" href="#">Inicio</a></li>
-                                <li><a onclick="desplazar('#nosotros')" href="#nosotros">Nosotros</a></li>
-                                <li><a onclick="desplazar('.features-section')" href="#servicios" >Servicios</a></li>
-                                <li><a onclick="desplazar('.contact-section')" href="#contacto" name="contacto" >Contacto</a></li>
+                                <li><a class="link" href="#">Inicio</a></li>
+                                <li><a onclick="desplazar('#nosotros')" class="link" href="#nosotros">Nosotros</a></li>
+                                <li><a onclick="desplazar('#servicios')" class="link" href="#servicios" >Servicios</a></li>
+                                <li><a class="link" href="#contacto" name="contacto" >Contacto</a></li>
                                 <li class="search-btn search-trigger"></li>
                             </ul>
                         </nav>
@@ -172,11 +174,11 @@
     <!-- Hero Slider End -->
 
     <!-- NOSOTROS SECTION Begin  -->
-    <section class="contact-section nosotros-section">
+    <section id="nosotros" class="contact-section nosotros-section">
         <div class="container">
-                <h2 class="text-center col-12 pt-3 pb-2 mb-0">Estrategia Sur </h2>
-                <h3 class="text-center col-12 pt-0"> Agencia Comercial</h3>
-            <p class="text-center col-12 pb-3">
+                <h2 class="text-center col-12 mt-5 pt-4 pb-0 mb-1">Estrategia Sur </h2>
+                <h3 class="text-center col-12 pt-0 mt-0"> Agencia Comercial</h3>
+            <p class="text-center col-12 pb-5">
                     Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
                     nulla pretium, vitae ornare leo.
                     Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
@@ -192,6 +194,8 @@
     <!-- Features Section Begin -->
     <section id="servicios" class="features-section spad">
         <div class="container">
+            
+            <h2 class="text-center col-12 pt-5 pb-4 mb-5 clearfix">TITULO DE LAS 3 CATEGORIAS</h2>
 
             <!-- FILA GENERAL -->
             <div class="row">
@@ -199,6 +203,7 @@
                     <div class="single-features">
                         <div class="features-img">
                             <img src="img/features/paneles.jpg" alt="Paneles Aislantes">
+                            <div class="ver-mas col-12 h-100">Ver más</div>
                         </div>
                         <div class="feature-text">
                             <div class="feature-icon">
@@ -214,6 +219,7 @@
                     <div class="single-features">
                         <div class="features-img">
                             <img src="img/features/casas.jpg" alt="Casas industrializadas">
+                            <div class="ver-mas col-12 h-100">Ver más</div>
                         </div>
                         <div class="feature-text">
                             <div class="feature-icon">
@@ -229,6 +235,7 @@
                     <div class="single-features">
                         <div class="features-img">
                             <img src="img/features/servicios.jpg" alt="">
+                            <div class="ver-mas col-12 h-100">Ver más</div>
                         </div>
                         <div class="feature-text">
                             <div class="feature-icon">
@@ -245,6 +252,9 @@
 
             <!-- SEGUNDA FILA: GRUPO LTN PANELES TERMICOS -->
             <div class="row">
+                
+                <h2 class="text-center col-12 pt-0 pb-4 mb-4 second-features features-paneles clearfix">PANELES AISLANTES</h2>
+
                 <div class="col-md-4">
                     <div class="single-features second-features features-paneles">
                         <div class="features-img">
@@ -269,7 +279,7 @@
                             <div class="feature-icon feature-icon-mas">
                                 <i class="fas fa-plus pt-2"></i>
                             </div>
-                            <h5>Casas Industrializadas</h5>
+                            <h5>Cámaras FRIGORÍFICAS</h5>
                             <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
                                 nulla pretium, vitae ornare leo.</p>
                         </div>
@@ -284,7 +294,7 @@
                             <div class="feature-icon feature-icon-mas">
                                 <i class="fas fa-plus pt-2"></i>
                             </div>
-                            <h5>SERVICIOS  PROFESIONALES</h5>
+                            <h5>MOTORES Y EQUIPAMIENTO</h5>
                             <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
                                 nulla pretium, vitae ornare leo.</p>
                         </div>
@@ -293,6 +303,7 @@
             </div>
             <!-- SEGUNDA FILA: CASAS INDUSTRIALIZADAS -->
             <div class="row">
+                <h2 class="text-center col-12 pt-0 pb-4 mb-4 second-features features-casas clearfix">CASAS INDUSTRIALIZADAS</h2>
                 <div class="col-md-4 dos-features">
                     <div class="single-features  second-features features-casas">
                         <div class="features-img">
@@ -326,6 +337,7 @@
             </div>
             <!-- SEGUNDA FILA: SERVICIOS -->
             <div class="row">
+                <h2 class="text-center col-12 pt-0 pb-4 mb-4 second-features features-servicios clearfix">SERVICIOS PROFESIONALES</h2>
                 <div class="col-md-4 dos-features">
                     <div class="single-features second-features features-servicios">
                         <div class="features-img">
@@ -363,7 +375,7 @@
     <!-- Features Section End -->
 
     <!-- Contact Section Begin -->
-    <section class="contact-section">
+    <section class="contact-section contacto-solapa">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -596,12 +608,10 @@
                         </div>
                         <div class="footer-menu">
                             <ul>
-                                <li><a href="./index.html">Inicio</a></li>
-                                <li><a href="#">Nosotros</a></li>
-                                <li><a href="#">AceroLatina</a></li>
-                                <li><a href="#">Bervill</a></li>
-                                <li><a href="#">FrioLatino</a></li>
-                                <li><a href="#">Contacto</a></li>
+                                <li><a onclick="desplazar('body')" href="#">Inicio</a></li>
+                                <li><a onclick="desplazar('#nosotros')" href="#nosotros">Nosotros</a></li>
+                                <li><a onclick="desplazar('.features-section')" href="#servicios" >Servicios</a></li>
+                                <li><a onclick="desplazar('.contacto-solapa')" href="#contacto" name="contacto" >Contacto</a></li>
                             </ul>
                         </div>
                         <!-- <div class="subscribe-form">

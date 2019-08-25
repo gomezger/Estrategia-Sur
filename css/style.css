@@ -35,7 +35,9 @@ body {
 	font-family: "Roboto", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
-	background: none;
+	background: none;	
+	scroll-behavior: smooth;
+	transition-duration: 400ms;
 }
 
 h1,
@@ -338,12 +340,16 @@ ol {
 	width: auto;
 }
 
-.main-menu ul li a {
+.main-menu ul li a, .main-menu ul li .link {
 	color: #fff;
 	display: block;
 	font-size: 13px;
 	font-weight: 500;
 	text-transform: uppercase;
+	cursor: pointer;
+}
+.main-menu ul li a:hover, .main-menu ul li .link:hover {
+	color: #fff;
 }
 
 .main-menu ul li:nth-child(1) {
@@ -600,14 +606,42 @@ ol {
 .dos-features{
 	margin-left: 10%;
 }
-
-
 .features-paneles, .features-casas, .features-servicios{
 	display: none;
 }
-
+.features-section h2{
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	color: #330606;
+	margin-bottom: 45px;
+}
+.single-features{
+	cursor: pointer;
+	padding: 5px;
+}
+.single-features:hover{
+	background-color: #EFEFEF;
+	-webkit-transition: all 0.25s linear;
+	-moz-transition: all 0.25s linear;
+	-o-transition: all 0.25s linear;
+	transition: all 0.25s linear;
+	border-radius: 5px;	
+}
 .single-features .features-img img {
 	min-width: 100%;
+}
+.single-features .features-img .ver-mas {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #3306068c;
+	color: #EEE;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-top: 10vh;
+	text-align: center;
 }
 
 .single-features .feature-text {
@@ -1165,7 +1199,9 @@ ol {
 /*---------------------
   About Us
 -----------------------*/
-
+.nosotros-section{
+	padding-top: 125px;
+}
 .nosotros-section h2{
 	display: inline-block;
 	text-transform: uppercase;
@@ -2182,7 +2218,7 @@ ol {
 		margin-left: 13px;
 	}
 	.single-slide h1 {
-		font-size: 105px;
+		font-size: 75px;
 	}
 	.main-menu ul li:nth-child(4) {
 		margin-right: 8px;
@@ -2316,7 +2352,7 @@ ol {
 		height: 80px;
 	}
 	.main-menu {
-		padding-top: 10px;
+		padding-top: 8px;
 	}
 	.main-menu .logo {
 		position: relative;
@@ -2388,6 +2424,9 @@ ol {
 	.search-btn:hover {
 		background: #ccc;
 		color: #222;
+	}	
+	.single-slide {
+		padding-top: 170px;
 	}
 	.single-slide h1 {
 		font-size: 65px;
@@ -2575,10 +2614,7 @@ ol {
 
 @media only screen and (max-width: 479px) {
 
-	.logo-carousel {
-		max-width: 180px;
-	}
-
+	
 	.section-title h2 {
 		font-size: 30px;
 	}
@@ -2592,9 +2628,19 @@ ol {
 	.about-callto-text .cl-left p {
 		margin-bottom: 30px;
 	}
-	.single-slide h1 {
-		font-size: 45px;
+	
+	.single-slide {
+		padding-top: 150px;
+		height: 500px;
 	}
+	.single-slide h1 {
+		font-size: 32px;
+	}
+	
+	.logo-carousel {
+		max-width: 140px;
+	}
+
 	.member-sign-up .member-signup-btn .primary-btn {
 		padding: 20px 42px;
 	}
