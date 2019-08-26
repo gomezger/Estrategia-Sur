@@ -7,7 +7,7 @@
     <meta name="keywords" content="Acero Latina, Paneles Aislantes, Frio Latina, casas industrializadas, servicios profesionales">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Estrategia Sur | Paneles térmicos</title>
+    <title>Estrategia Sur | Paneles Aislantes, casas industrializadas, servicios industrializadas</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,700,900" rel="stylesheet">
@@ -28,6 +28,7 @@
 
     <!-- Script -->
     <script src="https://kit.fontawesome.com/591d68fa75.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
 
         /**
@@ -56,6 +57,13 @@
             $(".features-"+tipo).slideDown("slow");
             desplazar(".features-"+tipo);
         }
+
+        function abrirDesplazarDos(tipo){
+            $(".features-"+tipo).slideDown("slow");
+            desplazar(".features-"+tipo);
+        }
+
+
     </script>
 </head>
 
@@ -127,10 +135,6 @@
                     <!-- <a href="https://www.youtube.com/watch?v=SEVuD_djKrU" class="play-btn pop-up"><i class="fa fa-play"></i></a> -->
                     <h1 class="title-carousel">Estrategia Sur</h1>
                     <a href="#servicio" class="logo-carousel p-0 m-0">
-                        <img class="col-12 p-0 m-0" src="img/logos_empresas/nova.jpg">
-                        <div onclick="abrirDesplazar('casas')" class="leer-mas col-12 h-100">Leer más</div>
-                    </a>
-                    <a href="#servicio" class="logo-carousel p-0 m-0">
                         <img class="col-12 p-0 m-0" src="img/logos_empresas/bervill.jpg">
                         <div onclick="abrirDesplazar('paneles')" class="leer-mas col-12 h-100">Leer más</div>
                     </a>
@@ -143,11 +147,11 @@
                         <div onclick="abrirDesplazar('paneles')" class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                     <a href="#servicio" class="logo-carousel p-0 m-0">
-                        <img class="col-12 p-0 m-0" src="img/logos_empresas/bervill.jpg">
+                        <img class="col-12 p-0 m-0" src="img/logos_empresas/nova.jpg">
                         <div onclick="abrirDesplazar('casas')" class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                 </div>
-                <div class="single-slide set-bg" data-setbg="img/carousel1.jpg">
+                <div class="single-slide set-bg" data-setbg="img/carousel2.jpg">
                     <!-- <a href="https://www.youtube.com/watch?v=SEVuD_djKrU" class="play-btn pop-up"><i class="fa fa-play"></i></a> -->
                     <h1 class="title-carousel">Paneles Aislantes</h1>
                     <a href="#servicio" class="logo-carousel p-0 m-0">
@@ -171,7 +175,7 @@
                         <div onclick="abrirDesplazar('casas')" class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                     <a href="#servicio" class="logo-carousel p-0 m-0">
-                        <img class="col-12 p-0 m-0" src="img/logos_empresas/friolatina.jpg">
+                        <img class="col-12 p-0 m-0" src="img/logos_empresas/acerolatina.jpg">
                         <div onclick="abrirDesplazar('casas')" class="leer-mas col-12 h-100">Leer más</div>
                     </a>
                 </div>
@@ -181,10 +185,10 @@
 
     <!-- NOSOTROS SECTION Begin  -->
     <section id="nosotros" class="contact-section nosotros-section">
-        <div class="container">
-                <h2 class="text-center col-12 mt-5 pt-4 pb-0 mb-1">Estrategia Sur </h2>
-                <h3 class="text-center col-12 pt-0 mt-0"> Agencia Comercial</h3>
-            <p class="text-center col-12 pb-5">
+    <div class="container">
+            <h2 class="text-center col-12 mt-4 mt-md-5 pt-4 pb-0 mb-1">Estrategia Sur </h2>
+            <h3 class="text-center col-12 pt-0 mt-0"> Agencia Comercial</h3>
+            <p class="text-center col-12 pb-1 pb-md-5">
                     Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
                     nulla pretium, vitae ornare leo.
                     Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
@@ -201,7 +205,7 @@
     <section id="servicios" class="features-section spad">
         <div class="container">
             
-            <h2 class="text-center col-12 pt-5 pb-4 mb-5 clearfix">TITULO DE LAS 3 CATEGORIAS</h2>
+            <h2 class="text-center col-12 pt-3 pt-md-5 pb-4 mb-2 mb-md-5 clearfix">TITULO DE LAS 3 CATEGORIAS</h2>
 
             <!-- FILA GENERAL -->
             <div class="row">
@@ -261,7 +265,7 @@
                 
                 <h2 class="text-center col-12 pt-0 pb-4 mb-4 second-features features-paneles clearfix">PANELES AISLANTES</h2>
 
-                <div class="col-md-4">
+                <div class="col-md-4" onclick="abrirDesplazarDos('prox')">
                     <div class="single-features second-features features-paneles">
                         <div class="features-img">
                             <img src="img/features/acero-latina.jpg" alt="Acero Latina">
@@ -271,12 +275,11 @@
                                 <i class="fas fa-plus pt-2"></i>
                             </div>
                             <h5>Paneles Aislantes</h5>
-                            <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
-                                nulla pretium, vitae ornare leo.</p>
+                            <p>Empresa dedicada a la fabricación y comercialización de paneles y soluciones arquitectónicas con aislamiento térmico y acústico.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" onclick="abrirDesplazarDos('prox')">
                     <div class="single-features second-features features-paneles">
                         <div class="features-img">
                             <img src="img/features/frio-latina.jpg" alt="Frio Latina">
@@ -286,12 +289,11 @@
                                 <i class="fas fa-plus pt-2"></i>
                             </div>
                             <h5>Cámaras FRIGORÍFICAS</h5>
-                            <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
-                                nulla pretium, vitae ornare leo.</p>
+                            <p>Empresa proveedora de soluciones integrales en cámaras frigoríficas modulares, cerramientos y proyectos llave en mano.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" onclick="abrirDesplazarDos('prox')">
                     <div class="single-features second-features features-paneles">
                         <div class="features-img">
                             <img src="img/features/bervill.jpg" alt="Bervill">
@@ -301,8 +303,7 @@
                                 <i class="fas fa-plus pt-2"></i>
                             </div>
                             <h5>MOTORES Y EQUIPAMIENTO</h5>
-                            <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
-                                nulla pretium, vitae ornare leo.</p>
+                            <p>Dedicados a la fabricación de Equipamientos frigoríficos y unidades condensadoras.</p>
                         </div>
                     </div>
                 </div>
@@ -310,7 +311,7 @@
             <!-- SEGUNDA FILA: CASAS INDUSTRIALIZADAS -->
             <div class="row">
                 <h2 class="text-center col-12 pt-0 pb-4 mb-4 second-features features-casas clearfix">CASAS INDUSTRIALIZADAS</h2>
-                <div class="col-md-4 dos-features">
+                <div class="col-md-4 dos-features" onclick="abrirDesplazarDos('prox')">
                     <div class="single-features  second-features features-casas">
                         <div class="features-img">
                             <img src="img/features/nova.jpg" alt="Nova Fusión">
@@ -320,12 +321,11 @@
                                 <i class="fas fa-plus pt-2"></i>
                             </div>
                             <h5>Nova Fusión</h5>
-                            <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis
-                                nulla pretium, vitae ornare leo.</p>
+                            <p>Nova Fusión ha desarrollado un avanzado sistema constructivo basado en el diseño y cálculo estructural que permite a las construcciones  llevar al máximo los rendimientos, la eficiencia energética, la velocidad, la protección contra incendios y el costo.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 dos-features">
+                <div class="col-md-4 dos-features" onclick="abrirDesplazarDos('prox')">
                     <div class="single-features second-features features-casas">
                         <div class="features-img">
                             <img src="img/features/casa-latina.jpg" alt="Casa Latina">
@@ -343,8 +343,8 @@
             </div>
             <!-- SEGUNDA FILA: SERVICIOS -->
             <div class="row">
-                <h2 class="text-center col-12 pt-0 pb-4 mb-4 second-features features-servicios clearfix">SERVICIOS PROFESIONALES</h2>
-                <div class="col-md-4 dos-features">
+                <h2 class="text-center col-12 pt-0 pb-4 mb-4 tercer-features features-servicios clearfix">SERVICIOS PROFESIONALES</h2>
+                <div class="col-md-4 dos-features" onclick="abrirDesplazarDos('prox')">
                     <div class="single-features second-features features-servicios">
                         <div class="features-img">
                             <img src="img/features/diseno-planos.jpg" alt="Diseño y planos">
@@ -361,7 +361,7 @@
                 </div>
                 <div class="col-md-4 dos-features">
                     <div class="single-features second-features features-servicios">
-                        <div class="features-img">
+                        <div class="features-img" onclick="abrirDesplazarDos('prox')">
                             <img src="img/features/administracion.jpg" alt="Administración al costo">
                         </div>
                         <div class="feature-text">
@@ -375,7 +375,13 @@
                     </div>
                 </div>
             </div>
-            <div id="contacto" name="contacto"></div>
+            <div class="row">
+                <h2 class="text-center col-12 pt-3 pb-4 mb-4 second-features features-prox clearfix">PRÓXIMAMENTE</h2>
+                <p class="text-center col-12  second-features features-prox">
+                    Sección en construcción. Para <strong>más información</strong> envianos un mensaje haciendo clic <a href="#contacto">acá</a>
+                </p>
+            </div>
+            <div id="contacto" class="pb-5" name="contacto"></div>
         </div>
     </section>
     <!-- Features Section End -->
@@ -410,23 +416,23 @@
                             </ul>
                         </div>
                         <div class="contact-form">
-                            <form action="#">
+                            <form action="actions/contacto.php" method="post">
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <input type="text" placeholder="Nombre y Apellido" required>
+                                        <input type="text" name="nombre-es" placeholder="Nombre y Apellido" required>
                                     </div>
                                     <div class="col-lg-6">
-                                        <input type="email" placeholder="Email" required>
+                                        <input type="email" name="correo-es" placeholder="Email" required>
                                     </div>
                                     <div class="col-lg-6">
-                                        <input type="text" placeholder="Telefono">
+                                        <input type="text" name="telefono-es" placeholder="Telefono">
                                     </div>
                                     <div class="col-lg-6">
-                                        <input type="text" placeholder="Empresa">
+                                        <input type="text" name="empresa-es" placeholder="Empresa">
                                     </div>
                                     <div class="col-lg-12">
-                                        <textarea placeholder="Mensaje" required></textarea>
-                                        <button type="submit" class="site-btn">Enviar mensaje</button>
+                                        <textarea placeholder="Mensaje" name="mensaje-es" required></textarea>
+                                        <button class="site-btn" type="submit">Enviar mensaje</button>
                                     </div>
                                 </div>
                             </form>
@@ -604,13 +610,13 @@
     </section>-->
     <!-- Upcoming Event End -->
     <!-- Footer Section Begin -->
-    <footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg"> -->
+    <footer class="footer-section set-bg"> <!-- data-setbg="img/carousel1.jpg"> -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer-content">
                         <div class="footer-logo">
-                            <a href="#"><img src="img/logo_footer_largo_original.png" alt=""></a>
+                            <a href="#"><img src="img/logo_largo.png" alt=""></a>
                         </div>
                         <div class="footer-menu">
                             <ul>
@@ -655,8 +661,7 @@
     <script src="js/circle-progress.min.js"></script>
     <script src="js/jquery.barfiller.js"></script>
     <script src="js/main.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 </body>
 
 </html>

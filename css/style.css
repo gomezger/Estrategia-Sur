@@ -606,7 +606,7 @@ ol {
 .dos-features{
 	margin-left: 10%;
 }
-.features-paneles, .features-casas, .features-servicios{
+.features-paneles, .features-casas, .features-servicios, .features-prox, .tercer-features{
 	display: none;
 }
 .features-section h2{
@@ -1027,11 +1027,12 @@ ol {
 -----------------------*/
 
 .footer-section {
-	height: 350px;
+	height: 300px;
 	padding-top: 60px;
-	background-color: #060a0f;
+	background-color: #ffffff;
 	background-position: center;
 	background-size: 100% auto;
+	border-top: solid rgb(250, 250, 250) 1px; 
 }
 
 .footer-content {
@@ -1039,11 +1040,11 @@ ol {
 }
 
 .footer-content .footer-logo {
-	margin-bottom: 33px;
+	margin-bottom: 20px;
 }
 
 .footer-content .footer-menu {
-	margin-bottom: 86px;
+	margin-bottom: 30px;
 }
 
 .footer-content .footer-menu ul li {
@@ -1061,7 +1062,7 @@ ol {
 }
 
 .footer-content .footer-menu ul li a {
-	color: #fff;
+	color: rgb(0, 0, 0);
 	display: inline-block;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -1147,19 +1148,19 @@ ol {
 }
 
 .footer-content .copyright {
-	color: #fff;
+	color: rgb(0, 0, 0);
 	font-size: 13px;
 	font-weight: 400;
 	opacity: 0.5;
 }
 
 .footer-content .copyright a {
-	color: #fff;
+	color: rgb(0, 0, 0);
 	text-decoration: underline;
 }
 
 .footer-content .copyright i {
-	color: #233EDE;
+	color: rgb(0, 0, 0);
 }
 
 /*---------------------  Other Pages Style  -----------------------*/
@@ -2416,8 +2417,7 @@ ol {
 	}
 	.main-menu ul li:nth-child(3) {
 		float: none;
-		margin-right: 0;
-		margin-left: 40px;
+		margin-right: 3px;
 	}
 	.main-menu ul li:nth-child(4) {
 		margin-right: 0;
@@ -2488,6 +2488,16 @@ ol {
 	}
 	.testimonial-content {
 		margin-bottom: 50px;
+	}
+	
+	.features-section h2, .nosotros-section h2{
+		font-size: 28px;
+	}
+	.nosotros-section h3{
+		font-size: 17px;
+	}
+	.nosotros-section p{
+		font-size: 16px;
 	}
 	.about-callto-text .cl-right {
 		float: none;
