@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="TopGym Template">
-    <meta name="keywords" content="TopGym, unica, creative, html">
+    <meta name="description" content="Estrategia Sur, Bahía Blanca, Argentina">
+    <meta name="keywords" content="Acero Latina, Paneles Aislantes, Frio Latina, casas industrializadas, servicios profesionales">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Estrategia Sur | Paneles térmicos</title>
@@ -36,10 +36,16 @@
         function desplazar(div){
             var etop = $(div).offset().top;
             $('html, body').animate({
-                scrollTop: etop-100
+                scrollTop: etop-150
             }, 0);
-            $('.slicknav_nav').slideUp(600);
+        }
 
+        /**
+         * Oculta el menu
+         */ 
+        function ocultarMenu(){
+            $('.slicknav_nav').slideUp(600);
+            $('.slicknav_nav').addClass('slicknav_hidden');
         }
 
         /**
@@ -53,7 +59,7 @@
     </script>
 </head>
 
-<body class="inicio">
+<body id="inicio">
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
@@ -71,10 +77,10 @@
                         </div>
                         <nav class="mobile-menu">
                             <ul>
-                                <li><a onclick="desplazar('#')" class="link" href="#">Inicio</a></li>
-                                <li><a onclick="desplazar('#nosotros')" class="link" href="#nosotros">Nosotros</a></li>
-                                <li><a onclick="desplazar('#servicios')" class="link" href="#servicios" >Servicios</a></li>
-                                <li><a onclick="desplazar('#contacto')" class="link" href="#contacto" name="contacto" >Contacto</a></li>
+                                <li><a onclick="ocultarMenu()" class="link" href="#">Inicio</a></li>
+                                <li><a onclick="ocultarMenu()" class="link" href="#nosotros">Nosotros</a></li>
+                                <li><a onclick="ocultarMenu()" class="link" href="#servicios" >Servicios</a></li>
+                                <li><a onclick="ocultarMenu()" class="link" id="hola" href="#contacto" name="contacto" >Contacto</a></li>
                                 <li class="search-btn search-trigger"></li>
                             </ul>
                         </nav>
@@ -199,8 +205,8 @@
 
             <!-- FILA GENERAL -->
             <div class="row">
-                <div class="col-md-4" onclick="abrirDesplazar('paneles')" >
-                    <div class="single-features">
+                <div class="col-md-4" >
+                    <div class="single-features" onclick="abrirDesplazar('paneles')" >
                         <div class="features-img">
                             <img src="img/features/paneles.jpg" alt="Paneles Aislantes">
                             <div class="ver-mas col-12 h-100">Ver más</div>
