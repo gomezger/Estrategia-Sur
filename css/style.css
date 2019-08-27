@@ -196,8 +196,25 @@ ol {
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
 	width: 210px;
-	/* border: solid 0.2em #5710103b; */
 	position: relative;
+	border-radius: 5px;
+}
+.logo-carousel img{
+	border-radius: 5px;
+}
+.boton-carousel {
+	background-color: #FFF;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 700;
+	color: rgb(255, 0, 0);
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	width: 210px;
+	border-radius: 5px;
+}
+.boton-carousel:hover {
+	color: rgb(2, 2, 2);
 }
 
 .logo-carousel:hover .leer-mas{
@@ -205,6 +222,7 @@ ol {
 }
 
 .logo-carousel .leer-mas {
+	border-radius: 5px;
 	font-family: 'Montserrat', sans-serif;
 	position: absolute;
 	top: 0;
@@ -324,6 +342,7 @@ ol {
 	top: 13px;
 	margin-left: -42.5px;
 	overflow: hidden;
+	border-radius: 5px;
 }
 
 .main-menu .logo a {
@@ -2376,8 +2395,8 @@ ol {
 		display: inline-block;
 	}
 	.main-menu .logo a {
-		width: 232px;
-		height: 55px;
+		width: 75px;
+		height: 65px;
 	}
 	.slicknav_menu {
 		display: block;
@@ -2394,7 +2413,7 @@ ol {
 		float: right;
 		background-color: rgba(56, 56, 56, 0.247);
 		position: relative;
-		top: -54px;
+		top: -70px;
 		border-radius: 0.1em;
 		width: 56px;
 		height: 40px;
@@ -2429,6 +2448,7 @@ ol {
 	.main-menu ul li:nth-child(3) {
 		float: none;
 		margin-right: 3px;
+		margin-left: 20px;
 	}
 	.main-menu ul li:nth-child(4) {
 		margin-right: 0;
