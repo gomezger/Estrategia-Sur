@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Estrategia Sur, Bahía Blanca, Argentina">
-    <meta name="keywords" content="Acero Latina, Paneles Aislantes, Frio Latina, casas industrializadas, servicios profesionales">
+    <meta name="description" content="Estrategia Sur es una Agencia Comercial con la que nos dedicamos a la representación oficial de marcas líderes en el mercado de la construcción sustentable.">
+    <meta name="keywords" content="Acero Latina, Paneles Aislantes, Frio Latina, Bervill, representación comercial, construcción sustentable">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Estrategia Sur | Paneles Aislantes | Bahía Blanca</title>
@@ -69,11 +69,6 @@
             var url_string = window.location.href;
             var url = new URL(url_string);
             return url.searchParams.get(sParam);
-        }
-
-        const param = getURLParameter('t');    
-        if(param!=null){
-            alert(param);
         }
     </script>
 </head>
@@ -316,11 +311,11 @@
                     <div class="features-texto second-features features-servicios">
                         <p><i class="fas fa-check mr-2"></i> La evaluación particular de cada proyecto, a fin de brindar un asesoramiento
                         personalizado e integral.</p>
-                        <p><i class="fas fa-check-circle mr-2"></i> Computar y presupuestar los materiales, acorde a cada proyecto.</p>
-                        <p><i class="far fa-check-square mr-2"></i> Despiece de paneles, a fin de racionalizar y hacer uso correcto de los mismos.</p>
-                        <p><i class="fas fa-angle-double-right mr-2"></i> Confeccionar croquis detallado con la distribución de los paneles en obra.</p>
-                        <p><i class="fas fa-check-square mr-2"></i> Elaborar planos de detalles técnicos y constructivos, referentes al sistema elegido.</p>
-                        <p><i class="far fa-check-circle mr-2"></i> Ofrecer servicio de supervisión de final de obra (opcional).</p>
+                        <p><i class="fas fa-check mr-2"></i>Computar y presupuestar los materiales, acorde a cada proyecto.</p>
+                        <p><i class="fas fa-check mr-2"></i>Despiece de paneles, a fin de racionalizar y hacer uso correcto de los mismos.</p>
+                        <p><i class="fas fa-check mr-2"></i>Confeccionar croquis detallado con la distribución de los paneles en obra.</p>
+                        <p><i class="fas fa-check mr-2"></i>Elaborar planos de detalles técnicos y constructivos, referentes al sistema elegido.</p>
+                        <p><i class="fas fa-check mr-2"></i>Ofrecer servicio de supervisión de final de obra (opcional).</p>
                     </div>
                 </div>
             </div>
@@ -367,6 +362,7 @@
                                 </li>
                             </ul>
                         </div>
+                        <div id="mensaje-contacto" class="mensaje-formulario col-12 float-left clearfix m-0 p-0 mb-4 text-center text-sm-left"></div>
                         <div class="contact-form">
                             <form action="actions/contacto.php" method="post">
                                 <div class="row">
@@ -385,7 +381,6 @@
                                     <div class="col-lg-12">
                                         <textarea placeholder="Mensaje" name="mensaje-es" required></textarea>
                                         <button class="site-btn float-left" type="submit">Enviar mensaje</button>
-                                        <div id="mensaje" class="mensaje-formulario float-left">mensaje</div>
                                     </div>
                                 </div>
                             </form>
@@ -436,6 +431,12 @@
     <script src="js/circle-progress.min.js"></script>
     <script src="js/jquery.barfiller.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        const param = getURLParameter('t');  
+        if(param!=null){
+            document.getElementById("mensaje-contacto").innerHTML = param;
+        }
+    </script>
 </body>
 
 </html>

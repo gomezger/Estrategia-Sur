@@ -12,7 +12,7 @@ $mensaje   = '
 	<html>
 	<head><title>Consulta enviada desde la web</title></head>
 	
-	<body><h1><img src="https://xeronweb.com/e_s/img/logo3.png" width="200px" /></h1>
+	<body><h1><img src="https://'.$_SERVER['HTTP_HOST'].'/img/logo3.png" width="200px" /></h1>
 	<hr>
 	
 	<p><b>Nombre</b>: '.$nombre.'</p>
@@ -31,10 +31,10 @@ $mensaje   = '
 	</html>';
 
 try{	
-	enviarCorreo('germang04@gmail.com','Consulta enviada desde la web',$mensaje,$correo,$nombre);
-	echo '<meta http-equiv="refresh" content="0; url=../?t='.e('Se envió el mensaje').'#contacto">';
+	enviarCorreo('info@estrategiasur.com.ar','Consulta enviada desde la web',$mensaje,$correo,$nombre);
+	echo '<meta http-equiv="refresh" content="0; url=../?t='.e('¡Se envió el mensaje correctamente!').'#contacto">';
 }catch(Exception $e){
-	echo '<meta http-equiv="refresh" content="0; url=../?t='.e($e->getMessage().'').'#contacto">';
+	echo '<meta http-equiv="refresh" content="0; url=../?t='.e('¡Hubo un error al enviar el mensaje!').'#contacto">';
 }
 
 function e($string){
@@ -55,15 +55,15 @@ function enviarCorreo($to,$asunto,$mensaje,$from,$from_name=NULL,$archivo=NULL){
 	//tipo de smtp
 	$mail->SMTPDebug = false;
 	//host mail de neolo
-	$mail->Host = 'rap.webserverns.com';
+	$mail->Host = 'mail.estrategiasur.com.ar';
 	// puerto para ssl/tls
 	$mail->Port = 465;
 	//seguridad
 	$mail->SMTPAuth = true;
 	$mail->SMTPSecure = "ssl";
 	//usuario y pass
-	$mail->Username = 'send@lubricantesgiamber.com';
-	$mail->Password = 'lubricantes1520';
+	$mail->Username = '_mainaccount@estrategiasur.com.ar';
+	$mail->Password = '5rY3alnM';
 	//quien envia
 	if($from_name!=NULL){
 		$mail->setFrom($from, $from_name);
