@@ -535,7 +535,7 @@ ol {
 -----------------------*/
 
 .single-slide {
-	height: 700px;
+	height: 830px;
 	padding-top: 200px;
 	text-align: center;
 }
@@ -2205,12 +2205,25 @@ ol {
 
 /*....................  Resposive Media Styles  .......................*/
 
-@media (max-width: 1400px) {
+@media (max-width: 1650px) {
+	
+	.single-slide {
+		height: 700px;
+	}
 	.top-social {
 		right: auto;
 		left: 0;
 	}
 }
+
+@media only screen and (min-width: 1100px) and (max-width: 1400px) {
+
+	.single-slide {
+		height: 600px;
+		padding-top: 170px;
+	}
+}
+
 
 /* Medium Device : 1280px. */
 
