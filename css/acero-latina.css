@@ -51,6 +51,46 @@
 	font-weight: bold;
 }
 
+.ventajas{
+	display: inline-block;
+	text-align: center;
+	background-image: url('../img/bg-green.jpg');
+	background-position: center;
+	background-size: 100% auto;
+	padding-bottom: 35px;
+	padding-top: 35px;
+}
+
+.ventajas .titulo{
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 28px;
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif; 
+}
+
+.ventajas .ventaja{
+	float: left;
+	width: 20%;
+	padding: 0 10px;
+	margin: 20px 0;
+	color: #c8ff9f;
+	font-weight: bold;
+}
+
+.ventajas .ventaja .imagen{
+	display: inline-block;
+	height: 140px;
+	overflow: hidden;
+}
+.ventajas .ventaja .texto{
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+
 /*....................  Resposive Media Styles  .......................*/
 
 @media (max-width: 1650px) {
@@ -90,6 +130,10 @@
 	.sombreado{
 		background-color: rgba(0, 0, 0, 0.061);
 	}
+	
+	.ventajas .ventaja{
+		width: 50%;
+	}
 }
 
 /* Small Mobile : 320px. */
@@ -100,5 +144,8 @@
 		padding: 0x 15%;  
 		margin-bottom: 0px;
 		padding-bottom: 15px;
+	}
+	.ventajas .ventaja{
+		width: 100%;
 	}
 }
