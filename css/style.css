@@ -632,7 +632,7 @@ ol {
 .dos-features{
 	margin-left: 10%;
 }
-.features-paneles, .features-casas, .features-servicios, .features-prox, .tercer-features{
+.features-paneles, .features-casas, .features-servicios, .features-prox, .tercer-features, .features-acero{
 	display: none;
 }
 .features-texto p{
@@ -663,6 +663,11 @@ ol {
 	min-width: 100%;
 	border-radius: 5px;
 }
+.features-acero .features-img{
+	min-width: 80%;
+	margin: 0 10%;
+}
+
 .single-features .features-img .ver-mas {
 	display: none;
 	position: absolute;
@@ -709,6 +714,10 @@ ol {
 	margin-bottom: 25px;
 	margin-top: -34px;
 	font-size: 2.2em;
+}
+
+.single-features .feature-text .feature-icon-mas-redondo{
+	margin-top: -450px;
 }
 
 .single-features .feature-text .feature-icon:hover {
