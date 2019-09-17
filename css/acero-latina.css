@@ -90,6 +90,18 @@
 	text-transform: uppercase;
 }
 
+.producto{
+	width: 100%;
+}
+
+.producto .imagen{
+	width: 50%;
+}
+.producto .informacion{
+	width: 50%;
+}
+
+
 
 /*....................  Resposive Media Styles  .......................*/
 
