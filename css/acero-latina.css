@@ -1,4 +1,5 @@
 .portada{
+	padding: 60px 0;
 	padding-top: 120px;
 	min-height: 300px;
 	text-align: center;
@@ -30,6 +31,7 @@
 	margin-bottom: 40px;
 }
 .portada .producto .imagen{
+	width: 100%;
 	display: inline-block;
 	padding: 0;
 }
@@ -52,13 +54,13 @@
 }
 
 .ventajas{
+	width: 100%;
 	display: inline-block;
 	text-align: center;
 	background-image: url('../img/bg-green.jpg');
 	background-position: center;
 	background-size: 100% auto;
-	padding-bottom: 35px;
-	padding-top: 35px;
+	padding: 60px 0;
 }
 
 .ventajas .titulo{
@@ -90,17 +92,106 @@
 	text-transform: uppercase;
 }
 
-.producto{
+section.subtitulo{
+	overflow: hidden;
 	width: 100%;
+	display: inline-block;
+	text-align: center;
+	background-image: url('../img/bg-blue.jpg');
+	background-position: center;
+	background-size: 100% auto;
+	padding: 20px 0;
+	margin-bottom: 0;
 }
 
-.producto .imagen{
-	width: 50%;
-}
-.producto .informacion{
-	width: 50%;
+section.subtitulo h2{
+	color: #FFF;
+	padding-top: 30px;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif; 
+	font-weight: normal;
 }
 
+section.productos{
+	margin-top: 0;
+	width: 100%;
+	float: left;
+	clear: both;
+}
+
+section.productos .producto{
+	background-color: #13333e;
+	float: left;
+	clear: both;
+	width: 100%;
+	position: relative;
+	height: 583px;
+}
+section.productos .fondo2{
+	background-color: #0f2e38;
+}
+section.productos .producto .imagen{
+	width: 49%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+section.productos .producto .inverso-imagen{
+	width: 49%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+section.productos .producto .informacion{
+	padding-top: 60px; 
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 49%;
+	max-width: 700px;
+	float: right;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: rgb(238, 238, 238);
+}
+section.productos .producto  .inverso-informacion{
+	padding-top: 60px; 
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 49%;
+	max-width: 700px;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: rgb(238, 238, 238);
+}
+section.productos .producto .informacion .texto{
+	padding-top: 30px; 
+	width: 100%;
+	float: left;
+	text-align: justify;
+}
+section.productos .producto .informacion .lista{
+	padding-top: 30px; 
+	width: 100%;
+	float: left;
+	text-align: justify;
+}
+
+section.productos .producto .informacion .lista p{
+	color: rgb(238, 238, 238);
+	margin: 5px 0;
+}
+section.productos .producto .informacion .ver-mas{
+	margin-top: 30px; 
+	background-color: #ff6900;
+	color: rgb(238, 238, 238);
+	border-radius: 0;
+	text-transform: uppercase;
+	border: 0;
+	padding: 5px 25px;
+	font-weight: bold;
+	font-size: 16px;
+}
 
 
 /*....................  Resposive Media Styles  .......................*/
