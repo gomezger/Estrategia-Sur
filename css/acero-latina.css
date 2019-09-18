@@ -1,4 +1,5 @@
 .portada{
+	display: block;
 	padding: 60px 0;
 	padding-top: 120px;
 	min-height: 300px;
@@ -55,16 +56,22 @@
 
 .ventajas{
 	width: 100%;
-	display: inline-block;
+	display: block;
 	text-align: center;
 	background-image: url('../img/bg-green.jpg');
 	background-position: center;
 	background-size: 100% auto;
-	padding: 60px 0;
+	padding: 50px 0;
+	float: left;
+}
+
+.ventajas-muros{
+	background-image: unset;
+	background-color: #fa6f08; 
 }
 
 .ventajas .titulo{
-	display: inline-block;
+	display: block;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	text-transform: uppercase;
@@ -74,6 +81,7 @@
 }
 
 .ventajas .ventaja{
+	display: inline-block;
 	float: left;
 	width: 20%;
 	padding: 0 10px;
@@ -82,20 +90,29 @@
 	font-weight: bold;
 }
 
+.ventajas .ventaja-muros{
+	width: 20%;
+	margin: 0% 2.5%;
+}
+
 .ventajas .ventaja .imagen{
 	display: inline-block;
 	height: 140px;
 	overflow: hidden;
 }
+.ventajas .ventaja .imagen-muros{
+	height: 200px;
+}
+
 .ventajas .ventaja .texto{
 	font-size: 15px;
 	text-transform: uppercase;
 }
 
-section.subtitulo{
+section.banner{
 	overflow: hidden;
 	width: 100%;
-	display: inline-block;
+	display: block;
 	text-align: center;
 	background-image: url('../img/bg-blue.jpg');
 	background-position: center;
@@ -104,7 +121,7 @@ section.subtitulo{
 	margin-bottom: 0;
 }
 
-section.subtitulo h2{
+section.banner h2{
 	color: #FFF;
 	padding-top: 30px;
 	font-size: 25px;
@@ -125,10 +142,15 @@ section.productos .producto{
 	clear: both;
 	width: 100%;
 	position: relative;
-	height: 583px;
 }
 section.productos .fondo2{
 	background-color: #0f2e38;
+}
+section.productos .fondo3{
+	background-color: #ffffff;
+}
+section.productos .fondo4{
+	background-color: #f1f1f1;
 }
 section.productos .producto .imagen{
 	width: 49%;
@@ -136,14 +158,21 @@ section.productos .producto .imagen{
 	top: 0;
 	left: 0;
 }
+section.productos .producto .imagen img{
+	width: 100%;
+}
 section.productos .producto .inverso-imagen{
 	width: 49%;
 	position: absolute;
 	top: 0;
 	right: 0;
 }
+section.productos .producto .inverso-imagen img{
+	width: 100%;
+}
 section.productos .producto .informacion{
-	padding-top: 60px; 
+	padding-top: 40px; 
+	padding-bottom: 40px; 
 	padding-left: 3%;
 	padding-right: 3%;
 	width: 49%;
@@ -164,6 +193,10 @@ section.productos .producto  .inverso-informacion{
 	font-size: 14px;
 	color: rgb(238, 238, 238);
 }
+
+section.productos .producto .blanco{
+	color: rgb(0, 0, 0);
+}
 section.productos .producto .informacion .texto{
 	padding-top: 30px; 
 	width: 100%;
@@ -181,6 +214,9 @@ section.productos .producto .informacion .lista p{
 	color: rgb(238, 238, 238);
 	margin: 5px 0;
 }
+section.productos .producto .informacion .lista-blanca p{
+	color: rgb(15, 15, 15);
+}
 section.productos .producto .informacion .ver-mas{
 	margin-top: 30px; 
 	background-color: #ff6900;
@@ -197,25 +233,120 @@ section.productos .producto .informacion .ver-mas{
 /*....................  Resposive Media Styles  .......................*/
 
 @media (max-width: 1650px) {
-	
+
+	section.productos{
+	}
+	section.productos .producto{
+		height: auto;
+	}
+	section.productos .fondo2{
+	}
+	section.productos .producto .imagen{
+		width: 49%;
+	}
+	section.productos .producto .imagen img{
+	}
+	section.productos .producto .inverso-imagen{
+		width: 49%;
+	}
+	section.productos .producto .informacion{
+		padding-top: 25px; 
+		font-size: 13px;
+	}
+	section.productos .producto  .inverso-informacion{
+		padding-top: 25px; 
+		font-size: 13px;
+	}
+	section.productos .producto .informacion .texto{
+		padding-top: 10px; 
+	}
+	section.productos .producto .informacion .lista{
+		padding-top: 10px; 
+	}
+
+	section.productos .producto .informacion .lista p{
+		margin: 2px 0;
+		font-size: 13px;
+	}
+	section.productos .producto .informacion .ver-mas{
+		font-size: 15px;
+	}
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1400px) {
+	section.productos .producto .imagen{
+		width: 55%;
+	}
+	section.productos .producto .inverso-imagen{
+		width: 55%;
+	}
+	section.productos .producto .informacion .ver-mas{
+		margin-top: 10px;
+		font-size: 15px;
+	}
 }
 
 
 /* Medium Device : 1280px. */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	section.productos .producto .imagen{
+		top: auto;
+		bottom: 0;
+	}
+	section.productos .producto .inverso-imagen{
+		top: auto;
+		bottom: 0;
+	}
 }
 
 /* Tablet : 768px. */
 
 @media only screen and (max-width: 991px) {
-
+	
 	.portada .producto{
 		width: 49%;
 	}
+
+	section.productos .producto .imagen{
+		position: unset;
+		float: left;
+		width: 100%;
+	}
+	section.productos .producto .inverso-imagen{
+		position: unset;
+		float: left;
+		width: 100%;
+	}
+	section.productos .producto .informacion{
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	section.productos .producto  .inverso-informacion{
+		float: left;
+		width: 100%;
+	}
+	section.productos .producto .informacion .texto{
+		padding-top: 35px; 
+		font-size: 14px; 
+	}
+	section.productos .producto .informacion .lista{
+		padding-top: 15px; 
+		font-size: 14px; 
+		width: 100%;
+		float: left;
+		text-align: justify;
+	}
+	
+	section.productos .producto .informacion .lista p{
+		font-size: 14px; 
+		margin: 5px 0;
+	}
+	section.productos .producto .informacion .ver-mas{
+		display: inline-block;
+	}
+
 }
 
 /* Large Mobile : 480px. */
@@ -229,9 +360,6 @@ section.productos .producto .informacion .ver-mas{
 	}
 	.portada .pur-pir{
 		margin-top:-5px;
-	}
-	.sombreado{
-		background-color: rgba(0, 0, 0, 0.061);
 	}
 	
 	.ventajas .ventaja{
@@ -247,6 +375,9 @@ section.productos .producto .informacion .ver-mas{
 		padding: 0x 15%;  
 		margin-bottom: 0px;
 		padding-bottom: 15px;
+	}
+	.sombreado{
+		background-color: rgba(0, 0, 0, 0.061);
 	}
 	.ventajas .ventaja{
 		width: 100%;
