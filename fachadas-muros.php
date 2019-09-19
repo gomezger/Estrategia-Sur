@@ -44,42 +44,20 @@
 </head>
 
 <body id="inicio">
-    <!-- Header Section Begin -->
-    <header class="header-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="main-menu">
-                        <div class="logo">
-                            <a href="./index.html">
-                                <img src="img/logo_cuadrado.png" alt="">
-                            </a>
-                        </div>
-                        <nav class="mobile-menu">
-                            <ul>
-                                <li><a onclick="ocultarMenu()" class="link" href="/#">Inicio</a></li>
-                                <li><a onclick="ocultarMenu()" class="link" href="/#nosotros">Nosotros</a></li>
-                                <li><a onclick="ocultarMenu()" class="link" href="/#paneles-aislantes" >Paneles Aislantes</a></li>
-                                <li><a onclick="ocultarMenu()" class="link" href="#contacto" name="contacto" >Contacto</a></li>
-                                <li class="search-btn search-trigger"></li>
-                            </ul>
-                        </nav>
-                        <div id="mobile-menu-wrap"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- Header End -->
+    <!-- HEADER Begin -->
+    <?php include('bloques/header.php') ?>
+    <!-- HEADER End -->
+
+    <!-- TITULO -->
+    <h2 class="titulo bg-dark">
+        Fachadas y muros
+    </h2>
+    <!-- TITULO ENDS-->
 
     <!-- PORTADA Begin -->
-    <section class="pl-0 pr-0 portada col-12">
+    <section class="pl-0 pr-0 portada col-12 float-left">
 		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 container">
 
-            <!-- TITULO -->
-            <h2 class="titulo">
-                Fachadas y muros
-            </h2>
             <div class="clearfix"></div>
 
             <!-- PRODUCTOS -->
@@ -126,7 +104,7 @@
                 <div class="imagen imagen-muros">
                     <img src="img/fachadas-muros/ventajas/icon-1.png">
                 </div>
-                <div class="texto">VERSATILIDAD ARQUITECTÓNICA Y EXCELENCIA ESTÉTICA</div>
+                <div class="texto text-light">VERSATILIDAD ARQUITECTÓNICA Y EXCELENCIA ESTÉTICA</div>
             </div>
 
             
@@ -135,7 +113,7 @@
                 <div class="imagen imagen-muros">
                     <img src="img/fachadas-muros/ventajas/icon-2.png">
                 </div>
-                <div class="texto">
+                <div class="texto text-light">
                     AISLACIÓN ACÚSTICA
                 </div>
             </div>
@@ -145,7 +123,7 @@
                 <div class="imagen imagen-muros">
                     <img src="img/fachadas-muros/ventajas/icon-3.png">
                 </div>
-                <div class="texto">
+                <div class="texto text-light">
                     AISLACIÓN TÉRMICA
                 </div>
             </div>
@@ -155,7 +133,7 @@
                 <div class="imagen imagen-muros">
                     <img src="img/fachadas-muros/ventajas/icon-4.png">
                 </div>
-                <div class="texto">
+                <div  id="classwall"  class="texto text-light">
                     FÁCIL DE TRANSPORTAR
                 </div>
             </div>
@@ -178,7 +156,7 @@
     <section class="productos">
 
         <!-- Classwall T begin-->
-        <div id="classwall" class="producto fondo3" >
+        <div class="producto fondo3" >
             <div class="inverso-imagen">
                 <img src="img/fachadas-muros/productos/classwall.png" />
             </div>
@@ -197,7 +175,7 @@
                         <p><i class="fas fa-check mr-2"></i>De bajo peso y fácil manipulación.</p>
                         <p><i class="fas fa-check mr-2"></i>Excelente acabado interior y exterior.</p>
                         <p><i class="fas fa-check mr-2"></i>Brinda estética arquitectónica por su sistema de fijación oculta.</p>
-                        <p><i class="fas fa-check mr-2"></i>Permite reemplazar el uso de mampostería.</p>
+                        <p id="megacold"><i class="fas fa-check mr-2"></i>Permite reemplazar el uso de mampostería.</p>
                     </div>
                 </div>
             </div>
@@ -206,7 +184,7 @@
 
         
         <!-- Megacold begin-->
-        <div id="megacold" class="producto fondo4" >
+        <div  class="producto fondo4" >
             <div class="imagen">
                 <img src="img/fachadas-muros/productos/megacold.png" />
             </div>
@@ -226,7 +204,7 @@
                         <p><i class="fas fa-check mr-2"></i>Gran flexibilidad para reubicación o ampliación de cámaras.</p>
                         <p><i class="fas fa-check mr-2"></i>Excelente acabado interior y exterior.</p>
                         <p><i class="fas fa-check mr-2"></i>Panel de bajo peso y fàcil manipulación.</p>
-                        <p><i class="fas fa-check mr-2"></i>Ancho útil de 1.15m de PUR/PIR lo que redunda en menos consumo de selladores y en EPS posee un ancho útil de 1.00m.</p>
+                        <p  id="ignicold" ><i class="fas fa-check mr-2"></i>Ancho útil de 1.15m de PUR/PIR lo que redunda en menos consumo de selladores y en EPS posee un ancho útil de 1.00m.</p>
                     </div>
                 </div>
             </div>
@@ -234,7 +212,7 @@
         <!-- Megacold end -->
 
         <!-- Ignicold T begin-->
-        <div id="ignicold"  class="producto fondo3" >
+        <div class="producto fondo3" >
             <div class="inverso-imagen">
                 <img src="img/fachadas-muros/productos/ignicold.png" />
             </div>
@@ -266,97 +244,9 @@
 
     <div class="clearfix"></div>
 
-    <!-- Contact Section Begin -->
-    <section class="contact-section contacto-solapa">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="contact-info">
-                        <div class="contact-details">
-                            <ul class="address">
-                                <li>
-                                    <i class="far fa-building"></i>
-                                    <span class="pl-2">Int. Haroldo Casanova 3349 (Oficina 2 - Centro de Desarrollo)</span>
-                                </li>
-                                <li>
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <span class="pl-2">Parque Industrial de Bahía Blanca, Buenos Aires, Argentina</span>
-                                </li><!-- 
-                                <li>
-                                    <i class="far fa-clock"></i>
-                                    <span class="pl-2">Lunes a viernes de 9hs a 18hs</span>
-                                </li> -->
-                                <li>
-                                    <i class="fas fa-phone"></i>
-                                    <span class="pl-2">+54 9 291 4360055 (Lunes a Viernes de 9hs a 18hs)</span>
-                                    
-                                </li>
-                                <li>
-                                    <i class="far fa-envelope"></i>
-                                    <span class="pl-2"> info@estrategiasur.com.ar</span>
-                                    
-                                </li>
-                            </ul>
-                        </div>
-                        <div id="mensaje-contacto" class="mensaje-formulario col-12 float-left clearfix m-0 p-0 mb-4 text-center text-sm-left"></div>
-                        <div class="contact-form">
-                            <form action="actions/contacto.php" method="post">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <input type="text" name="nombre-es" placeholder="Nombre y Apellido" required>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <input type="email" name="correo-es" placeholder="Email" required>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <input type="text" name="telefono-es" placeholder="Teléfono">
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <input type="text" name="empresa-es" placeholder="Empresa">
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <textarea placeholder="Mensaje" name="mensaje-es" required></textarea>
-                                        <button class="site-btn float-left" type="submit">Enviar mensaje</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="map"><iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35204.56132235907!2d-62.29289103515532!3d-38.7482653334147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbd1881506fb3%3A0x8d76d498d6829b0d!2sInt.+Haroldo+Casanova+3349%2C+Bah%C3%ADa+Blanca%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1566576937075!5m2!1ses!2sar"
-                style="border:0" allowfullscreen></iframe></div>
-    </section>
-    <!-- Contact Section End -->
-
-    <!-- Footer Section Begin -->
-    <footer class="footer-section set-bg"> <!-- data-setbg="img/carousel1.jpg"> -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer-content">
-                        <div class="footer-logo">
-                            <a href="#"><img src="img/logo_largo.png" alt=""></a>
-                        </div>
-                        <div class="footer-menu">
-                            <ul>
-                                <li><a onclick="desplazar('body')" href="#">Inicio</a></li>
-                                <li><a onclick="desplazar('#nosotros')" href="#nosotros">Nosotros</a></li>
-                                <li><a onclick="desplazar('.features-section')" href="#paneles-aislantes" >Paneles Aislantes</a></li>
-                                <li><a onclick="desplazar('.contacto-solapa')" href="#contacto" name="contacto" >Contacto</a></li>
-                            </ul>
-                        </div>
-                        <div class="copyright">
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> | Todos los derechos reservados | Hecho por <a href="https://xeronweb.com" target="_blank">Xeron Web</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer Section End -->
+    <!-- CONTACTO Y FOOTER BEGIN -->
+    <?php include('bloques/footer.php'); ?>
+    <!-- CONTACTO Y FOOTER END -->
 
     <!-- Js Plugins -->
     <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
