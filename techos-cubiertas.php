@@ -62,12 +62,13 @@
     <!-- HEADER End -->
 
     <!-- TITULO -->
-    <h2 class="titulo bg-dark">
-        Techos y cubiertas
-        <img class="pur-pir ml-0 ml-md-3" alt="PUR" title="PUR" src="img/pur.png">
-        <img class="pur-pir ml-0 ml-md-1" alt="PIR" title="PIR" src="img/pir.png">
-    </h2>
-    <!-- TITULO -->
+    <section class="titulo bg-dark">
+        <h1>Techos y cubiertas</h1>
+        <a href="index#paneles-aislantes">
+            <img class="marca" width="170px"  alt="Acerolatina" title="Acerolatina" src="img/logos_empresas/acerolatina.jpg"/>
+        </a>
+    </section>
+    <!-- TITULO ENDS-->
 
     <!-- PORTADA Begin -->
     <section class="pl-0 pr-0 portada col-12 float-left">
@@ -195,6 +196,8 @@
                 <div class="informacion">
                     <div class="titulo">
                         <img src="img/techos-cubiertas/titulos/tejatech.png" />
+                        <img class="ml-3" width="40px" src="img/pur.png">
+                        <img class="ml-1" width="40px" src="img/pir.png">
                     </div>
                     <div class="texto">
                         Panel en núcleo de poliuretano (PUR) o polisocianurato (PIR) de alta densidad con recubrimiento en cara superior de acero galvanizado, prepintado o cincalum; e inferior con film de polipropileno blanco (foil). Este panel está fabricado en proceso de línea contínua y es ideal para el uso de cubiertas residenciales.
@@ -221,6 +224,8 @@
                 <div class="informacion inverso-informacion">
                     <div class="titulo">
                         <img src="img/techos-cubiertas/titulos/foilroof-trapezoidal.png" />
+                        <img class="ml-3" width="40px" src="img/pur.png">
+                        <img class="ml-1" width="40px" src="img/pir.png">
                     </div>
                     <div class="texto">
                         Panel de acero fabricado en proceso de línea contínua, con núcleo aislante de poliuretano inyectado de alta densidad. Cara exterior en chapa galvanizada prepintada y cara inferior con film de polipropileno blanco (foil).
@@ -248,6 +253,8 @@
                 <div class="informacion">
                     <div class="titulo">
                         <img src="img/techos-cubiertas/titulos/foilroof-sinusoidal.png" />
+                        <img class="ml-3" width="40px" src="img/pur.png">
+                        <img class="ml-1" width="40px" src="img/pir.png">
                     </div>
                     <div class="texto">
                         Panel de acero fabricado en proceso de línea contínua, con núcleo aislante de poliuretano inyectado de alta densidad. Cara exterior en chapa galvanizada prepintada y cara inferior con film de polipropileno blanco (foil).
@@ -276,6 +283,8 @@
                 <div class="informacion inverso-informacion">
                     <div class="titulo">
                         <img src="img/techos-cubiertas/titulos/maxiroof.png" />
+                        <img class="ml-3" width="40px" src="img/pur.png">
+                        <img class="ml-1" width="40px" src="img/pir.png">
                     </div>
                     <div class="texto">
                         Panel metálico con núcleo aislante de polluretano de alta densidad, inyectado en línea contínua. Utilizable en cubiertas y restimientos de muros de todo tipo de edificaciones.

@@ -47,11 +47,14 @@
     <!-- HEADER Begin -->
     <?php include('bloques/header.php') ?>
     <!-- HEADER End -->
-
+    
     <!-- TITULO -->
-    <h2 class="titulo bg-dark">
-        Fachadas y muros
-    </h2>
+    <section class="titulo bg-dark">
+        <h1>Fachadas y muros</h1>
+        <a href="index#paneles-aislantes">
+            <img class="marca" width="170px" alt="Acerolatina" title="Acerolatina" src="img/logos_empresas/acerolatina.jpg"/>
+        </a>
+    </section>
     <!-- TITULO ENDS-->
 
     <!-- PORTADA Begin -->
@@ -164,6 +167,8 @@
                 <div class="informacion inverso-informacion blanco">
                     <div class="titulo">
                         <img src="img/fachadas-muros/titulos/classwall.png" />
+                        <img class="ml-3" width="40px" src="img/pur.png">
+                        <img class="ml-1" width="40px" src="img/eps.png">
                     </div>
                     <div class="texto">
                         Panel metálico con diferentes núcleos aislantes, revestido en ambas caras con lámina de acero galvanizado prepintado, provisto con sistema de fijación oculta, ideal para obras que requieren soluciones de aislación y estética al mismo tiempo. Para aplicaciones arquitectónicas, destinado a revestimientos de edificios industriales, comerciales, residenciales, construcciones modulares y obras en general. Fabricación en proceso de línea continua.
@@ -192,6 +197,9 @@
                 <div class="informacion blanco">
                     <div class="titulo">
                         <img src="img/fachadas-muros/titulos/megacold.png" />
+                        <img class="ml-3" width="40px" src="img/pur.png">
+                        <img class="ml-1" width="40px" src="img/eps.png">
+                        <img class="ml-1" width="40px" src="img/pir.png">
                     </div>
                     <div class="texto">
                         Panel metálico con diferentes núcleos aislantes, revestido en ambas caras con lámina de acero galvanizado prepintado, recomendado para cámaras y almacenes frigoríficos. Fabricación en proceso de línea continua.
@@ -220,6 +228,7 @@
                 <div class="informacion inverso-informacion blanco">
                     <div class="titulo">
                         <img src="img/fachadas-muros/titulos/ignicold.png" />
+                        <img class="ml-3" width="40px" src="img/lrm.png">
                     </div>
                     <div class="texto">
                         Panel resistente al fuego, con recubrimiento en ambas caras de acero galvanizado prepintado, con la posibilidad de optar por la cara exterior galvanizada. En la opción de panel tipo sound, cara interior con terminación microperforada. Producto apto para fachadas y divisiones interiores, recomendado para edificaciones industriales, comerciales, cámaras de sonido, cines, entre otras.

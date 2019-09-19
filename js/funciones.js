@@ -7,3 +7,8 @@ function desplazar(div){
         scrollTop: etop-150
     }, 0);
 }
+
+const param = getURLParameter('t');  
+if(param!=null){
+    document.getElementById("mensaje-contacto").innerHTML = param;
+}

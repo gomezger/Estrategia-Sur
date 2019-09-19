@@ -155,10 +155,10 @@
     <section id="paneles-aislantes" class="features-section spad">
         <div class="container">
             
-            <h2 class="text-center col-12 pt-3 pt-md-5 pb-4 mb-4  clearfix">PANELES AISLANTES</h2>
+            <!--<h2 class="text-center col-12 pt-3 pt-md-5 pb-4 mb-4  clearfix">PANELES AISLANTES</h2>-->
 
             <!-- FILA GENERAL -->
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-md-4 dos-features" >
                     <div class="single-features" onclick="abrirDesplazar('paneles')" >
                         <div class="features-img">
@@ -194,12 +194,12 @@
                     </div>
                 </div>
             </div>
-            <div class="clearfix mt-5"></div>
+            <div class="clearfix mt-5"></div> -->
 
             <!-- SEGUNDA FILA: GRUPO LTN PANELES TERMICOS -->
             <div class="row">
                 
-                <h2 class="text-center col-12 pt-0 pb-4 mb-4 second-features features-paneles clearfix">CONSTRUCCIón sustentable</h2>
+                <h2 class="text-center col-12 pt-0 pb-4 mb-4 second-features features-paneles clearfix">Paneles asilantes</h2>
 
                 <div class="col-md-4" onclick="abrirDesplazarDos('acero')">
                     <div class="single-features second-features features-paneles">
@@ -308,7 +308,7 @@
             <div class="row">
                 <h2 class="text-center col-12 pt-3 pb-4 mb-4 second-features features-prox clearfix">PRÓXIMAMENTE</h2>
                 <p class="text-center col-12 second-features features-prox">
-                    Sección en construcción. Para <d-lgmás información</d-lg envianos un mensaje haciendo clic <a href="#contacto">acá</a>
+                    Sección en construcción. Para más información envianos un mensaje haciendo clic <a href="#contacto">acá</a>
                 </p>
             </div>
             <div id="contacto" class="pb-5" name="contacto"></div>

@@ -632,7 +632,7 @@ ol {
 .dos-features{
 	margin-left: 10%;
 }
-.features-paneles, .features-casas, .features-servicios, .features-prox, .tercer-features, .features-acero{
+.features-casas, .features-servicios, .features-prox, .tercer-features, .features-acero{
 	display: none;
 }
 .features-texto p{
