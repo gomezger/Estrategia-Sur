@@ -79,7 +79,22 @@
 
     <!-- RAZONES begin--->
     <section class="razones">
-    
+		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 container">
+            <h6 class="titulo">Las razones para usar TEJATECH en su techo</h6>
+            <span class="separador"></span>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 float-left">
+                    <div class="item float-left w-100">
+                        <div class="numero float-left">1</div>
+                        <div class="texto float-left">Es una teja de acero con aislación de poliuretano inyectado en máquina continua.</div>
+                    </div>
+                    <div class="item float-left w-100">
+                        <div class="numero float-left">2</div>
+                        <div class="texto float-left">Es un producto “Todo en uno” ya que resuelve la cubierta simil teja y la aislación térmica.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- RAZONES end--->
 
