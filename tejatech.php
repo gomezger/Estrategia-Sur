@@ -60,7 +60,7 @@
 
     <!-- PORTADA Begin -->
     <section class="pl-0 pr-0 portada col-12 float-left">
-		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 container">
+		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-md-2 pr-md-2 container">
             <div class="imagen">
                 <img src="img/techos-cubiertas/tejatech/tejatech-1.png"/>
             </div>
@@ -79,7 +79,7 @@
 
     <!-- RAZONES begin--->
     <section class="razones">
-		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 container">
+		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-md-2 pr-md-2 container">
             <h6 class="titulo">Las razones para usar TEJATECH en su techo</h6>
             <span class="separador"></span>
             <div class="row">
@@ -92,12 +92,62 @@
                         <div class="numero float-left">2</div>
                         <div class="texto float-left">Es un producto “Todo en uno” ya que resuelve la cubierta simil teja y la aislación térmica.</div>
                     </div>
+                    <div class="item float-left w-100">
+                        <div class="numero float-left">3</div>
+                        <div class="texto float-left">Es 10 veces más liviana que las tejas tradicionales, fácil de instalar y transportar.</div>
+                    </div>
+                    <div class="item float-left w-100">
+                        <div class="numero float-left">4</div>
+                        <div class="texto float-left">Es anticorrosiva y antihongos.</div>
+                    </div>
+                </div>                
+                <div class="col-12 col-md-6 col-lg-4 float-left">
+                    <div class="item float-left w-100">
+                        <div class="numero float-left">5</div>
+                        <div class="texto float-left">Tiene una vida útil hasta 3 veces mayor que la teja tradicional.</div>
+                    </div>
+                    <div class="item float-left w-100">
+                        <div class="numero float-left">6</div>
+                        <div class="texto float-left">Soporta granizo, nieve, vientos, pisadas y temperaturas extremas.</div>
+                    </div>
+                    <div class="item float-left w-100">
+                        <div class="numero float-left">7</div>
+                        <div class="texto float-left">No se decolora, no se despinta, no se quiebra y no se filtra.</div>
+                    </div>
+                    <div class="item float-left w-100">
+                        <div class="numero float-left">8</div>
+                        <div class="texto float-left">Es aislante térmico.</div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-4 float-left">
+                    <div class="item float-left w-100">
+                        <div class="numero float-left">9</div>
+                        <div class="texto float-left">Supera a nivel estético el diseño del techo de tejas tradicionales.</div>
+                    </div>
+                    <div class="item float-left w-100">
+                        <div class="numero float-left">10</div>
+                        <div class="texto float-left">Es tecnología sustentable y 100% reciclable.</div>
+                    </div>
+                    <div class="item float-left w-100">
+                        <div class="numero float-left">11</div>
+                        <div class="texto float-left">Puede ser de color negro y marrón cobre.</div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- RAZONES end--->
 
+    <!-- caracteristicas begin -->
+    <section class="caracteristicas col-12">
+		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-md-2 pr-md-2 container">
+            <h6 class="titulo">Caráteristicas generales</h6>
+            <span class="separador"></span>
+        
+        </div>
+    </section>
+    <!-- caracteristicas end -->
 
 
     <div class="clearfix"></div>
