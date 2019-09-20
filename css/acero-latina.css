@@ -324,10 +324,10 @@ section.productos .producto .informacion .ver-mas{
 
 @media only screen and (min-width: 1100px) and (max-width: 1400px) {
 	section.productos .producto .imagen{
-		width: 55%;
+		width: 52%;
 	}
 	section.productos .producto .inverso-imagen{
-		width: 55%;
+		width: 52%;
 	}
 	section.productos .producto .informacion .ver-mas{
 		margin-top: 10px;
