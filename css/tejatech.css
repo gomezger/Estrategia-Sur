@@ -27,6 +27,7 @@ section.titulo .marca{
 	display: inline-block;
 	margin-top: -25px;
 	margin-left: 40px;
+	width: 175px;
 }
 
 .portada{
@@ -106,11 +107,13 @@ section.titulo .marca{
 }
 
 .caracteristicas{
+    font-family: 'Montserrat', sans-serif; 
     float: left; 
 	display: block;
 	width: 100%;
 	margin: 20px 0;
 	padding: 0; 
+
 	
 }
 .caracteristicas .titulo{
@@ -131,6 +134,35 @@ section.titulo .marca{
 	height: 1px;
 }
 
+.caracteristicas .detalles{
+	position: relative;
+	color: rgb(61, 61, 61);
+	overflow: hidden;
+}
+.caracteristicas .detalles .imagen{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+}
+.caracteristicas .detalles .info{
+	line-height: 30px;
+}
+
+.texto-tablas{
+	color: rgb(61, 61, 61);
+	font-size: 17px;
+	line-height: 30px;
+
+}
+
+.accesorios {
+	background-color: #13333e !important;
+	color: white;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: left;
+}
 
 /*....................  Resposive Media Styles  .......................*/
 
@@ -140,6 +172,10 @@ section.titulo .marca{
 		padding: 0px 80px;
 		font-size: 17px;
 		line-height: 35px;
+	}
+	
+	.caracteristicas .detalles .info{
+		font-size: 14px;
 	}
 }
 
@@ -156,7 +192,110 @@ section.titulo .marca{
 
 /* Tablet : 768px. */
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 991px) {	
+	section.titulo{
+		margin-top: 80px;
+		background-size: auto 100%;
+		padding: 15px 0;
+	}
+
+	section.titulo h1{
+		font-size: 33px;
+		margin-bottom: 10px;
+	}
+	
+	section.titulo h2{
+		font-size: 16px;
+		margin-top: 0px;
+	}
+	section.titulo .marca{
+		margin-top: -12px;
+		margin-left: 10px;
+		width: 100px;
+	}	
+	
+	.portada{
+		padding: 20px 0;
+		background-size: auto 100%;
+	}
+	.portada .imagen{
+		margin-left: 20%;
+		margin-right: 10%;
+		max-width: 70%;
+	}
+	.portada .imagen img{
+		width: 100%;
+	}
+	.portada .texto{
+		max-width: 100%;
+		font-size: 15px;
+		padding: 35px 20px;
+		line-height: 30px;
+	}
+
+	.razones{
+		padding: 20px 0;
+	}
+	
+	.razones h6.titulo{
+		font-size: 22px;
+		width: 98%;
+		text-align: center;
+	}
+	.razones .separador{
+		margin: 20px 0; 
+		margin-bottom: 25px;
+		width: 100px;
+	}
+	
+	.razones .item{
+		width: 100%;
+		padding: 0 10px;
+		margin-bottom: 20px;
+	}
+	
+	.razones .item .numero{
+		max-width: 8%;
+		font-size: 17px;
+		margin-top: -2px; 
+	}
+	.razones .item .texto{
+		max-width: 90%;
+		text-align: justify;
+		font-size: 14px;
+	}
+
+	
+	.caracteristicas{
+		width: 100%;
+		padding: 0 15px;
+		text-align: center;
+
+		
+	}
+	.caracteristicas .titulo{
+		width: 100%;
+		font-size: 23px;
+	}
+	.caracteristicas .separador{
+		background-color: rgb(41, 41, 41);
+	}
+
+	.caracteristicas .detalles{
+	}
+	.caracteristicas .detalles .imagen{
+		display: none;
+	}
+	.caracteristicas .detalles .info{
+		line-height: 30px;
+		padding: 0 15px;
+	}
+
+	.texto-tablas{
+		font-size: 15px;
+		line-height: 28px;
+
+	}
 	
 
 }

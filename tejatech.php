@@ -43,7 +43,7 @@
 
 </head>
 
-<body id="inicio">
+<body id="inicio" class="col-12 p-0">
     <!-- HEADER Begin -->
     <?php include('bloques/header.php') ?>
     <!-- HEADER End -->
@@ -52,7 +52,7 @@
     <section class="titulo bg-dark">
         <h1>Tejatech</h1>
         <a href="index">
-            <img class="marca" width="170px" alt="Acerolatina" title="Acerolatina" src="img/logos_empresas/acerolatina.jpg"/>
+            <img class="marca" alt="Acerolatina" title="Acerolatina" src="img/logos_empresas/acerolatina.jpg"/>
         </a>
         <h2>Techos y cubiertas</h2>
     </section>
@@ -145,13 +145,13 @@
             <h6 class="titulo">Caráteristicas generales</h6>
             <span class="separador"></span>
 
-            <div class="row">
+            <div class="row mb-5">
                 <div class="col-12 col-md-6 d-inline-block">
                     <img class="mt-0 mt-md-5" src="img/techos-cubiertas/tejatech/teja.jpg" />
                 </div>
                 <div class="col-12 col-md-6 d-inline-block text-center">
                     <img src="img/techos-cubiertas/tejatech/pur-pir.jpg" />
-                    <p class="mt-3 text-justify">
+                    <p class="mt-3 text-justify text-dark">
                         Panel en núcleo de poliuretano (PUR) o poliisocianurato (PIR) de alta densidad 
                         con recubrimiento en cara superior de acero galvanizado, prepintado o cincalum; 
                         e inferior con foil de polipropileno. Este panel está fabricado en proceso de 
@@ -161,8 +161,81 @@
                     <img src="img/techos-cubiertas/tejatech/img-caracteristicas-2.jpg" />
                 </div>
             </div>
-        
+        </div>    
+        <div class="row detalles text-right">
+            <div class="imagen col-12 col-md-6 d-none d-md-inline-block">
+                <img class="mt-0" src="img/techos-cubiertas/tejatech/techo-teja-5.jpg" />
+            </div>            
+            <div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-md-2 pr-md-2 container">
+                <div class="col-12 col-md-6 d-inline-block text-left pt-1 pl-3 pr-3 pr-md-0 pl-md-5 info ">
+                    <h6 class="mb-2">Cara exterior:</h6>
+                    <ul class="ml-4 mb-4">
+                        <li><strong>Material:</strong> Acero galvanizado, prepintado o cincalum </li>
+                        <li><strong>Colores:</strong> Marrón o negro. Colores especiales consultar en fábrica </li>
+                        <li><strong>Conformado:</strong> Teja francesa </li>
+                        <li><strong>Espesor nominal:</strong> 0,5mm (consultar otros espesores) </li>
+                    </ul>
+
+                    <h6 class="mb-2">Cara interior:</h6>
+                    <ul class="ml-4 mb-4">
+                        <li><strong>Material:</strong> Foil de polipropileno de alta resistencia</li>
+                        <li><strong>Espesor nominal:</strong> 0,08 mm</li>
+                    </ul>
+
+                    <h6 class="mb-2">Aislante:</h6>
+                    <ul class="ml-4 mb-5">
+                        <li><strong>Material:</strong> Poliuretano o poliisocianurato (PUR o PIR)</li>
+                        <li><strong>Densidad total nominal:</strong> 40kg/m3 aprox.</li>
+                        <li><strong>Espesor nominal:</strong> 30 y 50 mm</li>
+                        <li><strong>Largos:</strong> Máximo hasta 13,80m. Longitud mínima 2,70m. Otros largos consultar</li>   
+                    </ul>
+                </div>
+            </div>
+        </div>        
+		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-md-2 pr-md-2 container">
+            <h6 class="titulo pt-5">Tabla de cargas admisibles</h6>
+            <span class="separador"></span>
+            <div class="info text-center">
+                <img class="d-inline-block" src="img/techos-cubiertas/tejatech/tabla.jpg" />
+                <p class="texto-tablas col-12 col-sm-10 col-xl-9 d-inline-block mt-5 text-justify p-0 text-dark">
+                    Las luces L en metros correspondientes a las sobrecargas P (kg/m2) uniformemente 
+                    distribuídas, han sido obtenidas por pruebas de carga efectuadas en nuetros 
+                    laboratorios y garantizan simultáneamente una flecha F < L/200 considerando 
+                    como sección resistente solo la chapa (no se ha considerado la portación del 
+                    poliuretano) de conformidad con las normas existentes.
+                </p>
+            </div>
         </div>
+
+        
+		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 container">
+            <h6 class="titulo mt-3">Detalle de encuentros</h6>
+            <span class="separador"></span>
+            <div class="col-12 p-0 text-center mb-4">
+                <img class="d-inline-block col-12 col-md-6 m-0 p-0 float-left" src="img/techos-cubiertas/tejatech/img-tejatech-ok-1-1.jpg" />
+                <img class="d-inline-block col-12 col-md-6 m-0 p-0 float-left" src="img/techos-cubiertas/tejatech/img-caract-2-OK-1.jpg" />
+            </div>
+        </div>
+
+		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 container">
+            <h6 class="titulo pt-5">Detalles constructivos y accesorios completos</h6>
+            <span class="separador"></span>
+            <div class="row mb-5">
+                <div class="col-12 col-md-6 d-inline-block text-center">
+                    <img class="mt-0 mt-md-3" src="img/techos-cubiertas/tejatech/img-detallesconstructivos.png" />
+                </div>
+                <div class="col-12 col-md-6 d-inline-block text-center">
+                    <p class="accesorios mt-3 p-5 text-justify">
+                        › Uso en obras nuevas o remodelaciones.<br>
+                        › Múltiples posibilidades de terminaciones.<br>
+                        › Calidad autoportante, liviano y fácil de instalar.<br>
+                        › Alta versatilidad, aplicaciones en fachadas, cubiertas, cielorrasos, divisiones interiores, etc.<br>
+                        › Estabilidad térmica y acústica.<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </section>
     <!-- caracteristicas end -->
 
