@@ -225,7 +225,7 @@
                     <img class="mt-0 mt-md-3" src="img/techos-cubiertas/tejatech/img-detallesconstructivos.png" />
                 </div>
                 <div class="col-12 col-md-6 d-inline-block text-center">
-                    <p class="accesorios mt-3 p-5 text-justify">
+                    <p class="accesorios mt-3 p-3 p-md-5 text-justify">
                         › Uso en obras nuevas o remodelaciones.<br>
                         › Múltiples posibilidades de terminaciones.<br>
                         › Calidad autoportante, liviano y fácil de instalar.<br>
