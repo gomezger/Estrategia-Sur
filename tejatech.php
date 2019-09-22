@@ -144,6 +144,23 @@
 		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-md-2 pr-md-2 container">
             <h6 class="titulo">Caráteristicas generales</h6>
             <span class="separador"></span>
+
+            <div class="row">
+                <div class="col-12 col-md-6 d-inline-block">
+                    <img class="mt-0 mt-md-5" src="img/techos-cubiertas/tejatech/teja.jpg" />
+                </div>
+                <div class="col-12 col-md-6 d-inline-block text-center">
+                    <img src="img/techos-cubiertas/tejatech/pur-pir.jpg" />
+                    <p class="mt-3 text-justify">
+                        Panel en núcleo de poliuretano (PUR) o poliisocianurato (PIR) de alta densidad 
+                        con recubrimiento en cara superior de acero galvanizado, prepintado o cincalum; 
+                        e inferior con foil de polipropileno. Este panel está fabricado en proceso de 
+                        línea contínua y es ideal para el uso de cubiertas en general, tanto industriales 
+                        como residenciales
+                    </p>
+                    <img src="img/techos-cubiertas/tejatech/img-caracteristicas-2.jpg" />
+                </div>
+            </div>
         
         </div>
     </section>
