@@ -43,13 +43,13 @@
 
 </head>
 
-<body id="inicio" class="col-12 p-0">
+<body>
     <!-- HEADER Begin -->
     <?php include('bloques/header.php') ?>
     <!-- HEADER End -->
 
     <!-- TITULO -->
-    <section class="titulo bg-dark">
+    <section class="titulo">
         <h1>Tejatech</h1>
         <a href="index">
             <img class="marca" alt="Acerolatina" title="Acerolatina" src="img/logos_empresas/acerolatina.jpg"/>
@@ -78,11 +78,11 @@
     <!-- PORTADA End -->
 
     <!-- RAZONES begin--->
-    <section class="razones">
-		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-md-2 pr-md-2 container">
+    <section class="razones col-12 p-0">
+		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 container">
             <h6 class="titulo">Las razones para usar TEJATECH en su techo</h6>
             <span class="separador"></span>
-            <div class="row">
+            <div class="row p-0 m-0">
                 <div class="col-12 col-md-6 col-lg-4 float-left">
                     <div class="item float-left w-100">
                         <div class="numero float-left">1</div>

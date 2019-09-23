@@ -195,7 +195,7 @@ section.titulo .marca{
 @media only screen and (max-width: 991px) {	
 	section.titulo{
 		margin-top: 80px;
-		background-size: auto 100%;
+		background-position: center bottom;
 		padding: 15px 0;
 	}
 

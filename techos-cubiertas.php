@@ -46,15 +46,17 @@
 
 <body id="inicio">
 
-    <!-- BOTONES VOLVER Begin -->
-    <a href="#" class="subir">
-        <i class="fas fa-chevron-up"></i>
-    </a>
-    <a href="#" class="volver ">
-        <i class="fas fa-chevron-left mr-2"></i>
-        Panéles Térmicos
-    </a>
-    <!-- BOTONES VOLVER End -->
+    <div class="botones">
+        <!-- BOTONES VOLVER Begin -->
+        <a href="#" class="subir">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+        <a href="index#paneles-aislantes" class="volver ">
+            <i class="fas fa-chevron-left mr-3 mr-md-2"></i>
+            <div class="texto">Panéles Aislantes</div>
+        </a>
+        <!-- BOTONES VOLVER End -->
+    </div>
 
 
     <!-- HEADER Begin -->
