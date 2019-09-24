@@ -52,7 +52,7 @@
             <i class="fas fa-chevron-up"></i>
         </a>
         <a href="index#paneles-aislantes" class="volver ">
-            <i class="fas fa-chevron-left mr-3 mr-md-2"></i>
+            <i class="fas fa-chevron-left mr-0 mr-md-2"></i>
             <div class="texto">Panéles Aislantes</div>
         </a>
         <!-- BOTONES VOLVER End -->

@@ -166,23 +166,24 @@ section.titulo .marca{
 }
 
 .bloque{
-	display: inline-block;
+	float:left;
+	padding: 10px;
 }
 
 .bloque .titulo{
 	font-family: 'Montserrat', 'sans-serif';
-	font-size: 17px;
+	font-size: 16px;
 	font-weight: 500;
 	color: #333;
 }
 
 .bloque .lista li{
-	font-size: 15.5px;
+	font-size: 15px;
 	border: 0px;
 }
 .bloque .lista li span{
 	color: #ff6b00;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 /*....................  Resposive Media Styles  .......................*/
