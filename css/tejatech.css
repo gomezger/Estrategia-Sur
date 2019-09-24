@@ -121,6 +121,7 @@ section.titulo .marca{
 	display: block;
 	margin: 0;
 	padding: 0;
+	margin-top: 20px;
 	width: 100%;
 	font-size: 25px;
     font-family: 'Montserrat', sans-serif; 
@@ -159,9 +160,29 @@ section.titulo .marca{
 .accesorios {
 	background-color: #13333e !important;
 	color: white;
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 40px;
 	text-align: left;
+}
+
+.bloque{
+	display: inline-block;
+}
+
+.bloque .titulo{
+	font-family: 'Montserrat', 'sans-serif';
+	font-size: 17px;
+	font-weight: 500;
+	color: #333;
+}
+
+.bloque .lista li{
+	font-size: 15.5px;
+	border: 0px;
+}
+.bloque .lista li span{
+	color: #ff6b00;
+	font-weight: 500;
 }
 
 /*....................  Resposive Media Styles  .......................*/
