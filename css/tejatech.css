@@ -219,6 +219,7 @@ section.titulo .marca{
 		margin-top: 80px;
 		background-position: center bottom;
 		padding: 15px 0;
+		background-size: auto 100%;
 	}
 
 	section.titulo h1{
