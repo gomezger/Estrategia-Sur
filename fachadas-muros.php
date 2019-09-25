@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/barfiller.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/header.css" type="text/css">
     <link rel="stylesheet" href="css/acero-latina.css" type="text/css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->

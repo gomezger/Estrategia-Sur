@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/barfiller.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/header.css" type="text/css">
     <link rel="stylesheet" href="css/acero-latina.css" type="text/css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -88,17 +89,17 @@
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
-            <a href="#foilroof-sinusoidal" class="producto">
+            <a href="#foilroof-trapezoidal" class="producto sombreado">
                 <div class="imagen">
-                    <img alt="foilroof" title="foilroof" src="img/techos-cubiertas/foilroof-s.png">
+                    <img alt="foilroof" title="foilroof" src="img/techos-cubiertas/foilroof-t.png">
                 </div>
                 <div class="mas">
                     <i class="fas fa-plus"></i>
                 </div>
             </a>
-            <a href="#foilroof-trapezoidal" class="producto sombreado">
+            <a href="#foilroof-sinusoidal" class="producto">
                 <div class="imagen">
-                    <img alt="foilroof" title="foilroof" src="img/techos-cubiertas/foilroof-t.png">
+                    <img alt="foilroof" title="foilroof" src="img/techos-cubiertas/foilroof-s.png">
                 </div>
                 <div class="mas">
                     <i class="fas fa-plus"></i>
@@ -179,7 +180,7 @@
     <!-- subtitulo begin -->
     <section class="banner">
         <div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 container">
-            <div  id="tejatech" class="imagen col-12 col-lg-6 float-right float-lg-left"><img src="img/techos-cubiertas/casa-negocio-fabrica.png"/></div>
+            <div class="imagen col-12 col-lg-6 float-right float-lg-left"><img src="img/techos-cubiertas/casa-negocio-fabrica.png"/></div>
             <h2 class="col-12 col-lg-6 float-right float-lg-left">SISTEMAS CONSTRUCTIVOS PARA VIVIENDAS, COMERCIOS E INDUSTRIAS</h2>
         </div>
     </section>
@@ -190,7 +191,7 @@
     <!-- productos begin-->
     <section class="productos">
         <!-- TEJAROOF begin-->
-        <div class="producto" >
+        <div id="tejatech" class="producto" >
             <div class="imagen">
                 <img src="img/techos-cubiertas/productos/img-tejatech.png" />
             </div>
@@ -211,14 +212,14 @@
                         <p><i class="fas fa-check mr-2"></i>Bajo peso y fácil manipulación.</p>
                         <p><i class="fas fa-check mr-2"></i>Solución simple y sencilla para colocación de cubiertas en un solo paso, tanto aislación como terminación exterior.</p>
                     </div>
-                    <a href="tejatech" id="foilroof-trapezoidal" class="btn btn-warning ver-mas">Ver más</a>
+                    <a href="tejatech" class="btn btn-warning ver-mas">Ver más</a>
                 </div>
             </div>
         </div>
         <!-- TEJAROOF end -->
         
         <!-- FOILROOF T begin-->
-        <div class="producto fondo2" >
+        <div  id="foilroof-trapezoidal" class="producto fondo2" >
             <div class="inverso-imagen">
                 <img src="img/techos-cubiertas/productos/img-trape.png" />
             </div>
@@ -240,14 +241,14 @@
                         <p><i class="fas fa-check mr-2"></i>Su cara inferior en color blanco asegura excelente reflectividad, ahorrando costos de iluminación.</p>
                         <p><i class="fas fa-check mr-2"></i>Opción económica por su revestimiento de acero en una sola cara.</p>
                     </div>
-                    <a href="foilroof-trapezoidal" id="foilroof-sinusoidal" class="btn btn-warning ver-mas">Ver más</a>
+                    <a href="foilroof-trapezoidal"  class="btn btn-warning ver-mas">Ver más</a>
                 </div>
             </div>
         </div>
         <!-- foilroof t end -->
 
         <!-- FOILROOF S begin-->
-        <div class="producto" >
+        <div id="foilroof-sinusoidal" class="producto" >
             <div class="imagen">
                 <img src="img/techos-cubiertas/productos/img-sinu.png" />
             </div>
@@ -269,7 +270,7 @@
                         <p><i class="fas fa-check mr-2"></i>Bajo peso y fácil manipulación.</p>
                         <p><i class="fas fa-check mr-2"></i>Excelente acabado en la cara inferior (Evita la instalación de cielorrasos).</p>
                     </div>
-                    <a href="tejatech" id="maxiroof" class="btn btn-warning ver-mas">Ver más</a>
+                    <a href="foilroof-sinusoidal"  class="btn btn-warning ver-mas">Ver más</a>
                 </div>
             </div>
         </div>
@@ -277,7 +278,7 @@
 
         
         <!-- MAXIROOF begin-->
-        <div class="producto fondo2" >
+        <div id="maxiroof" class="producto fondo2" >
             <div class="inverso-imagen">
                 <img src="img/techos-cubiertas/productos/img-maxiroof.png" />
             </div>
@@ -299,7 +300,7 @@
                         <p><i class="fas fa-check mr-2"></i>Elevada resistencia mecánica (Permite mayor separación entre apoyos).</p>
                         <p><i class="fas fa-check mr-2"></i>Aislación en alta densidad de poliuretano (PUR) y poliisocianurato (PIR)</p>
                     </div>
-                    <a href="foilroof-trapezoidal" class="btn btn-warning ver-mas">Ver más</a>
+                    <a href="maxiroof" class="btn btn-warning ver-mas">Ver más</a>
                 </div>
             </div>
         </div>

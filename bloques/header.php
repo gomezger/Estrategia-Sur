@@ -1,27 +1,30 @@
-<!-- Header Section Begin -->
-<header class="header-section bg-dark">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="main-menu">
-                    <div class="logo">
-                        <a href="./index.html">
-                            <img src="img/logo_cuadrado.png" alt="">
-                        </a>
-                    </div>
-                    <nav class="mobile-menu">
-                        <ul>
-                            <li><a onclick="ocultarMenu()" class="link" href="index">Inicio</a></li>
-                            <li><a onclick="ocultarMenu()" class="link" href="index#nosotros">Nosotros</a></li>
-                            <li><a onclick="ocultarMenu()" class="link" href="index#paneles-aislantes" >Paneles Aislantes</a></li>
-                            <li><a onclick="ocultarMenu()" class="link" href="index#contacto" name="contacto" >Contacto</a></li>
-                            <li class="search-btn search-trigger"></li>
-                        </ul>
-                    </nav>
-                    <div id="mobile-menu-wrap"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-<!-- Header End -->
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="/">
+    <img src="img/logo_cuadrado.png" />
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav p-0 text-center">
+      <li class="nav-item">
+        <a class="nav-link d-inline-block active" href="#">Inicio</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link d-inline-block active" href="#">Nosotros</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link d-inline-block active" href="#">Paneles Aislantes</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link d-inline-block active" href="#">Departamento técnico</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link d-inline-block active" href="#">Sucursales</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link d-inline-block active" href="#">Contacto</a>
+      </li>
+    </ul>
+  </div>
+</nav>

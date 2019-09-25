@@ -1,0 +1,125 @@
+nav{
+	background: #0f1112;
+	min-height: 123px;
+	z-index: 10000;
+	border-bottom: solid rgb(82, 82, 82) 0.5px;
+	-webkit-box-shadow: 0px 18px 87px -49px rgb(0, 0, 0);
+	-moz-box-shadow: 0px 18px 87px -49px rgb(0, 0, 0);
+	box-shadow: 0px 18px 87px -49px rgb(0, 0, 0); 
+}
+nav a{
+	width: 118px;
+	position: absolute;
+	left: 48.5%;
+	top: 13px;
+	margin-left: -42.5px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+nav a img{
+	width: 100%;
+	border-radius: 5px;
+}
+
+@media only screen and (min-width: 992px){
+	.navbar-collapse{		
+
+	}
+	.navbar-nav{
+		position: absolute;
+		top: 30px;
+		left: 49.35%;
+		text-transform: uppercase;
+		font-family: "Roboto", sans-serif;
+	}
+
+	ul.navbar-nav li.nav-item{
+		position: absolute;
+	}
+	ul.navbar-nav li.nav-item a{
+		width: 240px;
+		font-size: 14px; 
+		font-weight: 500;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+	ul.navbar-nav li.nav-item a.active:hover{
+		//color: #ee5358;
+	}
+	
+	ul.navbar-nav li.nav-item:nth-child(1) {
+		left: -485px;
+	}
+	ul.navbar-nav li.nav-item:nth-child(2) {
+		left: -390px;
+	}
+	ul.navbar-nav li.nav-item:nth-child(3) {
+		left: -245px;
+	}
+	ul.navbar-nav li.nav-item:nth-child(4) {
+		left: 100px;
+	}
+	ul.navbar-nav li.nav-item:nth-child(5) {
+		left: 272px;
+	}
+	ul.navbar-nav li.nav-item:nth-child(6) {
+		left: 390px;
+	}
+	
+}
+
+
+/*....................  Resposive Media Styles  .......................*/
+
+@media (max-width: 1650px) {
+
+	
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1400px) {
+	
+}
+
+
+/* Medium Device : 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+/* Tablet : 768px. */
+
+@media only screen and (max-width: 991px) {
+	nav{
+		min-height: 85px;
+	}
+	nav a{
+		width: 80px;
+		position: unset;
+		margin-left: 0;
+		overflow: hidden;
+	}
+	nav a img{
+		width: 100%;
+		border-radius: 5px;
+	}
+	nav .nav-item{
+		padding: 0;
+	}
+	nav .nav-item .nav-link{
+		width: 100%;
+	}
+}
+
+/* Large Mobile : 480px. */
+
+@media only screen and (max-width: 767px) {
+
+	
+}
+
+/* Small Mobile : 320px. */
+
+@media only screen and (max-width: 479px) {
+	
+}
