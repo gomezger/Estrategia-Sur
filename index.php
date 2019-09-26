@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/barfiller.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/header.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -80,31 +81,7 @@
         <div class="loader"></div>
     </div>--> 
     <!-- Header Section Begin -->
-    <header class="header-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="main-menu">
-                        <div class="logo">
-                            <a href="./index.html">
-                                <img src="img/logo_cuadrado.png" alt="">
-                            </a>
-                        </div>
-                        <nav class="mobile-menu">
-                            <ul>
-                                <li><a onclick="ocultarMenu()" class="link" href="#">Inicio</a></li>
-                                <li><a onclick="ocultarMenu()" class="link" href="#nosotros">Nosotros</a></li>
-                                <li><a onclick="ocultarMenu()" class="link" href="#paneles-aislantes" >Paneles Aislantes</a></li>
-                                <li><a onclick="ocultarMenu()" class="link" href="#contacto" name="contacto" >Contacto</a></li>
-                                <li class="search-btn search-trigger"></li>
-                            </ul>
-                        </nav>
-                        <div id="mobile-menu-wrap"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include('bloques/header.php'); ?>
     <!-- Header End -->
     <!-- Hero Slider Section Begin -->
     <section class="hero-slider">

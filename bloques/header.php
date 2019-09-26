@@ -1,5 +1,5 @@
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark">
-  <a class="navbar-brand" href="/">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <a class="navbar-brand" href="./">
     <img src="img/logo_cuadrado.png" />
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,19 +11,19 @@
         <a class="nav-link d-inline-block active" href="#">Inicio</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link d-inline-block active" href="#">Nosotros</a>
+        <a class="nav-link d-inline-block active" href="#nosotros">Nosotros</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link d-inline-block active" href="#">Paneles Aislantes</a>
+        <a class="nav-link d-inline-block active" href="#paneles-aislantes">Paneles Aislantes</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link d-inline-block active" href="#">Departamento técnico</a>
+        <a class="nav-link d-inline-block active" href="#departamento-tecnico">Departamento técnico</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link d-inline-block active" href="#">Sucursales</a>
+        <a class="nav-link d-inline-block active" href="sucursales">Sucursales</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link d-inline-block active" href="#">Contacto</a>
+        <a class="nav-link d-inline-block active" href="#contacto">Contacto</a>
       </li>
     </ul>
   </div>
