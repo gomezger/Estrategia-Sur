@@ -1,3 +1,11 @@
+:target::before {
+	display: block;
+	content: "";
+	margin-top: -500px;
+	height: 500px;
+	visibility: hidden;
+}
+
 nav{
 	background: #0f1112;
 	min-height: 123px;
@@ -28,7 +36,7 @@ nav a img{
 	.navbar-nav{
 		position: absolute;
 		top: 30px;
-		left: 49.35%;
+		left: 49.15%;
 		text-transform: uppercase;
 		font-family: "Roboto", sans-serif;
 	}
@@ -36,34 +44,56 @@ nav a img{
 	ul.navbar-nav li.nav-item{
 		position: absolute;
 	}
-	ul.navbar-nav li.nav-item a{
-		width: 240px;
+	ul.navbar-nav li.nav-item a.nav-link{
 		font-size: 14px; 
 		font-weight: 500;
 		text-transform: uppercase;
 		cursor: pointer;
 	}
-	ul.navbar-nav li.nav-item a.active:hover{
-		//color: #ee5358;
+	ul.navbar-nav li.nav-item a.nav-link:hover{
+		color: #ee5358;
 	}
-	
-	ul.navbar-nav li.nav-item:nth-child(1) {
-		left: -485px;
+	/*inicio*/	
+	ul.navbar-nav li.nav-item:nth-child(1){
+		left: -396px;
 	}
+	ul.navbar-nav li.nav-item:nth-child(1) a.nav-link{
+		width: 100px;
+	}
+	/*nosotros*/	
 	ul.navbar-nav li.nav-item:nth-child(2) {
-		left: -390px;
+		left: -305px;
 	}
+	ul.navbar-nav li.nav-item:nth-child(2) a.nav-link{
+		width: 100px;
+	}
+	/*paneles*/	
 	ul.navbar-nav li.nav-item:nth-child(3) {
-		left: -245px;
+		left: -205px;
 	}
+	ul.navbar-nav li.nav-item:nth-child(3) a.nav-link{
+		width: 180px;
+	}
+	/*departamento*/	
 	ul.navbar-nav li.nav-item:nth-child(4) {
-		left: 100px;
+		left: 125px;
 	}
+	ul.navbar-nav li.nav-item:nth-child(4) a.nav-link{
+		width: 200px;
+	}
+	/*sucursales*/	
 	ul.navbar-nav li.nav-item:nth-child(5) {
-		left: 272px;
+		left: 330px;
 	}
+	ul.navbar-nav li.nav-item:nth-child(5) a.nav-link{
+		width: 120px;
+	}	
+	/*contacto*/	
 	ul.navbar-nav li.nav-item:nth-child(6) {
-		left: 390px;
+		left: 453px;
+	}
+	ul.navbar-nav li.nav-item:nth-child(6) a.nav-link{
+		width: 110px;
 	}
 	
 }

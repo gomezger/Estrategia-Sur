@@ -109,7 +109,7 @@
     <!-- Hero Slider End -->
 
     <!-- NOSOTROS SECTION Begin  -->
-    <section id="nosotros" class="contact-section nosotros-section">
+    <section id="nosotros" class="contact-section nosotros-section ancla">
     <div class="container">
             <h2 class="text-center col-12 mt-4 mt-md-5 pt-4 pb-0 mb-1">Estrategia Sur </h2>
             <h3 class="text-center col-12 pt-0 mt-0"> Agencia Comercial</h3>
@@ -129,7 +129,7 @@
 
 
     <!-- Features Section Begin -->
-    <section id="paneles-aislantes" class="features-section spad">
+    <section id="paneles-aislantes" class="features-section spad ancla">
         <div class="container">
             
             <!--<h2 class="text-center col-12 pt-3 pt-md-5 pb-4 mb-4  clearfix">PANELES AISLANTES</h2>-->
