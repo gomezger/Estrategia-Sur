@@ -191,7 +191,10 @@
     <!-- productos begin-->
     <section class="productos">
         <!-- TEJAROOF begin-->
-        <div id="tejatech" class="producto" >
+        <div class="ancla float-left">
+            <div id="tejatech"  class="punto"></div>
+        </div>
+        <div class="producto" >
             <div class="imagen">
                 <img src="img/techos-cubiertas/productos/img-tejatech.png" />
             </div>
@@ -219,7 +222,10 @@
         <!-- TEJAROOF end -->
         
         <!-- FOILROOF T begin-->
-        <div  id="foilroof-trapezoidal" class="producto fondo2" >
+        <div class="ancla float-left">
+            <div id="foilroof-trapezoidal"  class="punto"></div>
+        </div>
+        <div   class="producto fondo2" >
             <div class="inverso-imagen">
                 <img src="img/techos-cubiertas/productos/img-trape.png" />
             </div>
@@ -248,7 +254,10 @@
         <!-- foilroof t end -->
 
         <!-- FOILROOF S begin-->
-        <div id="foilroof-sinusoidal" class="producto" >
+        <div class="ancla float-left">
+            <div id="foilroof-sinusoidal"  class="punto"></div>
+        </div>
+        <div  class="producto" >
             <div class="imagen">
                 <img src="img/techos-cubiertas/productos/img-sinu.png" />
             </div>
@@ -278,7 +287,10 @@
 
         
         <!-- MAXIROOF begin-->
-        <div id="maxiroof" class="producto fondo2" >
+        <div class="ancla float-left">
+            <div id="maxiroof" class="punto"></div>
+        </div>
+        <div class="producto fondo2" >
             <div class="inverso-imagen">
                 <img src="img/techos-cubiertas/productos/img-maxiroof.png" />
             </div>

@@ -39,6 +39,14 @@ body {
 	transition-duration: 1000ms;
 }
 
+.ancla{
+	position: relative;
+}
+.ancla .punto{
+	position: absolute;
+	top: -170px;
+}
+
 h1,
 h2,
 h3,

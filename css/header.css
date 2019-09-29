@@ -1,10 +1,3 @@
-:target::before {
-	display: block;
-	content: "";
-	margin-top: -500px;
-	height: 500px;
-	visibility: hidden;
-}
 
 nav{
 	background: #0f1112;

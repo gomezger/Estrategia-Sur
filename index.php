@@ -109,11 +109,14 @@
     <!-- Hero Slider End -->
 
     <!-- NOSOTROS SECTION Begin  -->
-    <section id="nosotros" class="contact-section nosotros-section ancla">
-    <div class="container">
-            <h2 class="text-center col-12 mt-4 mt-md-5 pt-4 pb-0 mb-1">Estrategia Sur </h2>
+    <section  class="contact-section nosotros-section">
+        <div class="ancla float-left">
+            <div id="nosotros" class="punto"></div>
+        </div>
+        <div class="container">
+            <h2 class="text-center col-12 mt-0 pt-1 pb-0 mb-1">Estrategia Sur </h2>
             <h3 class="text-center col-12 pt-0 mt-0"> Agencia Comercial</h3>
-            <p class="text-justify col-12 pb-1 pb-md-5">
+            <p class="text-justify col-12 pb-1 pb-md-3">
                     <span class="mr-4"></span>Estrategia Sur es una Agencia Comercial con la que nos dedicamos a la representación oficial de marcas líderes en el mercado de la construcción sustentable. 
                     <br><br>
                     <span class="mr-4"></span>Somos un equipo de profesionales con amplia experiencia en el ramo y en constante capacitación, a fin de brindar y garantizar a nuestros clientes, una promoción íntegra y responsable de los productos ofrecidos, junto a un eficiente asesoramiento técnico. A su vez, contamos con un servicio oficial de postventa para el adecuado montaje y colocación de los productos comercializados; así como también, brindamos servicio de supervisión de final de obra.
@@ -129,7 +132,10 @@
 
 
     <!-- Features Section Begin -->
-    <section id="paneles-aislantes" class="features-section spad ancla">
+    <section class="features-section pt-5">
+        <div class="ancla float-left">
+            <div id="paneles-aislantes" class="punto"></div>
+        </div>
         <div class="container">
             
             <!--<h2 class="text-center col-12 pt-3 pt-md-5 pb-4 mb-4  clearfix">PANELES AISLANTES</h2>-->
@@ -174,8 +180,7 @@
             <div class="clearfix mt-5"></div> -->
 
             <!-- SEGUNDA FILA: GRUPO LTN PANELES TERMICOS -->
-            <div class="row">
-                
+            <div class="row">                
                 <h2 class="text-center col-12 pt-0 pb-4 mb-4 second-features features-paneles clearfix">Paneles asilantes</h2>
 
                 <div class="col-md-4" onclick="abrirDesplazarDos('acero')">
@@ -288,7 +293,6 @@
                     Sección en construcción. Para más información envianos un mensaje haciendo clic <a href="#contacto">acá</a>
                 </p>
             </div>
-            <div id="contacto" class="pb-5" name="contacto"></div>
         </div>
     </section>
     <!-- Features Section End -->
