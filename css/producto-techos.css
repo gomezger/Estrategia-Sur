@@ -27,6 +27,7 @@ section.titulo .marca{
 	margin-top: -25px;
 	margin-left: 40px;
 	width: 175px;
+	border-radius: 5px;
 }
 
 .portada{

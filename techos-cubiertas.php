@@ -47,21 +47,18 @@
 
 <body id="inicio">
 
-    <div class="botones">
-        <!-- BOTONES VOLVER Begin -->
-        <a href="#" class="subir">
-            <i class="fas fa-chevron-up"></i>
-        </a>
-        <a href="index#paneles-aislantes" class="volver ">
-            <i class="fas fa-chevron-left mr-0 mr-md-2"></i>
-            <div class="texto">Panéles Aislantes</div>
-        </a>
-        <!-- BOTONES VOLVER End -->
-    </div>
+    
+    <!-- botones Begin -->
+    <?php 
+        $lugar_volver_url = 'index#paneles-aislantes';
+        $lugar_volver = 'Paneles Aislantes';
+        include('bloques/botones.php');         
+    ?>
+    <!-- botones End -->
 
 
     <!-- HEADER Begin -->
-    <?php include('bloques/header.php') ?>
+    <?php include('bloques/header.php'); ?>
     <!-- HEADER End -->
 
     <!-- TITULO -->
@@ -191,10 +188,10 @@
     <!-- productos begin-->
     <section class="productos">
         <!-- TEJAROOF begin-->
-        <div class="ancla float-left">
-            <div id="tejatech"  class="punto"></div>
-        </div>
         <div class="producto" >
+            <div class="ancla float-left">
+                <div id="tejatech"  class="punto"></div>
+            </div>
             <div class="imagen">
                 <img src="img/techos-cubiertas/productos/img-tejatech.png" />
             </div>
@@ -203,7 +200,9 @@
                     <div class="titulo">
                         <img src="img/techos-cubiertas/titulos/tejatech.png" />
                         
-                        <img class="ml-3" width="40px" src="img/pir.png">
+                        <img class="ml-3" width="40px" src="img/pur.png">
+
+				<img class="ml-3" width="40px" src="img/pir.png">
                     </div>
                     <div class="texto">
                         Panel en núcleo de poliuretano (PUR) o polisocianurato (PIR) de alta densidad con recubrimiento en cara superior de acero galvanizado, prepintado o cincalum; e inferior con film de polipropileno blanco (foil). Este panel está fabricado en proceso de línea contínua y es ideal para el uso de cubiertas residenciales.
@@ -222,10 +221,10 @@
         <!-- TEJAROOF end -->
         
         <!-- FOILROOF T begin-->
-        <div class="ancla float-left">
-            <div id="foilroof-trapezoidal"  class="punto"></div>
-        </div>
         <div   class="producto fondo2" >
+            <div class="ancla float-left">
+                <div id="foilroof-trapezoidal"  class="punto"></div>
+            </div>
             <div class="inverso-imagen">
                 <img src="img/techos-cubiertas/productos/img-trape.png" />
             </div>
@@ -233,8 +232,8 @@
                 <div class="informacion inverso-informacion">
                     <div class="titulo">
                         <img src="img/techos-cubiertas/titulos/foilroof-trapezoidal.png" />
-                        
-                        <img class="ml-3" width="40px" src="img/pir.png">
+                        <img class="ml-3" width="40px" src="img/pur.png">
+				        <img class="ml-3" width="40px" src="img/pir.png">
                     </div>
                     <div class="texto">
                         Panel de acero fabricado en proceso de línea contínua, con núcleo aislante de poliuretano inyectado de alta densidad. Cara exterior en chapa galvanizada prepintada y cara inferior con film de polipropileno blanco (foil).
@@ -254,10 +253,10 @@
         <!-- foilroof t end -->
 
         <!-- FOILROOF S begin-->
-        <div class="ancla float-left">
-            <div id="foilroof-sinusoidal"  class="punto"></div>
-        </div>
         <div  class="producto" >
+            <div class="ancla float-left">
+                <div id="foilroof-sinusoidal"  class="punto"></div>
+            </div>
             <div class="imagen">
                 <img src="img/techos-cubiertas/productos/img-sinu.png" />
             </div>
@@ -266,7 +265,9 @@
                     <div class="titulo">
                         <img src="img/techos-cubiertas/titulos/foilroof-sinusoidal.png" />
                         
-                        <img class="ml-3" width="40px" src="img/pir.png">
+                        <img class="ml-3" width="40px" src="img/pur.png">
+
+				<img class="ml-3" width="40px" src="img/pir.png">
                     </div>
                     <div class="texto">
                         Panel de acero fabricado en proceso de línea contínua, con núcleo aislante de poliuretano inyectado de alta densidad. Cara exterior en chapa galvanizada prepintada y cara inferior con film de polipropileno blanco (foil).
@@ -287,10 +288,10 @@
 
         
         <!-- MAXIROOF begin-->
-        <div class="ancla float-left">
-            <div id="maxiroof" class="punto"></div>
-        </div>
         <div class="producto fondo2" >
+            <div class="ancla float-left">
+                <div id="maxiroof" class="punto"></div>
+            </div>
             <div class="inverso-imagen">
                 <img src="img/techos-cubiertas/productos/img-maxiroof.png" />
             </div>
@@ -299,7 +300,9 @@
                     <div class="titulo">
                         <img src="img/techos-cubiertas/titulos/maxiroof.png" />
                         
-                        <img class="ml-3" width="40px" src="img/pir.png">
+                        <img class="ml-3" width="40px" src="img/pur.png">
+
+				<img class="ml-3" width="40px" src="img/pir.png">
                     </div>
                     <div class="texto">
                         Panel metálico con núcleo aislante de polluretano de alta densidad, inyectado en línea contínua. Utilizable en cubiertas y restimientos de muros de todo tipo de edificaciones.

@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/barfiller.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/acero-latina.css" type="text/css">
     <link rel="stylesheet" href="css/header.css" type="text/css">
     <link rel="stylesheet" href="css/producto-techos.css" type="text/css">
 
@@ -45,6 +46,16 @@
 </head>
 
 <body>
+    
+    <!-- botones Begin -->
+    <?php 
+        $lugar_volver_url = 'techos-cubiertas';
+        $lugar_volver = 'Techos y Cubiertas';
+        include('bloques/botones.php');         
+    ?>
+    <!-- botones End -->
+
+
     <!-- HEADER Begin -->
     <?php include('bloques/header.php') ?>
     <!-- HEADER End -->

@@ -44,6 +44,10 @@ body {
 }
 .ancla .punto{
 	position: absolute;
+	top: -130px;
+}
+.ancla .punto.contacto{
+	position: absolute;
 	top: -170px;
 }
 
@@ -2279,6 +2283,7 @@ ol {
 /* Tablet : 768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
 	.top-social {
 		display: none;
 	}
@@ -2409,7 +2414,14 @@ ol {
 
 /* Large Mobile : 480px. */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {	
+	.ancla{
+		position: relative;
+	}
+	.ancla .punto{
+		position: absolute;
+		top: -100px;
+	}
 	.top-social {
 		display: none;
 	}

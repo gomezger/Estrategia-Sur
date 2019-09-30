@@ -45,6 +45,16 @@
 </head>
 
 <body id="inicio">
+    
+    <!-- botones Begin -->
+    <?php 
+        $lugar_volver_url = 'index#paneles-aislantes';
+        $lugar_volver = 'Paneles Aislantes';
+        include('bloques/botones.php');         
+    ?>
+    <!-- botones End -->
+
+    
     <!-- HEADER Begin -->
     <?php include('bloques/header.php') ?>
     <!-- HEADER End -->
@@ -137,7 +147,7 @@
                 <div class="imagen imagen-muros">
                     <img width="300px" src="img/fachadas-muros/ventajas/icon-4.png">
                 </div>
-                <div  id="classwall"  class="texto text-light">
+                <div  class="texto text-light">
                     FÁCIL DE TRANSPORTAR
                 </div>
             </div>
@@ -158,7 +168,9 @@
 
     <!-- productos begin-->
     <section class="productos">
-
+        <div class="ancla float-left">
+            <div id="classwall"  class="punto"></div>
+        </div>
         <!-- Classwall T begin-->
         <div class="producto fondo3" >
             <div class="inverso-imagen">
@@ -181,7 +193,7 @@
                         <p><i class="fas fa-check mr-2"></i>De bajo peso y fácil manipulación.</p>
                         <p><i class="fas fa-check mr-2"></i>Excelente acabado interior y exterior.</p>
                         <p><i class="fas fa-check mr-2"></i>Brinda estética arquitectónica por su sistema de fijación oculta.</p>
-                        <p id="megacold"><i class="fas fa-check mr-2"></i>Permite reemplazar el uso de mampostería.</p>
+                        <p><i class="fas fa-check mr-2"></i>Permite reemplazar el uso de mampostería.</p>
                     </div>
                 </div>
             </div>
@@ -191,6 +203,9 @@
         
         <!-- Megacold begin-->
         <div  class="producto fondo4" >
+            <div class="ancla float-left">
+                <div id="megacold"  class="punto"></div>
+            </div>
             <div class="imagen">
                 <img width="300px" src="img/fachadas-muros/productos/megacold.png" />
             </div>
@@ -212,7 +227,7 @@
                         <p><i class="fas fa-check mr-2"></i>Gran flexibilidad para reubicación o ampliación de cámaras.</p>
                         <p><i class="fas fa-check mr-2"></i>Excelente acabado interior y exterior.</p>
                         <p><i class="fas fa-check mr-2"></i>Panel de bajo peso y fàcil manipulación.</p>
-                        <p  id="ignicold" ><i class="fas fa-check mr-2"></i>Ancho útil de 1.15m de PUR/PIR lo que redunda en menos consumo de selladores y en EPS posee un ancho útil de 1.00m.</p>
+                        <p   ><i class="fas fa-check mr-2"></i>Ancho útil de 1.15m de PUR/PIR lo que redunda en menos consumo de selladores y en EPS posee un ancho útil de 1.00m.</p>
                     </div>
                 </div>
             </div>
@@ -221,6 +236,9 @@
 
         <!-- Ignicold T begin-->
         <div class="producto fondo3" >
+            <div class="ancla float-left">
+                <div id="ignicold" class="punto"></div>
+            </div>
             <div class="inverso-imagen">
                 <img width="300px" src="img/fachadas-muros/productos/ignicold.png" />
             </div>

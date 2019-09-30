@@ -2,7 +2,7 @@
 <!-- Contact Section Begin -->
 <section class="contact-section contacto-solapa">
     <div class="ancla float-left">
-        <div id="contacto" class="punto"></div>
+        <div id="contacto" class="punto contacto"></div>
     </div>
     <div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-3 pr-3 pl-md-0 pr-md-0 container">
         <div class="row">

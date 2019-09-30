@@ -46,6 +46,15 @@
 </head>
 
 <body>
+    <!-- botones Begin -->
+    <?php 
+        $lugar_volver_url = 'index#paneles-aislantes';
+        $lugar_volver = 'Paneles Aislantes';
+        include('bloques/botones.php');         
+    ?>
+    <!-- botones End -->
+
+    
     <!-- HEADER Begin -->
     <?php include('bloques/header.php') ?>
     <!-- HEADER End -->

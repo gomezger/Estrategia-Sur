@@ -8,22 +8,22 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav p-0 text-center">
       <li class="nav-item">
-        <a class="nav-link d-inline-block active" href="./#">Inicio</a>
+        <a onclick="ocultarMenu()" class="nav-link d-inline-block active" href="./#">Inicio</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link d-inline-block active" href="./#nosotros">Nosotros</a>
+        <a onclick="ocultarMenu()" class="nav-link d-inline-block active" href="./#nosotros">Nosotros</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link d-inline-block active" href="./#paneles-aislantes">Paneles Aislantes</a>
+        <a onclick="ocultarMenu()" class="nav-link d-inline-block active" href="./#paneles-aislantes">Paneles Aislantes</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link d-inline-block active" href="./#departamento-tecnico">Departamento técnico</a>
+        <a onclick="ocultarMenu()" class="nav-link d-inline-block active" href="./#departamento-tecnico">Departamento técnico</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link d-inline-block active" href="sucursales">Sucursales</a>
+        <a onclick="ocultarMenu()" class="nav-link d-inline-block active" href="sucursales">Sucursales</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link d-inline-block active" href="#contacto">Contacto</a>
+        <a onclick="ocultarMenu()" class="nav-link d-inline-block active" href="#contacto">Contacto</a>
       </li>
     </ul>
   </div>
