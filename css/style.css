@@ -1264,6 +1264,9 @@ ol {
 	color: #330606;
 	margin-bottom: 45px;
 }
+.nosotros-section h2.titulo-departamento{
+	font-size: 30px;
+}
 .nosotros-section h3{
 	display: inline-block;
 	text-transform: uppercase;
@@ -1275,6 +1278,12 @@ ol {
 .nosotros-section p{
 	display: inline-block;
 	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #222;
+}
+.nosotros-section p.departamento{
+	display: inline-block;
+	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
 	color: #222;
 }
@@ -2575,6 +2584,9 @@ ol {
 		font-size: 17px;
 	}
 	.nosotros-section p{
+		font-size: 16px;
+	}
+	.nosotros-section p.departamento{
 		font-size: 16px;
 	}
 	.about-callto-text .cl-right {

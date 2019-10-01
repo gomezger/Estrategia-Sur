@@ -367,9 +367,7 @@ section.productos .producto .informacion .ver-mas{
 
 /* Tablet : 768px. */
 
-@media only screen and (max-width: 991px) {
-
-	
+@media only screen and (max-width: 991px) {	
 
 	section.titulo{
 		background-size: auto 150%;
@@ -447,13 +445,13 @@ section.productos .producto .informacion .ver-mas{
 
 	}
 	.botones .subir{
-		bottom: 5px;
-		right: 5px;	
+		bottom: 8px;
+		right: 8px;	
 	}
 	
 	.botones  .volver{
-		bottom: 5px;
-		left: 5px;	
+		bottom: 8px;
+		left: 8px;	
 		width: 50px;
 		padding-left: 17px;
 	}
@@ -480,6 +478,9 @@ section.productos .producto .informacion .ver-mas{
 	.portada .titulo{
 		font-size: 35px;
 	}	
+	.ventajas{
+		background-size: auto 100%;
+	}
 	.ventajas .ventaja{
 		width: 50%;
 	}
@@ -488,16 +489,26 @@ section.productos .producto .informacion .ver-mas{
 /* Small Mobile : 320px. */
 
 @media only screen and (max-width: 479px) {
+	.portada{
+		background-size: auto 100%; 
+	}
 	.portada .producto{
-		width: 100%;
+		width: 49%;
 		padding: 0x 15%;  
 		margin-bottom: 0px;
 		padding-bottom: 15px;
 	}
 	.sombreado{
-		background-color: rgba(0, 0, 0, 0.061);
+		/* background-color: rgba(0, 0, 0, 0.061); */
 	}
 	.ventajas .ventaja{
-		width: 100%;
+		width: 40%;
+		margin: 0 4.5%;
+	}
+	.ventajas  .ventaja-muros{
+		margin-bottom: 0px;
+	}
+	.ventajas  .ventaja-muros .texto{
+		margin-bottom: 40px;
 	}
 }

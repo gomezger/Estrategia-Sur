@@ -129,47 +129,6 @@
             <div id="paneles-aislantes" class="punto"></div>
         </div>
         <div class="container">
-            
-            <!--<h2 class="text-center col-12 pt-3 pt-md-5 pb-4 mb-4  clearfix">PANELES AISLANTES</h2>-->
-
-            <!-- FILA GENERAL -->
-            <!-- <div class="row">
-                <div class="col-md-4 dos-features" >
-                    <div class="single-features" onclick="abrirDesplazar('paneles')" >
-                        <div class="features-img">
-                            <img src="img/features/paneles.jpg" alt="Paneles Aislantes">
-                            <div class="ver-mas col-12 h-100">Ver más</div>
-                        </div>
-                        <div class="feature-text">
-                            <div class="feature-icon">
-                                <i class="fas fa-angle-double-down pt-2"></i>
-                            </div>
-                            <h5>Construcción sustentable</h5>
-                            <p>Estrategia Sur representa comercialmente al grupo empresario LTN. El mismo está conformado por tres empresas
-                                que brindan sistemas de refrigeración y soluciones constructivas eficientes,
-                                a través de procesos sostenibles y éticamente responsables, los cuales
-                                contribuyen al cuidado del medioambiente.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 dos-features" onclick="abrirDesplazar('servicios')" >
-                    <div class="single-features">
-                        <div class="features-img">
-                            <img src="img/features/departamento-tecnico.jpg" alt="">
-                            <div class="ver-mas col-12 h-100">Ver más</div>
-                        </div>
-                        <div class="feature-text">
-                            <div class="feature-icon">
-                                <i class="fas fa-angle-double-down pt-2"></i>
-                            </div>
-                            <h5>DEPARTAMENTO TéCNICO</h5>
-                            <p>Estrategia Sur ofrece un asesoramiento técnico integral para satisfacer las necesidades
-                                de nuestros clientes y garantizar una eficiente elección y colocación de los paneles.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="clearfix mt-5"></div> -->
 
             <!-- SEGUNDA FILA: GRUPO LTN PANELES TERMICOS -->
             <div class="row">                
@@ -302,24 +261,22 @@
             <div id="departamento-tecnico" class="punto"></div>
         </div>
         <div class="container">
-            <h2 class="text-center col-12 mt-0 pt-1 pb-0 mb-1">Departamento Técnico</h2>
-            <p class="text-justify col-12 pb-1 pb-md-3">
+            <h2 class="text-center col-12 mt-0 pt-1 pb-0 mb-4 titulo-departamento">Departamento Técnico</h2>
+            <p class="text-justify col-12 pb-1 pb-md-3 departamento">
                 <span class="mr-4"></span>
                 Estrategia Sur ofrece un asesoramiento técnico integral para satisfacer las necesidades
                 de nuestros clientes y garantizar una eficiente elección y colocación de los paneles.
                 <br><br>
                 Nuestro Departamento Técnico se encarga de:
                 <br>
-
-                <p class="ml-4 ml-md-5"><i class="fas fa-check mr-4"></i>La evaluación particular de cada proyecto, a fin de brindar un asesoramiento
-                personalizado e integral.</p>
-                <p class="ml-4 ml-md-5"><i class="fas fa-check mr-4"></i>Computar y presupuestar los materiales, acorde a cada proyecto.</p>
-                <p class="ml-4 ml-md-5"><i class="fas fa-check mr-4"></i>Despiece de paneles, a fin de racionalizar y hacer uso correcto de los mismos.</p>
-                <p class="ml-4 ml-md-5"><i class="fas fa-check mr-4"></i>Confeccionar croquis detallado con la distribución de los paneles en obra.</p>
-                <p class="ml-4 ml-md-5"><i class="fas fa-check mr-4"></i>Elaborar planos de detalles técnicos y constructivos, referentes al sistema elegido.</p>
-                <p class="ml-4 ml-md-5"><i class="fas fa-check mr-4"></i>Ofrecer servicio de supervisión de final de obra (opcional).</p>
-
             </p>
+            <p class=" departamento ml-4 ml-md-5"><i class="fas fa-check mr-4"></i>La evaluación particular de cada proyecto, a fin de brindar un asesoramiento
+            personalizado e integral.</p>
+            <p class=" departamento ml-4 ml-md-5"><i class="fas fa-check mr-4"></i>Computar y presupuestar los materiales, acorde a cada proyecto.</p>
+            <p class=" departamento ml-4 ml-md-5"><i class="fas fa-check mr-4"></i>Despiece de paneles, a fin de racionalizar y hacer uso correcto de los mismos.</p>
+            <p class=" departamento ml-4 ml-md-5"><i class="fas fa-check mr-4"></i>Confeccionar croquis detallado con la distribución de los paneles en obra.</p>
+            <p class=" departamento ml-4 ml-md-5"><i class="fas fa-check mr-4"></i>Elaborar planos de detalles técnicos y constructivos, referentes al sistema elegido.</p>
+            <p class=" departamento ml-4 ml-md-5"><i class="fas fa-check mr-4"></i>Ofrecer servicio de supervisión de final de obra (opcional).</p>
         </div>
     </section>
     <!-- departamento tecnico SECTION End  -->

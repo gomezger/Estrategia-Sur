@@ -115,7 +115,7 @@
                  
             <!-- ventaja -->
             <div class="ventaja ventaja-muros">
-                <div class="imagen imagen-muros">
+                <div class="imagen">
                     <img width="300px" src="img/fachadas-muros/ventajas/icon-1.png">
                 </div>
                 <div class="texto text-light">VERSATILIDAD ARQUITECTÓNICA Y EXCELENCIA ESTÉTICA</div>
@@ -124,7 +124,7 @@
             
             <!-- ventaja -->
             <div class="ventaja ventaja-muros">
-                <div class="imagen imagen-muros">
+                <div class="imagen">
                     <img width="300px" src="img/fachadas-muros/ventajas/icon-2.png">
                 </div>
                 <div class="texto text-light">
@@ -134,7 +134,7 @@
         
             <!-- ventaja -->
             <div class="ventaja ventaja-muros">
-                <div class="imagen imagen-muros">
+                <div class="imagen">
                     <img width="300px" src="img/fachadas-muros/ventajas/icon-3.png">
                 </div>
                 <div class="texto text-light">
@@ -144,7 +144,7 @@
         
             <!-- ventaja -->
             <div class="ventaja ventaja-muros">
-                <div class="imagen imagen-muros">
+                <div class="imagen">
                     <img width="300px" src="img/fachadas-muros/ventajas/icon-4.png">
                 </div>
                 <div  class="texto text-light">
@@ -180,8 +180,9 @@
                 <div class="informacion inverso-informacion blanco">
                     <div class="titulo">
                         <img width="300px" src="img/fachadas-muros/titulos/classwall.png" />
+                        <div class="clearfix d-md-none">
                         <img class="ml-3" width="40px" src="img/pur.png">
-                        <img class="ml-1" width="40px" src="img/pir.png">
+                        <img class="ml-1" width="40px" src="img/eps.png">
                     </div>
                     <div class="texto">
                         Panel metálico con diferentes núcleos aislantes, revestido en ambas caras con lámina de acero galvanizado prepintado, provisto con sistema de fijación oculta, ideal para obras que requieren soluciones de aislación y estética al mismo tiempo. Para aplicaciones arquitectónicas, destinado a revestimientos de edificios industriales, comerciales, residenciales, construcciones modulares y obras en general. Fabricación en proceso de línea continua.
@@ -213,7 +214,9 @@
                 <div class="informacion blanco">
                     <div class="titulo">
                         <img width="300px" src="img/fachadas-muros/titulos/megacold.png" />
+                        <div class="clearfix d-md-none">
                         <img class="ml-3" width="40px" src="img/pur.png">
+                        <img class="ml-1" width="40px" src="img/eps.png">
                         <img class="ml-1" width="40px" src="img/pir.png">
                     </div>
                     <div class="texto">
@@ -246,8 +249,8 @@
                 <div class="informacion inverso-informacion blanco">
                     <div class="titulo">
                         <img width="300px" src="img/fachadas-muros/titulos/ignicold.png" />
-                        <img class="ml-3" width="40px" src="img/pur.png">
-                        <img class="ml-1" width="40px" src="img/pir.png">
+                        <div class="clearfix d-md-none">
+                        <img class="ml-3" width="40px" src="img/lrm.png">
                     </div>
                     <div class="texto">
                         Panel resistente al fuego, con recubrimiento en ambas caras de acero galvanizado prepintado, con la posibilidad de optar por la cara exterior galvanizada. En la opción de panel tipo sound, cara interior con terminación microperforada. Producto apto para fachadas y divisiones interiores, recomendado para edificaciones industriales, comerciales, cámaras de sonido, cines, entre otras.
