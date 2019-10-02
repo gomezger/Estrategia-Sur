@@ -40,7 +40,6 @@
     <!-- Script -->
     <script src="https://kit.fontawesome.com/591d68fa75.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="js/funciones.js"></script>
     <script>       
 
         
@@ -96,7 +95,7 @@
                     <div onclick="abrirDesplazar('paneles')" class="leer-mas col-12 h-100">Leer más</div>
                 </a>
                 <h1 class="title-carousel mt-4 mb-4">Estrategia Sur</h1>
-                <a href="#paneles-aislantes" class="primary-btn boton-carousel mt-2">Ver info</a>
+                <a href="#paneles-aislantes" class="primary-btn boton-carousel mt-2 p-3">Ver info</a>
             </div>
         </div>
     </section>

@@ -131,6 +131,8 @@
                     AISLACIÓN ACÚSTICA
                 </div>
             </div>
+            
+            <div class="d-md-none clearfix"></div>
         
             <!-- ventaja -->
             <div class="ventaja ventaja-muros">

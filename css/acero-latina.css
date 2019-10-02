@@ -126,8 +126,7 @@ section.titulo .marca{
 }
 
 .ventajas-muros{
-	background-image: unset;
-	background-color: #fa6f08; 
+	background-image: url('../img/bg-orange.jpg');
 }
 
 .ventajas .titulo{
@@ -161,8 +160,8 @@ section.titulo .marca{
 
 .ventajas .ventaja .imagen{
 	display: inline-block;
-	height: 140px;
-	overflow: hidden;
+/* 	height: 140px;
+ */	overflow: hidden;
 }
 .ventajas .ventaja .imagen-muros{
 	height: 200px;

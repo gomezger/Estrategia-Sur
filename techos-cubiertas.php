@@ -140,6 +140,7 @@
                 <div class="texto">Más facil de transportar y colocar</div>
             </div>
 
+            <div class="d-md-none clearfix"></div>
             
             <!-- ventaja -->
             <div class="ventaja">
@@ -160,6 +161,8 @@
                     AHORRÁ HASTA UN 55% DE ENERGÍA POR AISLAMIENTO
                 </div>
             </div>
+            
+            <div class="d-md-none clearfix"></div>
         
             <!-- ventaja -->
             <div class="ventaja">

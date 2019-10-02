@@ -23,7 +23,7 @@
     <div class="bloque col-12 col-sm-6 col-md-4">
         <h5 class="titulo pb-2">PERFIL GOTERO</h5>
         <img class="col-12 p-0" src="img/techos-cubiertas/tejatech/carousel-img-1-ok.jpg" />
-        <ul class="lista col-12 list-group p-0 pt-2">
+        <ul class="lista col-12 list-group text-left p-0 pt-2">
             <li class="list-group-item p-1"><span>A.</span> Perfil metálico de terminación.</li>
             <li class="list-group-item p-1"><span>B.</span> Tornillo de fijación.</li>                    
             <li class="list-group-item p-1"><span>C.</span> Panel aislante de cubierta.</li>                    
@@ -35,7 +35,7 @@
     <div class="bloque col-12 col-sm-6 col-md-4">
         <h5 class="titulo pb-2">DETALLE CUMBRERA</h5>
         <img class="col-12 p-0" src="img/techos-cubiertas/tejatech/carousel-1-ok-2.jpg" />
-        <ul class="lista col-12 list-group p-0 pt-2">
+        <ul class="lista col-12 list-group text-left p-0 pt-2">
             <li class="list-group-item p-1"><span>A.</span> Panel aislante de cubierta.</li>
             <li class="list-group-item p-1"><span>B.</span> Perfil metálico cumbrera.</li>                    
             <li class="list-group-item p-1"><span>C.</span> Tornillo de sujeción.</li>                    
@@ -49,7 +49,7 @@
     <div class="bloque col-12 col-sm-6 col-md-4">
         <h5 class="titulo pb-2">ENCUENTRO PANEL AISLANTE-MURO</h5>
         <img class="col-12 p-0" src="img/techos-cubiertas/tejatech/img-dc-ok.jpg" />
-        <ul class="lista col-12 list-group p-0 pt-2">
+        <ul class="lista col-12 list-group text-left p-0 pt-2">
             <li class="list-group-item p-1"><span>A.</span> Perfil metálico de terminación.</li>
             <li class="list-group-item p-1"><span>B.</span> Panel aislante de muro.</li>                    
             <li class="list-group-item p-1"><span>C.</span> Remache POP.</li>                    
@@ -63,7 +63,7 @@
     <div class="bloque col-12 col-sm-6 col-md-4">
         <h5 class="titulo pb-2">DETALLE LIMAHOYA</h5>
         <img class="col-12 p-0" src="img/techos-cubiertas/tejatech/carousel-img-5-ok.jpg" />
-        <ul class="lista col-12 list-group p-0 pt-2">
+        <ul class="lista col-12 list-group text-left p-0 pt-2">
             <li class="list-group-item p-1"><span>A.</span> Perfil metálico de terminación.</li>
             <li class="list-group-item p-1"><span>B.</span> Panel aislante de cubierta.</li>                    
             <li class="list-group-item p-1"><span>C.</span> Canaleta limahoya.</li>                    
@@ -76,7 +76,7 @@
     <div class="bloque col-12 col-sm-6 col-md-4">
         <h5 class="titulo pb-2">COLOCACIÓN DE INSTALACIONES</h5>
         <img class="col-12 p-0" src="img/techos-cubiertas/tejatech/carousel-img-6-ok.jpg" />
-        <ul class="lista col-12 list-group p-0 pt-2">
+        <ul class="lista col-12 list-group text-left p-0 pt-2">
             <li class="list-group-item p-1"><span>A.</span> Panel aislante de muro Classwall.</li>
             <li class="list-group-item p-1"><span>B.</span> Anclajes de colocación para mampostería u hormigón.</li>                    
             <li class="list-group-item p-1"><span>C.</span> Perfil metálico de terminación.</li>                    
@@ -91,7 +91,7 @@
     <div class="bloque col-12 col-sm-6 col-md-4">
         <h5 class="titulo pb-2">COLOCACIÓN DE INSTALACIONES</h5>
         <img class="col-12 p-0" src="img/techos-cubiertas/tejatech/carousel-img-3-ok.jpg" />
-        <ul class="lista col-12 list-group p-0 pt-2">
+        <ul class="lista col-12 list-group text-left p-0 pt-2">
             <li class="list-group-item p-1"><span>A.</span> Perfil metálico de terminación.</li>
             <li class="list-group-item p-1"><span>B.</span> Anclaje de sujeción para mampostería u hormigón.</li>                    
             <li class="list-group-item p-1"><span>C.</span> Capeloto.</li>                    

@@ -185,7 +185,7 @@
                 <div class="bloque col-12 col-sm-6 float-left">
                     <div class="col-12 text-center pb-2"><strong>SECO</strong></div>
                     <img class="col-12 p-0 float-left" src="img/pisos-entrepisos/detalles/refe-2.png" />
-                    <ul class="lista col-12 list-group p-0 pt-2 float-left sinfondo">
+                    <ul class="lista col-12 list-group text-left p-0 pt-2 float-left sinfondo">
                         <li class="list-group-item p-1"><span>1.</span> Panel entrepiso modular autoportante.</li>                    
                         <li class="list-group-item p-1"><span>2.</span> Estructura soporte metálica segun cálculo.</li> 
                     </ul>
@@ -193,7 +193,7 @@
                 <div class="bloque col-12 col-sm-6 float-left">
                     <div class="col-12 text-center pb-2"><strong>TRADICIONAL</strong></div>
                     <img class="col-12 p-0 float-left" src="img/pisos-entrepisos/detalles/refe-2.png" />
-                    <ul class="lista col-12 list-group p-0 pt-2 float-left sinfondo">
+                    <ul class="lista col-12 list-group text-left p-0 pt-2 float-left sinfondo">
                         <li class="list-group-item p-1"><span>1.</span> Panel entrepiso modular autoportante.</li>                    
                         <li class="list-group-item p-1"><span>2.</span> Estructura soporte hormigón armado según cálculo.</li> 
                     </ul>
@@ -211,7 +211,7 @@
             <!--bloque 1 -->
             <div class="bloque col-12 col-sm-6 col-md-4">
                 <img class="col-12 p-0" src="img/pisos-entrepisos/detalles/refe-1.png" />
-                <ul class="lista col-12 list-group p-0 pt-2">
+                <ul class="lista col-12 list-group text-left p-0 pt-2">
                     <li class="list-group-item p-1"><strong>Panel entrepiso modular autoportante</strong></li>
                     <li class="list-group-item p-1"><span>1.</span> Panel entrepiso modular autoportante.</li>    
                 </ul>
@@ -220,7 +220,7 @@
             <!-- bloque 2 -->
             <div class="bloque col-12 col-sm-6 col-md-4">
                 <img class="col-12 p-0" src="img/pisos-entrepisos/detalles/refe-2.png" />
-                <ul class="lista col-12 list-group p-0 pt-2">
+                <ul class="lista col-12 list-group text-left p-0 pt-2">
                     <li class="list-group-item p-1"><strong>Placa Fenólico 18 mm colocación junta no alineada. 3. 
                         Tornillo autoroscante para chapa. 4. Membrana Asfáltica 4 mm sin aluminio.</strong></li>
                     <li class="list-group-item p-1"><span>2.</span> Placa Fenólico 18 mm colocación junta no alineada.</li>                    
@@ -232,7 +232,7 @@
             <!-- bloque 3 -->
             <div class="bloque col-12 col-sm-6 col-md-4">
                 <img class="col-12 p-0" src="img/pisos-entrepisos/detalles/refe-3.png" />
-                <ul class="lista col-12 list-group p-0 pt-2">
+                <ul class="lista col-12 list-group text-left p-0 pt-2">
                     <li class="list-group-item p-1"><strong>Placa cementicia 15 mm. 6. Pegamento flexible para porcelanato o cerámico. 7. Porcelanato o cerámico.</strong></li>
                     <li class="list-group-item p-1"><span>5.</span> Placa cementicia 15 mm.</li>                    
                     <li class="list-group-item p-1"><span>6.</span> Pegamento flexible para porcelanato o cerámico.</li>                    
@@ -244,7 +244,7 @@
             <!--bloque 4 -->
             <div class="bloque col-12 col-sm-6 col-md-4">
                     <img class="col-12 p-0" src="img/pisos-entrepisos/detalles/refe-4.png" />
-                <ul class="lista col-12 list-group p-0 pt-2">
+                <ul class="lista col-12 list-group text-left p-0 pt-2">
                     <li class="list-group-item p-1"><strong>Placa Fenólico 18 mm colocación junta no alineada. 4. Membrana Asfáltica 4 mm sin aluminio. 8. Piso flotante ignífugo.</strong></li>
                     <li class="list-group-item p-1"><span>2.</span> Placa Fenólico 18 mm colocación junta no alineada.</li>                    
                     <li class="list-group-item p-1"><span>4.</span> Membrana Asfáltica 4 mm sin aluminio.</li>                    
@@ -255,7 +255,7 @@
             <!-- bloque 5 -->
             <div class="bloque col-12 col-sm-6 col-md-4">
                     <img class="col-12 p-0" src="img/pisos-entrepisos/detalles/refe-5.png" />
-                <ul class="lista col-12 list-group p-0 pt-2">
+                <ul class="lista col-12 list-group text-left p-0 pt-2">
                     <li class="list-group-item p-1"><strong>Soleras galvanizadas de 35 mm tomadas a panel cada 1 m. 10. Perfilería soporte cielorraso placa de yeso. 11. Lana Mineral 50 mm. 12. Placa roca de yeso FR30 e= 12,5 mm.</strong></li>
                     <li class="list-group-item p-1"><span>9.</span> Soleras galvanizadas de 35 mm tomadas a panel cada 1 m.</li>                    
                     <li class="list-group-item p-1"><span>10.</span> Perfilería soporte cielorraso placa de yeso.</li>                    

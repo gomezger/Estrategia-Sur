@@ -218,6 +218,7 @@ section.titulo .marca{
 
 @media only screen and (max-width: 991px) {	
 	section.titulo{
+		text-shadow: 4px 4px 25px rgb(0, 0, 0);
 		background-position: center bottom;
 		padding: 15px 0;
 		background-size: auto 100%;
@@ -230,11 +231,11 @@ section.titulo .marca{
 	
 	section.titulo h2{
 		font-size: 16px;
-		margin-top: 0px;
+		margin-top: 15px;
 	}
 	section.titulo .marca{
 		margin-top: 0px;
-		margin-left: 10px;
+		margin-left: 0px;
 		width: 100px;
 	}	
 	
@@ -243,8 +244,8 @@ section.titulo .marca{
 		background-size: auto 100%;
 	}
 	.portada .imagen{
-		margin-left: 20%;
-		margin-right: 10%;
+		margin-left: 15%;
+		margin-right: 15%;
 		max-width: 70%;
 	}
 	.portada .imagen img{
@@ -308,7 +309,9 @@ section.titulo .marca{
 	.caracteristicas .detalles{
 	}
 	.caracteristicas .detalles .imagen{
-		display: none;
+		position: unset;
+		float: left;
+		width: 100%;
 	}
 	.caracteristicas .detalles .info{
 		line-height: 30px;
@@ -335,4 +338,5 @@ section.titulo .marca{
 
 /* Small Mobile : 320px. */
 
+@media only screen and (max-width: 320px) {
 }

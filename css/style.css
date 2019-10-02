@@ -1283,7 +1283,7 @@ ol {
 }
 .nosotros-section p.departamento{
 	display: inline-block;
-	font-size: 16px;
+	font-size: 18px;
 	font-family: 'Montserrat', sans-serif;
 	color: #222;
 }
@@ -2734,7 +2734,7 @@ ol {
 	}
 	
 	.single-slide {
-		padding-top: 150px;
+		padding-top: 100px;
 		height: 500px;
 	}
 	.single-slide h1 {
