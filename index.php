@@ -124,7 +124,7 @@
 
 
     <!-- Features Section Begin -->
-    <section class="features-section pt-5">
+    <section class="features-section pt-5 pb-3">
         <div class="ancla float-left">
             <div id="paneles-aislantes" class="punto"></div>
         </div>

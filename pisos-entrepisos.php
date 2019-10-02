@@ -114,6 +114,8 @@
                     Fácil de transportar
                 </div>
             </div>
+
+            <div class="d-md-none clearfix"></div>
         
             <!-- ventaja -->
             <div class="ventaja ventaja-pisos">
@@ -134,6 +136,9 @@
                     Resistente
                 </div>
             </div>
+
+            
+            <div class="d-md-none clearfix"></div>
         
             <!-- ventaja -->
             <div class="ventaja ventaja-pisos">
@@ -167,8 +172,40 @@
                 <img class="d-inline-block mb-4" src="img/pisos-entrepisos/especificaciones/esp-tec-1-ok1-1024x446.png" />
                 <img class="d-inline-block" src="img/pisos-entrepisos/especificaciones/esp-tec-2-ok-1024x446.png" />
             </div>
-        </div>        
+        </div> 
+    </section>       
         
+    <!-- adaptacion begin -->
+    <section class="adaptacion mt-4 float-left p-0 pb-5">
+		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-md-2 pr-md-2 container text-center">
+            <h6 class="titulo pt-3">ADAPTACIÓN A LOS DIFERENTES SISTEMAS CONSTRUCTIVOS</h6>
+            <span class="separador"></span>
+            
+            <div class="col-12 float-left p-0 text-left">
+                <div class="bloque col-12 col-sm-6 float-left">
+                    <div class="col-12 text-center pb-2"><strong>SECO</strong></div>
+                    <img class="col-12 p-0 float-left" src="img/pisos-entrepisos/detalles/refe-2.png" />
+                    <ul class="lista col-12 list-group p-0 pt-2 float-left sinfondo">
+                        <li class="list-group-item p-1"><span>1.</span> Panel entrepiso modular autoportante.</li>                    
+                        <li class="list-group-item p-1"><span>2.</span> Estructura soporte metálica segun cálculo.</li> 
+                    </ul>
+                </div>
+                <div class="bloque col-12 col-sm-6 float-left">
+                    <div class="col-12 text-center pb-2"><strong>TRADICIONAL</strong></div>
+                    <img class="col-12 p-0 float-left" src="img/pisos-entrepisos/detalles/refe-2.png" />
+                    <ul class="lista col-12 list-group p-0 pt-2 float-left sinfondo">
+                        <li class="list-group-item p-1"><span>1.</span> Panel entrepiso modular autoportante.</li>                    
+                        <li class="list-group-item p-1"><span>2.</span> Estructura soporte hormigón armado según cálculo.</li> 
+                    </ul>
+                    </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- adaptacion end -->
+
+    <!-- caracteristicas begin -->
+    <section class="caracteristicas col-12">
         <!-- detalles -->
         <div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 mt-5 pt-5 container">
             <!--bloque 1 -->
