@@ -42,7 +42,7 @@ section.sucursales{
 section.sucursales .sucursal{
 	width: 100%;
 	margin: 40px 0;
-	margin-bottom: 0;
+	margin-bottom: 40px;
 	padding: 12px 18px;
 	background-color: rgb(255, 255, 255);
 	border-radius: 5px;

@@ -99,7 +99,7 @@
     <!-- TITULO ENDS-->
 
     <!-- Sucursales begin -->
-    <section class="sucursales col-12 float-left p-0">
+    <section class="p-0 sucursales col-12 float-left">
         <div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-3 pr-3 pl-md-0 pr-md-0 container">
           
           <div class="get mt-3">
@@ -143,7 +143,7 @@
             <div class="col-12 col-md-4 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
                   <i class="fas fa-chevron-right pr-1 mr-1"></i>
-                  Teléfono: +54 9 291 4360055
+                  Teléfono: 291 4360055
               </div>
               <div class="fila col-12 p-0">
                   <i class="fas fa-chevron-right pr-1 mr-1"></i>
@@ -151,12 +151,13 @@
               </div>
             </div>
             <div class="col-12 col-md-3 m-0 h-100 mt-2 d-inline-block text-center text-md-right float-left ">
-              <button onclick="mostrarMapa(0)" type="button" class="btn btn-success"><i class="fas fa-map-marked-alt mr-2 mb-2"></i>Ver mapa</button>
+              <button onclick="mostrarMapa(0)" type="button" class="btn btn-success mb-4 mb-md-2"><i class="fas fa-map-marked-alt mr-2"></i>Mapa</button>
+              <a href="tel:2914360055" class="btn btn-success mb-4 mb-md-2 ml-2 d-md-none"><i class="fas fa-phone mr-2 "></i>Llamar</a>
             </div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35204.56132235907!2d-62.29289103515532!3d-38.7482653334147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbd1881506fb3%3A0x8d76d498d6829b0d!2sInt.+Haroldo+Casanova+3349%2C+Bah%C3%ADa+Blanca%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1566576937075!5m2!1ses!2sar"
               style="border:0" allowfullscreen
-              class="col-12 p-0 mt-1 mapa-0 o-0 d-nonefloat-left"
+              class="col-12 p-0 mt-1 mapa-0 o-0 d-none float-left"
             >
             </iframe>
           </div>
