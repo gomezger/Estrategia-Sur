@@ -1,6 +1,6 @@
 
 <!-- Contact Section Begin -->
-<section class="contact-section contacto-solapa">
+<section class="contact-section contacto-solapa float-left d-block col-12">
     <div class="ancla float-left">
         <div id="contacto" class="punto contacto"></div>
     </div>
@@ -68,7 +68,7 @@
 <!-- Contact Section End -->
 
 <!-- Footer Section Begin -->
-<footer class="footer-section set-bg"> <!-- data-setbg="img/carousel1.jpg"> -->
+<footer class="footer-section set-bg col-12 float-left"> <!-- data-setbg="img/carousel1.jpg"> -->
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

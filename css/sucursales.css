@@ -1,0 +1,124 @@
+
+section.titulo{
+	width: 100%;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 30px 0;
+	background-image: url('../img/slide-techosmurosentrepisos.jpg');
+	background-position: center;
+	background-size: 100% auto;
+	font-family: 'Montserrat', sans-serif; 
+}
+
+section.titulo h1{
+	color: #FFF;
+    font-size: 50px;
+    margin-bottom: 10px;
+	display: inline-block;
+}
+
+section.titulo h2{
+	color: #FFF;
+	font-size: 18px;
+}
+section.titulo .marca{
+	display: inline-block;
+	margin-top: -25px;
+	margin-left: 40px;
+	width: 175px;
+	border-radius: 5px;
+}
+
+
+section.sucursales{
+	font-family: 'Montserrat', sans-serif; 
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 40px;
+	background-color: rgb(250, 250, 250);
+}
+
+section.sucursales .sucursal{
+	width: 100%;
+	margin: 40px 0;
+	margin-bottom: 0;
+	padding: 12px 18px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.068);
+	border: 2px solid rgba(0, 0, 0, 0.089);
+}
+
+section.sucursales .sucursal .titulo{
+	color: rgb(221, 93, 19);
+	font-weight: normal;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+section.sucursales .sucursal .fila{
+	color: rgb(24, 24, 24);
+	font-weight: normal;
+	font-size: 14.5px;
+	margin-bottom: 10px;
+}
+
+section.sucursales .sucursal iframe{
+	height: 400px;
+}
+
+
+/*....................  Resposive Media Styles  .......................*/
+
+@media (max-width: 1650px) {
+
+	
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1400px) {
+	
+}
+
+
+/* Medium Device : 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+/* Tablet : 768px. */
+
+@media only screen and (max-width: 991px) {	
+	section.titulo{
+		text-shadow: 4px 4px 25px rgb(0, 0, 0);
+		background-position: center bottom;
+		padding: 15px 0;
+		background-size: auto 100%;
+	}
+
+	section.titulo h1{
+		font-size: 33px;
+		margin-bottom: 10px;
+	}
+	
+	section.titulo h2{
+		font-size: 16px;
+		margin-top: 15px;
+	}
+	section.titulo .marca{
+		margin-top: 0px;
+		margin-left: 0px;
+		width: 100px;
+	}	
+
+}
+
+/* Large Mobile : 480px. */
+
+@media only screen and (max-width: 767px) {
+}
+
+/* Small Mobile : 320px. */
+
+@media only screen and (max-width: 320px) {
+}
