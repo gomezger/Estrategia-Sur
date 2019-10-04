@@ -1,11 +1,9 @@
 
+
 <!-- Contact Section Begin -->
-<section class="contact-section contacto-solapa float-left d-block col-12">
-    <div class="ancla float-left">
-        <div id="contacto" class="punto contacto"></div>
-    </div>
+<section class="col-12 contact-section contacto-solapa float-left">
     <div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-3 pr-3 pl-md-0 pr-md-0 container">
-        <div class="row">
+        <div class="row ">
             <div class="col-lg-6">
                 <div class="contact-info">
                     <div class="contact-details">
@@ -36,21 +34,21 @@
                     </div>
                     <div id="mensaje-contacto" class="mensaje-formulario col-12 float-left clearfix m-0 p-0 mb-4 text-center text-sm-left"></div>
                     <div class="contact-form">
-                        <form action="actions/contacto.php" method="post">
-                            <div class="row">
-                                <div class="col-lg-6">
+                        <form class="col-12 p-0" action="actions/contacto.php" method="post">
+                            <div class="row col-12 pr-0">
+                                <div class="col-12 col-md-6 p-0 pr-md-1">
                                     <input type="text" name="nombre-es" placeholder="Nombre y Apellido" required>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-12 col-md-6 p-0 pl-md-1">
                                     <input type="email" name="correo-es" placeholder="Email" required>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-12 col-md-6 p-0 pr-md-1">
                                     <input type="text" name="telefono-es" placeholder="Teléfono">
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-12 col-md-6 p-0 pl-md-1">
                                     <input type="text" name="empresa-es" placeholder="Empresa">
                                 </div>
-                                <div class="col-lg-12">
+                                <div class="col-12 p-0">
                                     <textarea placeholder="Mensaje" name="mensaje-es" required></textarea>
                                     <button class="site-btn float-left" type="submit">Enviar mensaje</button>
                                 </div>
@@ -68,7 +66,7 @@
 <!-- Contact Section End -->
 
 <!-- Footer Section Begin -->
-<footer class="footer-section set-bg col-12 float-left"> <!-- data-setbg="img/carousel1.jpg"> -->
+<footer class="col-12 footer-section set-bg float-left"> <!-- data-setbg="img/carousel1.jpg"> -->
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -78,10 +76,12 @@
                     </div>
                     <div class="footer-menu">
                         <ul>
-                            <li><a onclick="desplazar('body')" href="#">Inicio</a></li>
-                            <li><a onclick="desplazar('#nosotros')" href="#nosotros">Nosotros</a></li>
-                            <li><a onclick="desplazar('.features-section')" href="#paneles-aislantes" >Paneles Aislantes</a></li>
-                            <li><a onclick="desplazar('.contacto-solapa')" href="#contacto" name="contacto" >Contacto</a></li>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#nosotros">Nosotros</a></li>
+                            <li><a href="#paneles-aislantes" >Paneles Aislantes</a></li>
+                            <li><a href="#departamento-tecnico">Departamento Técnico</a></li>
+                            <li><a href="#sucursales">Sucursales</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
                         </ul>
                     </div>
                     <div class="copyright">
