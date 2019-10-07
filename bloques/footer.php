@@ -1,7 +1,7 @@
 
 
 <!-- Contact Section Begin -->
-<section class="col-12 contact-section contacto-solapa float-left">
+<section id="contacto" class="col-12 contact-section contacto-solapa float-left">
     <div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-3 pr-3 pl-md-0 pr-md-0 container">
         <div class="row ">
             <div class="col-lg-6">
@@ -60,7 +60,7 @@
         </div>
     </div>
     <div class="map"><iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35204.56132235907!2d-62.29289103515532!3d-38.7482653334147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbd1881506fb3%3A0x8d76d498d6829b0d!2sInt.+Haroldo+Casanova+3349%2C+Bah%C3%ADa+Blanca%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1566576937075!5m2!1ses!2sar"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31055.154297102614!2d-62.287013097863564!3d-38.76677088150657!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x41b9a383b5ab43c8!2sEstrategia%20Sur%20-%20Agencia%20Comercial!5e0!3m2!1ses!2sar!4v1570473498814!5m2!1ses!2sar"
             style="border:0" allowfullscreen></iframe></div>
 </section>
 <!-- Contact Section End -->

@@ -8,6 +8,13 @@ function desplazar(div){
     }, 0);
 }
 
+function desplazarSucursal(div){
+    var etop = $(div).offset().top;
+    $('html, body').animate({
+        scrollTop: etop-20
+    }, 0);
+}
+
 const param = getURLParameter('t');  
 if(param!=null){
     document.getElementById("mensaje-contacto").innerHTML = param;
