@@ -46,7 +46,10 @@
         //Datos de sucursales
         const sucursales = [
           [0, "Bahía Blanca", [-38.75896,-62.28665]],
-          [1, "Neuquén", [-38.9516784,-68.0591888]]
+          [1, "Neuquén", [-38.967685,-68.07071]],
+          [2, "Zapala", [-38.894071,-70.08688]],
+          [3, "Añelo", [-38.36168,-68.750326]],
+          [4, "Trelew", [-43.260738,-65.347481]],
         ];
        
         function sucursalCercana(){
@@ -141,30 +144,35 @@
             </button>     
           </div>
 
+          <!-- BAHIA BLANCA CASA CENTRAL -->
           <div id="sucursal-0" class="sucursal col-12 float-left ">
-            <h3 class="titulo clearfix">Bahía Blanca<span class="d-none ml-2 text-dark cercana-0">(más cercana)</span></h3>
+            <h3 class="titulo clearfix">Estrategia Sur<span class="d-none ml-2 text-dark cercana-0">(más cercana)</span></h3>
             <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
-                <i class="fas fa-chevron-right pr-1 mr-1"></i>
+                <i class="far fa-building mr-2"></i>
                 Int. Haroldo Casanova 3349 (Oficina 2 - Centro de Desarrollo)
               </div>
               <div class="fila col-12 p-0">
-                  <i class="fas fa-chevron-right pr-1 mr-1"></i>
+                <i class="fas fa-map-marker-alt mr-2"></i>
                   Parque Industrial de Bahía Blanca
               </div>
               <div class="fila col-12 p-0">
-                  <i class="fas fa-chevron-right pr-1 mr-1"></i>
+                <i class="fas fa-globe-europe mr-2"></i>
                   Buenos Aires, Argentina
               </div>
             </div>
             <div class="col-12 col-md-4 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
-                  <i class="fas fa-chevron-right pr-1 mr-1"></i>
-                  Teléfono: 291 4360055
+                <i class="fas fa-phone mr-2"></i>
+                  Teléfono: +54 9 291 4360055
               </div>
               <div class="fila col-12 p-0">
-                  <i class="fas fa-chevron-right pr-1 mr-1"></i>
-                  Horario: Lun/Vie:9-20:30|Sab:9-20:30
+                  <i class="far fa-clock mr-2"></i>
+                  Horario: Lun a Vie de 9hs a 18hs
+              </div>
+              <div class="fila col-12 p-0">
+                <i class="far fa-envelope mr-2"></i>
+                  info@estrategiasur.com.ar
               </div>
             </div>
             <div class="col-12 col-md-3 m-0 h-100 mt-2 d-inline-block text-center text-md-right float-left ">
@@ -178,45 +186,171 @@
             >
             </iframe>
           </div>
-
+          <!-- FIN BAHIA BLANCA CASA CENTRAL -->
+          
+          <!-- NEUQuEN CASA CENTRAL -->
           <div id="sucursal-1" class="sucursal col-12 float-left ">
-            <h3 class="titulo clearfix">Neuquén<span class="d-none ml-2 text-dark cercana-1">(más cercana)</span></h3>
-            
+            <h3 class="titulo clearfix">Jorge Fernández & Reynaldo Hermosilla<span class="d-none ml-2 text-dark cercana-1">(más cercana)</span></h3>
             <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
-                <i class="fas fa-chevron-right pr-1 mr-1"></i>
-                Int. Haroldo Casanova 3349 (Oficina 2 - Centro de Desarrollo)
+                <i class="far fa-building mr-2"></i>
+                Int. Chaneton 1195
               </div>
               <div class="fila col-12 p-0">
-                  <i class="fas fa-chevron-right pr-1 mr-1"></i>
-                  Parque Industrial de Bahía Blanca
+                <i class="fas fa-map-marker-alt mr-2"></i>
+                Neuquén Capital
               </div>
               <div class="fila col-12 p-0">
-                  <i class="fas fa-chevron-right pr-1 mr-1"></i>
-                  Buenos Aires, Argentina
+                <i class="fas fa-globe-europe mr-2"></i>
+                Neuquén, Argentina
               </div>
             </div>
             <div class="col-12 col-md-4 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
-                  <i class="fas fa-chevron-right pr-1 mr-1"></i>
-                  Teléfono: 291 4360055
+                <i class="fas fa-phone mr-2"></i>
+                  Teléfono: +54 9 299 6356025
               </div>
               <div class="fila col-12 p-0">
-                  <i class="fas fa-chevron-right pr-1 mr-1"></i>
-                  Horario: Lun/Vie:9-20:30|Sab:9-20:30
+                <i class="fas fa-phone mr-2"></i>
+                  Teléfono: +54 9 299 6011310
+              </div>
+              <div class="fila col-12 p-0">
+                <i class="far fa-envelope mr-2"></i>
+                  info.neuquen@estrategiasur.com.ar
               </div>
             </div>
             <div class="col-12 col-md-3 m-0 h-100 mt-2 d-inline-block text-center text-md-right float-left ">
               <button onclick="mostrarMapa(1)" type="button" class="btn btn-success mb-4 mb-md-2"><i class="fas fa-map-marked-alt mr-2"></i>Mapa</button>
-              <a href="tel:2914360055" class="btn btn-success mb-4 mb-md-2 ml-2 d-md-none"><i class="fas fa-phone mr-2 "></i>Llamar</a>
+              <a href="tel:2996356025" class="btn btn-success mb-4 mb-md-2 ml-2 d-md-none"><i class="fas fa-phone mr-2 "></i>Llamar</a>
             </div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35437.69885834043!2d-68.03980062775732!3d-38.963510200817005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDU3JzA2LjAiUyA2OMKwMDMnMzMuMSJX!5e0!3m2!1ses!2sar!4v1570216279671!5m2!1ses!2sar"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12408.347281293818!2d-68.0707097!3d-38.9676855!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x263ace44644d88fe!2sHojalateria%20Hermosilla!5e0!3m2!1ses!2sar!4v1570483211463!5m2!1ses!2sar"
               style="border:0" allowfullscreen
               class="col-12 p-0 mt-1 mapa-1 o-1 d-none float-left"
             >
             </iframe>
           </div>
+          <!-- FIN NEUQuEN CASA CENTRAL -->
+
+          <!-- zapala CASA CENTRAL -->
+          <div id="sucursal-2" class="sucursal col-12 float-left ">
+            <h3 class="titulo clearfix">Arquitecta Leda Gropa<span class="d-none ml-2 text-dark cercana-2">(más cercana)</span></h3>
+            <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
+              <div class="fila col-12 p-0">
+                <i class="far fa-building mr-2"></i>
+                Aluminé 1469
+              </div>
+              <div class="fila col-12 p-0">
+                <i class="fas fa-map-marker-alt mr-2"></i>
+                Zapala
+              </div>
+              <div class="fila col-12 p-0">
+                <i class="fas fa-globe-europe mr-2"></i>
+                Neuquén, Argentina
+              </div>
+            </div>
+            <div class="col-12 col-md-4 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
+              <div class="fila col-12 p-0">
+                <i class="fas fa-phone mr-2"></i>
+                  Teléfono: +54 9 2942 356413
+              </div>
+              <div class="fila col-12 p-0">
+                <i class="far fa-envelope mr-2"></i>
+                info.zapala@estrategiasur.com.ar
+              </div>
+            </div>
+            <div class="col-12 col-md-3 m-0 h-100 mt-2 d-inline-block text-center text-md-right float-left ">
+              <button onclick="mostrarMapa(2)" type="button" class="btn btn-success mb-4 mb-md-2"><i class="fas fa-map-marked-alt mr-2"></i>Mapa</button>
+              <a href="tel:2942356413" class="btn btn-success mb-4 mb-md-2 ml-2 d-md-none"><i class="fas fa-phone mr-2 "></i>Llamar</a>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12421.232067805691!2d-70.0868802!3d-38.8940711!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1fc74b7757911db3!2sFines%20SRL!5e0!3m2!1ses!2sar!4v1570483228670!5m2!1ses!2sar"
+              style="border:0" allowfullscreen
+              class="col-12 p-0 mt-1 mapa-2 o-2 d-none float-left"
+            >
+            </iframe>
+          </div>
+          <!-- FIN zapala CASA CENTRAL -->    
+          
+          <!-- añelo CASA CENTRAL -->
+          <div id="sucursal-3" class="sucursal col-12 float-left ">
+            <h3 class="titulo clearfix">Arquitecto Pedro Montes de Oca<span class="d-none ml-2 text-dark cercana-3">(más cercana)</span></h3>
+            <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
+              <div class="fila col-12 p-0">
+                <i class="far fa-building mr-2"></i>
+                Ruta provincial 7, km 98, Lote 11
+              </div>
+              <div class="fila col-12 p-0">
+                <i class="fas fa-map-marker-alt mr-2"></i>
+                Añelo
+              </div>
+              <div class="fila col-12 p-0">
+                <i class="fas fa-globe-europe mr-2"></i>
+                Neuquén, Argentina
+              </div>
+            </div>
+            <div class="col-12 col-md-4 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
+              <div class="fila col-12 p-0">
+                <i class="fas fa-phone mr-2"></i>
+                  Teléfono: +54 9 221 601-8715
+              </div>
+              <div class="fila col-12 p-0">
+                <i class="far fa-envelope mr-2"></i>
+                info.anelo@estrategiasur.com.ar
+              </div>
+            </div>
+            <div class="col-12 col-md-3 m-0 h-100 mt-2 d-inline-block text-center text-md-right float-left ">
+              <button onclick="mostrarMapa(3)" type="button" class="btn btn-success mb-4 mb-md-2"><i class="fas fa-map-marked-alt mr-2"></i>Mapa</button>
+              <a href="tel:2216018715" class="btn btn-success mb-4 mb-md-2 ml-2 d-md-none"><i class="fas fa-phone mr-2 "></i>Llamar</a>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4870.337677416353!2d-68.76886861275878!3d-38.356247802239636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960b67baa6f1a90f%3A0x9379081c6d0660d7!2zUlA3LCBOZXVxdcOpbg!5e0!3m2!1ses-419!2sar!4v1570487603798!5m2!1ses-419!2sar"
+              style="border:0" allowfullscreen
+              class="col-12 p-0 mt-1 mapa-3 o-3 d-none float-left"
+            >
+            </iframe>
+          </div>
+          <!-- Añelo CASA CENTRAL --> 
+          
+          <!-- Trelew CASA CENTRAL -->
+          <div id="sucursal-4" class="sucursal col-12 float-left ">
+            <h3 class="titulo clearfix">Mario Chaparro<span class="d-none ml-2 text-dark cercana-4">(más cercana)</span></h3>
+            <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
+              <div class="fila col-12 p-0">
+                <i class="far fa-building mr-2"></i>
+                26 De Noviembre Norte 350
+              </div>
+              <div class="fila col-12 p-0">
+                <i class="fas fa-map-marker-alt mr-2"></i>
+                Trelew
+              </div>
+              <div class="fila col-12 p-0">
+                <i class="fas fa-globe-europe mr-2"></i>
+                Chubut, Argentina
+              </div>
+            </div>
+            <div class="col-12 col-md-4 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
+              <div class="fila col-12 p-0">
+                <i class="fas fa-phone mr-2"></i>
+                  Teléfono: +54 9 280 4347205
+              </div>
+              <div class="fila col-12 p-0">
+                <i class="far fa-envelope mr-2"></i>
+                info.trelew@estrategiasur.com.ar
+              </div>
+            </div>
+            <div class="col-12 col-md-3 m-0 h-100 mt-2 d-inline-block text-center text-md-right float-left ">
+              <button onclick="mostrarMapa(4)" type="button" class="btn btn-success mb-4 mb-md-2"><i class="fas fa-map-marked-alt mr-2"></i>Mapa</button>
+              <a href="tel:2804347205" class="btn btn-success mb-4 mb-md-2 ml-2 d-md-none"><i class="fas fa-phone mr-2 "></i>Llamar</a>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11622.22186043036!2d-65.3474813!3d-43.2607376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x428aead46593a37a!2sMetal%C3%BArgica%20Chaparro%20Alquiler%20de%20Hidrogruas!5e0!3m2!1ses!2sar!4v1570483260744!5m2!1ses!2sar"
+              style="border:0" allowfullscreen
+              class="col-12 p-0 mt-1 mapa-4 o-4 d-none float-left"
+            >
+            </iframe>
+          </div>
+          <!-- Trelew CASA CENTRAL -->   
         </div>
     </section>
     <!-- Sucursales end -->
