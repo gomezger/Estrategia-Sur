@@ -150,7 +150,7 @@
                                 <i class="fas fa-angle-double-down pt-2"></i>
                             </div>
                             <h5>Paneles térmicos</h5>
-                            <p class="text-center">Empresa dedicada a la fabricación y comercialización de paneles y soluciones arquitectónicas con aislamiento térmico y acústico.</p>
+                            <p class="text-center">Acerolatina se dedicada a la fabricación y comercialización de paneles y soluciones arquitectónicas con aislamiento térmico y acústico.</p>
                         </div>
                     </div>
                 </div>
@@ -164,7 +164,7 @@
                                 <i class="fas fa-plus pt-2"></i>
                             </div>
                             <h5>Refrigeración modular</h5>
-                            <p class="text-center">Empresa proveedora de soluciones integrales en cámaras frigoríficas modulares, cerramientos y proyectos llave en mano.</p>
+                            <p class="text-center">Friolatina es proveedora de soluciones integrales en cámaras frigoríficas modulares, cerramientos y proyectos llave en mano.</p>
                         </div>
                     </div>
                 </div>
@@ -178,7 +178,7 @@
                                 <i class="fas fa-plus pt-2"></i>
                             </div>
                             <h5>sistemas de refrigeración</h5>
-                            <p class="text-center">Dedicados a la fabricación de Equipamientos frigoríficos y unidades condensadoras.</p>
+                            <p class="text-center">Bervill se dedidca a la fabricación de Equipamientos frigoríficos y unidades condensadoras.</p>
                         </div>
                     </div>
                 </div>

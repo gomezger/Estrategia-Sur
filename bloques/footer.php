@@ -15,20 +15,18 @@
                             <li>
                                 <i class="fas fa-map-marker-alt"></i>
                                 <span class="pl-2">Parque Industrial de Bahía Blanca, Buenos Aires, Argentina</span>
-                            </li><!-- 
-                            <li>
-                                <i class="far fa-clock"></i>
-                                <span class="pl-2">Lunes a viernes de 9hs a 18hs</span>
-                            </li> -->
+                            </li>
                             <li>
                                 <i class="fas fa-phone"></i>
-                                <span class="pl-2">+54 9 291 4360055 (Lunes a Viernes de 9hs a 18hs)</span>
-                                
+                                <span class="pl-2">+54 9 291 4360055 (Lunes a Viernes de 9hs a 18hs)</span>                                
                             </li>
                             <li>
                                 <i class="far fa-envelope"></i>
-                                <span class="pl-2"> info@estrategiasur.com.ar</span>
-                                
+                                <span class="pl-2"> info@estrategiasur.com.ar</span>                                
+                            </li>
+                            <li>
+                                <i class="fas fa-store-alt"></i>
+                                <a href="sucursales" class="pl-2 text-dark">Ver sucursales</a>                                
                             </li>
                         </ul>
                     </div>
