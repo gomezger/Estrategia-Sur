@@ -78,7 +78,7 @@
                             <li><a href="#nosotros">Nosotros</a></li>
                             <li><a href="#paneles-aislantes" >Paneles Aislantes</a></li>
                             <li><a href="#departamento-tecnico">Departamento Técnico</a></li>
-                            <li><a href="#sucursales">Sucursales</a></li>
+                            <li><a href="sucursales">Sucursales</a></li>
                             <li><a href="#contacto">Contacto</a></li>
                         </ul>
                     </div>

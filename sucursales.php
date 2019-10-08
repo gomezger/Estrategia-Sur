@@ -190,7 +190,7 @@
           
           <!-- NEUQuEN CASA CENTRAL -->
           <div id="sucursal-1" class="sucursal col-12 float-left ">
-            <h3 class="titulo clearfix">Jorge Fernández & Reynaldo Hermosilla<span class="d-none ml-2 text-dark cercana-1">(más cercana)</span></h3>
+            <h3 class="titulo clearfix">Jorge Fernández & Reinaldo Hermosilla<span class="d-none ml-2 text-dark cercana-1">(más cercana)</span></h3>
             <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
                 <i class="far fa-building mr-2"></i>
