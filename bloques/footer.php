@@ -26,7 +26,7 @@
                             </li>
                             <li>
                                 <i class="fas fa-store-alt"></i>
-                                <a href="sucursales" class="pl-2 text-dark">Ver sucursales</a>                                
+                                <a href="sucursales" class="pl-1 text-dark">Buscar sucursal más cercana</a>                                
                             </li>
                         </ul>
                     </div>
