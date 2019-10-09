@@ -9,39 +9,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tejatech | Fachadas y Muros | Estrategia Sur | Paneles Aislantes | Bahía Blanca</title>
 
+    <!-- Icono -->
+    <link rel="icon" type="image/png" href="img/logo.png" />
+
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,300i,400,500,700,900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
+    <link rel="stylesheet" href="lib/fontawesome/css/all.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/barfiller.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/acero-latina.css" type="text/css">
     <link rel="stylesheet" href="css/header.css" type="text/css">
     <link rel="stylesheet" href="css/producto-techos.css" type="text/css">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+   <!-- scripts -->
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="lib/fontawesome/js/all.js"></script>
+    <script src="js/funciones.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147471360-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'UA-147471360-1');
+        gtag('config', 'UA-147471360-1');
     </script>
-
-
-    <!-- Icono -->
-    <link rel="icon" type="image/png" href="img/logo.png" />
-
-    <!-- Script -->
-    <script src="https://kit.fontawesome.com/591d68fa75.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
 </head>
 
@@ -249,7 +244,6 @@
     <!-- CONTACTO Y FOOTER END -->
 
     <!-- Js Plugins -->
-    <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -264,5 +258,4 @@
         }
     </script>
 </body>
-
 </html>

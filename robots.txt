@@ -1,0 +1,5 @@
+User-agent: * 
+Disallow: /betas/
+Disallow: /etapa1/
+Disallow: /.well-known
+Disallow: /.git

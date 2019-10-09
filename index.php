@@ -9,63 +9,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Estrategia Sur | Paneles Aislantes | Bahía Blanca</title>
 
+    <!-- Icono -->
+    <link rel="icon" type="image/png" href="img/logo.png" />
+
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,300i,400,500,700,900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
+    <link rel="stylesheet" href="lib/fontawesome/css/all.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/barfiller.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/header.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="lib/fontawesome/js/all.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147471360-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'UA-147471360-1');
+        gtag('config', 'UA-147471360-1');
     </script>
 
-
-    <!-- Icono -->
-    <link rel="icon" type="image/png" href="img/logo.png" />
-
-    <!-- Script -->
-    <script src="https://kit.fontawesome.com/591d68fa75.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script>       
-
-        
-
-        /**
-         * Abre una clase
-         */ 
-        function abrirDesplazar(tipo){
-            $(".second-features").hide();
-            $(".features-"+tipo).slideDown("slow");
-            desplazar(".features-"+tipo);
-        }
-        /**
-        * abre el proximamente
-        */
-        function abrirDesplazarDos(tipo){
-            $(".features-"+tipo).slideDown("slow");
-            desplazar(".features-"+tipo);
-        }
-
-        function getURLParameter(sParam){
-            var url_string = window.location.href;
-            var url = new URL(url_string);
-            return url.searchParams.get(sParam);
-        }
-    </script>
 </head>
 
 <body id="inicio">
@@ -82,15 +52,15 @@
             <div class="single-slide set-bg active" data-setbg="img/carousel1.jpg">
                 <!-- <a href="https://www.youtube.com/watch?v=SEVuD_djKrU" class="play-btn pop-up"><i class="fa fa-play"></i></a> -->
                 
-                <a href="#servicio" class="logo-carousel p-0 m-0">
+                <a href="#paneles-asilantes" class="logo-carousel p-0 m-0">
                     <img class="col-12 p-0 m-0" src="img/logos_empresas/acerolatina.jpg">
-                    <div onclick="abrirDesplazar('paneles')" class="leer-mas col-12 h-100">Leer más</div>
+                    <div onclick="abrirDesplazarDos('acero')" class="leer-mas col-12 h-100">Leer más</div>
                 </a>
-                <a href="#servicio" class="logo-carousel p-0 m-0">
+                <a href="#paneles-asilantes" class="logo-carousel p-0 m-0">
                     <img class="col-12 p-0 m-0" src="img/logos_empresas/friolatina.jpg">
                     <div onclick="abrirDesplazar('paneles')" class="leer-mas col-12 h-100">Leer más</div>
                 </a>
-                <a href="#servicio" class="logo-carousel p-0 m-0">
+                <a href="#paneles-asilantes" class="logo-carousel p-0 m-0">
                     <img class="col-12 p-0 m-0" src="img/logos_empresas/bervill.jpg">
                     <div onclick="abrirDesplazar('paneles')" class="leer-mas col-12 h-100">Leer más</div>
                 </a>
@@ -129,9 +99,9 @@
         </div>
         <div class="container">
 
-            <!-- SEGUNDA FILA: GRUPO LTN PANELES TERMICOS -->
+            <!-- PRIMER FILA: GRUPO LTN PANELES TERMICOS -->
             <div class="row">                
-                <h2 class="text-center col-12 pt-0 pb-0 mb-3 second-features features-paneles clearfix">Paneles aislantes</h2>
+                <h2 class="text-center col-12 pt-0 pb-0 mb-3 features-paneles clearfix">Paneles aislantes</h2>
 
                 <p class="text-center pb-3 col-12 col-md-9 col-xl-10 mx-auto">
                     Estrategia Sur representa comercialmente al grupo empresario LTN. El mismo está conformado por tres empresas
@@ -141,7 +111,7 @@
                 </p>
 
                 <div class="col-md-4" onclick="abrirDesplazarDos('acero')">
-                    <div class="single-features second-features features-paneles">
+                    <div class="single-features features-paneles">
                         <div class="features-img">
                             <img src="img/features/acero-latina.jpg" alt="Acero Latina">
                         </div>
@@ -155,7 +125,7 @@
                     </div>
                 </div>
                 <div class="col-md-4" onclick="abrirDesplazarDos('prox')">
-                    <div class="single-features second-features features-paneles">
+                    <div class="single-features features-paneles">
                         <div class="features-img">
                             <img src="img/features/frio-latina.jpg" alt="Frio Latina">
                         </div>
@@ -169,7 +139,7 @@
                     </div>
                 </div>
                 <div class="col-md-4" onclick="abrirDesplazarDos('prox')">
-                    <div class="single-features second-features features-paneles">
+                    <div class="single-features features-paneles">
                         <div class="features-img">
                             <img src="img/features/bervill.jpg" alt="Bervill">
                         </div>
@@ -183,7 +153,7 @@
                     </div>
                 </div>
             </div>
-            <!-- TERCERA FILA: ACERO LATINA -->
+            <!-- SEGUNDA FILA: ACERO LATINA -->
             <div class="row">
                 <h2 class="text-center col-12 pt-0 pb-4 mb-4 second-features features-acero clearfix">Paneles térmicos</h2>
                 <a href="techos-cubiertas" class="col-md-4">
@@ -229,21 +199,6 @@
                     </div>
                 </a>
             </div>
-            <!-- SEGUNDA FILA: SERVICIOS -->
-            <div class="row">
-                <h2 class="text-center col-12 pt-0 pb-4 mb-4 second-features features-servicios clearfix">Nuestro Departamento Técnico se encarga de:</h2>
-                <div class="col-md-10 dos-features" onclick="abrirDesplazarDos('prox')">
-                    <div class="features-texto second-features features-servicios">
-                        <p><i class="fas fa-check mr-2"></i>La evaluación particular de cada proyecto, a fin de brindar un asesoramiento
-                        personalizado e integral.</p>
-                        <p><i class="fas fa-check mr-2"></i>Computar y presupuestar los materiales, acorde a cada proyecto.</p>
-                        <p><i class="fas fa-check mr-2"></i>Despiece de paneles, a fin de racionalizar y hacer uso correcto de los mismos.</p>
-                        <p><i class="fas fa-check mr-2"></i>Confeccionar croquis detallado con la distribución de los paneles en obra.</p>
-                        <p><i class="fas fa-check mr-2"></i>Elaborar planos de detalles técnicos y constructivos, referentes al sistema elegido.</p>
-                        <p><i class="fas fa-check mr-2"></i>Ofrecer servicio de supervisión de final de obra (opcional).</p>
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <h2 class="text-center col-12 pt-3 pb-4 mb-4 second-features features-prox clearfix">PRÓXIMAMENTE</h2>
                 <p class="text-center col-12 second-features features-prox">
@@ -285,7 +240,6 @@
     <!-- CONTACTO Y FOOTER END -->
 
     <!-- Js Plugins -->
-    <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -300,5 +254,4 @@
         }
     </script>
 </body>
-
 </html>
