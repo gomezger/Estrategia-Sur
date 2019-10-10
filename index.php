@@ -124,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4" onclick="abrirDesplazarDos('prox')">
+                <a class="col-md-4" href="refrigeracion-modular">
                     <div class="single-features features-paneles">
                         <div class="features-img">
                             <img src="img/features/frio-latina.jpg" alt="Frio Latina">
@@ -137,7 +137,7 @@
                             <p class="text-center">Friolatina es proveedora de soluciones integrales en cámaras frigoríficas modulares, cerramientos y proyectos llave en mano.</p>
                         </div>
                     </div>
-                </div>
+                </a>
                 <div class="col-md-4" onclick="abrirDesplazarDos('prox')">
                     <div class="single-features features-paneles">
                         <div class="features-img">
