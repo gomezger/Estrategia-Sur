@@ -22,46 +22,40 @@ section.titulo .marca{
 	border-radius: 5px;
 }
 
+section.informacion{
+	padding-top: 70px!important;	
+	font-family: 'Montserrat', sans-serif;	
+}
+section.informacion .bloque{	
+	margin-bottom: 70px;
+}
 
-.portada{
-	display: block;
-	padding: 60px 0;
-	min-height: 300px;
-	text-align: center;
-	background-image: url('../img/bg-white-2.jpg');
-	background-position: center;
-	background-size: 100% auto;
+section.informacion .imagen{	
+	margin-right: 50px;
+	max-width: 30%;
 }
-.portada .producto{
-	width: 24%;
-	display: inline-block;
-	padding: 0;
-	margin-top: 20px;
-	margin-bottom: 40px;
+
+section.informacion .texto{
+	margin-top: 50px;
+	font-family: 'Montserrat', sans-serif;	
+	max-width: 60%;	
 }
-.portada .producto .imagen{
-	width: 100%;
-	display: inline-block;
-	padding: 0;
+
+section.informacion .texto .titulo{
+	font-weight: normal;
+	font-size: 30px;	
+	margin-bottom: 5px;	
 }
-.portada .producto .imagen img{
-	width: 95%;
-	display: inline-block;
-	padding: 0;
+section.informacion .texto .subtitulo{
+	font-size: 18px;	
+	margin-bottom: 10px;
+	font-weight: 500;	
 }
-.portada .producto .mas{
-	margin-top: 25px;
-	display: inline-block;
-	width: 45px;
-	height: 45px;
-	background-color: #f58100;
-	border-radius: 100%;
-	color: #FFF;
-	padding-top: 7px;
-	font-size: 22px;
-	font-weight: bold;
+section.informacion .texto .titulo-segundo{
+	font-size: 18px;	
+	margin-bottom: 10px;
 }
-}
+
 
 
 /*....................  Resposive Media Styles  .......................*/
@@ -207,49 +201,16 @@ section.titulo .marca{
 /* Large Mobile : 480px. */
 
 @media only screen and (max-width: 767px) {
-
-	.botones{
-
-	}
-	.botones .subir{
-		bottom: 8px;
-		right: 8px;	
-	}
 	
-	.botones  .volver{
-		bottom: 8px;
-		left: 8px;	
-		width: 50px;
-		padding-left: 17px;
-	}
-	.botones .volver .texto{
-		display: none;
-		float: right;/* 
-		margin-top: -0.5px;	
-		text-transform: uppercase; */	
-	}
-	
-	h2.titulo{
-		font-size: 30px;
-		margin-top: 80px;
-		background-size: auto 100%;
-	}
-	.pur-pir{
-		display: inline-block;
-		width: 35px;
-		margin-top: 10px;
-	}
-	.portada{
-		padding-top: 0px;
-	}
-	.portada .titulo{
-		font-size: 35px;
-	}	
-	.ventajas{
-		background-size: auto 100%;
-	}
-	.ventajas .ventaja{
+	section.informacion .imagen{	
+		margin: 0 25%;
 		width: 50%;
+	}
+
+	section.informacion .texto{
+		margin-top: 50px;
+		font-family: 'Montserrat', sans-serif;	
+		max-width: 100%;	
 	}
 }
 

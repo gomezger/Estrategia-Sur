@@ -69,19 +69,80 @@
     <div class="clearfix"></div>
 
     <!-- INFORMACION -->
-    <section class="informacion col-12 p-0">
-		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-md-2 pr-md-2 container">
+    <section class="col-12 p-0 informacion ">
+		<div class="mx-auto col-12 col-sm-10 col-md-10 col-lg-9 col-xl-8 p-0 m-0 pl-md-2 pr-md-2 container">
             
-            <div class="bloque col-12 p-0">
+            <div class="bloque float-left col-12 p-0">
                 <div class="imagen float-left">
                     <img src="img/refrigeracion-modular/img-friolatina-generic.png" />
                 </div>
                 <div class="texto float-left">
-                    <h3>Cámaras móviles (entre 11 y 16 m³)</h3>
-                    <div class="subtitulo col-12 p-0">FRÍOMOVIL</div>
-                    <div class="dato col-12 p-0">CÁMARA FRIGORÍFICA MÓVIL</div>
-                    <div class="info col-12 p-0">A 2,18 x 2,98 x 2,20 m (1 eje)</div>
-                    <div class="info col-12 p-0">B 2,18 x 4,18 x 2,20 m (2 ejes)</div>
+                    <h3 class="titulo p-0">Cámaras <strong>móviles</strong> (entre 11 y 16 m³)</h3>
+                    <div class="subtitulo col-12 p-0 text-info">FRÍOMOVIL</div>
+                    <div class="titulo-segundo col-12 p-0 text-secondary">CÁMARA FRIGORÍFICA MÓVIL</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>A 2,18 x 2,98 x 2,20 m (1 eje)</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>B 2,18 x 4,18 x 2,20 m (2 ejes)</div>
+                </div>
+            </div>
+
+            <div class="bloque float-left col-12 p-0">
+                <div class="imagen float-left">
+                    <img src="img/refrigeracion-modular/img-friolatina-2.png" />
+                </div>
+                <div class="texto float-left">
+                    <h3 class="titulo p-0">Mini <strong>cámaras</strong> (entre 3 a 39 m³)</h3>
+                    <div class="subtitulo col-12 p-0 text-info">MINICELLA</div>
+                    <div class="titulo-segundo col-12 p-0 text-secondary">CÁMARA FRIGORÍFICA MÓVIL</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Cámara frigorífica para pequeñas superficies de fácil montaje.</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Variedad de medidas. Único espesor en 100 mm con sistema de encastre con gancho.</div>
+                </div>
+            </div>
+
+            <div class="bloque float-left col-12 p-0">
+                <div class="imagen float-left">
+                    <img src="img/refrigeracion-modular/img-friolatina-3.png" />
+                </div>
+                <div class="texto float-left">
+                    <h3 class="titulo p-0">Cámaras <strong>industriales</strong> (desde 40 a 1200 m³)</h3>
+                    <div class="subtitulo col-12 p-0 text-info">MAXICELLA</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Cámara frigorífica para grandes superficies. Variedad de medidas y espesores</div>
+                </div>
+            </div>
+
+            <div class="bloque float-left col-12 p-0">
+                <div class="imagen float-left">
+                    <img src="img/refrigeracion-modular/img-friolatina-4.png" />
+                </div>
+                <div class="texto float-left">
+                    <h3 class="titulo p-0">Puertas y <strong>portones</strong></h3>
+                    <div class="titulo-segundo col-12 p-0 text-secondary mt-1">FRIGORÍFICOS</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Batientes</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Troneras</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Corredizos</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Levadizos seccionales o guillotina</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Automatización</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Accesorios</div>
+                    <div class="titulo-segundo col-12 p-0 text-secondary mt-4">ESPECIALES</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Atmósfera controlada</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Cortinas rápidas</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Cortinas en PVC</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Cortafuego</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Walking cooler</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Paso aéreo batiente y corredizo</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Puntos de carga: rampa niveladora, abrigo de muelle, portón seccional levadizo.</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Accesorios</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Automatización</div>                    
+                </div>
+            </div>
+
+
+            <div class="bloque float-left col-12 p-0">
+                <div class="imagen float-left">
+                    <img src="img/refrigeracion-modular/img-friolatina-4-ok.png" />
+                </div>
+                <div class="texto float-left">
+                    <h3 class="titulo p-0">Túneles de congelado</h3>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Cámara para congelado rápido.</div>
                 </div>
             </div>
         
