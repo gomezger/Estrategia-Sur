@@ -68,6 +68,30 @@
 
     <div class="clearfix"></div>
 
+    <!-- INFORMACION -->
+    <section class="informacion col-12 p-0">
+		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-md-2 pr-md-2 container">
+            
+            <div class="bloque col-12 p-0">
+                <div class="imagen float-left">
+                    <img src="img/refrigeracion-modular/img-friolatina-generic.png" />
+                </div>
+                <div class="texto float-left">
+                    <h3>Cámaras móviles (entre 11 y 16 m³)</h3>
+                    <div class="subtitulo col-12 p-0">FRÍOMOVIL</div>
+                    <div class="dato col-12 p-0">CÁMARA FRIGORÍFICA MÓVIL</div>
+                    <div class="info col-12 p-0">A 2,18 x 2,98 x 2,20 m (1 eje)</div>
+                    <div class="info col-12 p-0">B 2,18 x 4,18 x 2,20 m (2 ejes)</div>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+    <!-- INFORMACION FIN-->
+
+
+
+
     <!-- CONTACTO Y FOOTER BEGIN -->
     <?php include('bloques/footer.php'); ?>
     <!-- CONTACTO Y FOOTER END -->
