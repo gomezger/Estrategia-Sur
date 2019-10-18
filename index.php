@@ -53,12 +53,12 @@
                 <!-- <a href="https://www.youtube.com/watch?v=SEVuD_djKrU" class="play-btn pop-up"><i class="fa fa-play"></i></a> -->
                 
                 <a href="#paneles-asilantes" class="logo-carousel p-0 m-0">
-                    <img class="col-12 p-0 m-0" src="img/logos_empresas/acerolatina.jpg">
-                    <div onclick="abrirDesplazarDos('acero')" class="leer-mas col-12 h-100">Leer más</div>
-                </a>
-                <a href="#paneles-asilantes" class="logo-carousel p-0 m-0">
                     <img class="col-12 p-0 m-0" src="img/logos_empresas/friolatina.jpg">
                     <div onclick="abrirDesplazar('paneles')" class="leer-mas col-12 h-100">Leer más</div>
+                </a>
+                <a href="#paneles-asilantes" class="logo-carousel p-0 m-0">
+                    <img class="col-12 p-0 m-0" src="img/logos_empresas/acerolatina.jpg">
+                    <div onclick="abrirDesplazarDos('acero')" class="leer-mas col-12 h-100">Leer más</div>
                 </a>
                 <a href="#paneles-asilantes" class="logo-carousel p-0 m-0">
                     <img class="col-12 p-0 m-0" src="img/logos_empresas/bervill.jpg">
@@ -138,7 +138,7 @@
                         </div>
                     </div>
                 </a>
-                <div class="col-md-4" onclick="abrirDesplazarDos('prox')">
+                <a class="col-md-4" href="sistemas-refrigeracion">
                     <div class="single-features features-paneles">
                         <div class="features-img">
                             <img src="img/features/bervill.jpg" alt="Bervill">
@@ -151,7 +151,7 @@
                             <p class="text-center">Bervill se dedidca a la fabricación de Equipamientos frigoríficos y unidades condensadoras.</p>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <!-- SEGUNDA FILA: ACERO LATINA -->
             <div class="row">

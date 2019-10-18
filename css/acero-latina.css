@@ -75,6 +75,17 @@ section.titulo .marca{
 }
 
 
+article.descripcion {
+	background-image: url('../img/bg-white.jpg');
+	background-position: center;
+	background-size: 100% auto;
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 18px;
+	line-height: 40px;
+	color: #222;
+}
+
+
 .portada{
 	display: block;
 	padding: 60px 0;
@@ -393,6 +404,13 @@ section.adaptacion{
 		margin-left: 10px;
 		width: 100px;
 	}	
+	
+	article.descripcion {
+		background-size: 150%  auto ;
+		font-size: 15px;
+		line-height: 30px;
+		color: #222;
+	}
 	
 	.portada .producto{
 		width: 49%;

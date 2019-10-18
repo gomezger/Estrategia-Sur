@@ -3,6 +3,9 @@
 section.fondo-frio{
 	background-image: url('../img/refrigeracion-modular/title-friolatina.jpg');
 }
+section.fondo-bervill{
+	background-image: url('../img/sistemas-refrigeracion/title-bervill.jpg');
+}
 
 section.titulo h1{
 	color: #FFF;
@@ -22,12 +25,18 @@ section.titulo .marca{
 	border-radius: 5px;
 }
 
+
 section.informacion{
 	padding-top: 70px!important;	
 	font-family: 'Montserrat', sans-serif;	
+	background-color: rgba(12, 24, 80, 0.027);
+	float: left;
 }
 section.informacion .bloque{	
-	margin-bottom: 70px;
+	margin-bottom: 45px;
+	padding-bottom: 45px!important;
+	float: left;
+	border-bottom: 1px rgba(255, 255, 255, 0.582) solid;
 }
 
 section.informacion .imagen{	
@@ -62,68 +71,22 @@ section.informacion .texto .titulo-segundo{
 
 @media (max-width: 1650px) {
 
-	section.productos{
-	}
-	section.productos .producto{
-		height: auto;
-	}
-	section.productos .fondo2{
-	}
-	section.productos .producto .imagen{
-		width: 49%;
-	}
-	section.productos .producto .imagen img{
-	}
-	section.productos .producto .inverso-imagen{
-		width: 49%;
-	}
-	section.productos .producto .informacion{
-		padding-top: 25px; 
-		font-size: 13px;
-	}
-	section.productos .producto  .inverso-informacion{
-		padding-top: 25px; 
-		font-size: 13px;
-	}
-	section.productos .producto .informacion .texto{
-		padding-top: 10px; 
-	}
-	section.productos .producto .informacion .lista{
-		padding-top: 10px; 
-	}
-
-	section.productos .producto .informacion .lista p{
-		margin: 2px 0;
-		font-size: 13px;
-	}
-	section.productos .producto .informacion .ver-mas{
-		font-size: 15px;
-	}
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1400px) {
-	section.productos .producto .imagen{
-		width: 52%;
-	}
-	section.productos .producto .inverso-imagen{
-		width: 52%;
-	}
-	section.productos .producto .informacion .ver-mas{
-		margin-top: 10px;
-		font-size: 15px;
-	}
 }
 
 
 /* Medium Device : 1280px. */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-	section.productos .producto .imagen{
-		top: auto;
+	section.informacion .texto{
+		margin-top: 10px;
 	}
-	section.productos .producto .inverso-imagen{
-		top: auto;
+	section.informacion .texto .titulo{
+		font-size: 25px;	
 	}
+	
 }
 
 /* Tablet : 768px. */
@@ -151,67 +114,39 @@ section.informacion .texto .titulo-segundo{
 		margin-left: 10px;
 		width: 100px;
 	}	
+
+	section.informacion{
+		padding-top: 35px!important;	
+		font-family: 'Montserrat', sans-serif;	
+	}
 	
-	.portada .producto{
-		width: 49%;
-		margin-top: 0;
+	section.informacion .imagen{	
+		margin: 0 15%;
+		width: 70%;
+		max-width: unset;
+	}
+	section.informacion .imagen img{	
+		width: 100%;
 	}
 
-	section.productos .producto .imagen{
-		position: unset;
-		float: left;
-		width: 100%;
-	}
-	section.productos .producto .inverso-imagen{
-		position: unset;
-		float: left;
-		width: 100%;
-	}
-	section.productos .producto .informacion{
-		float: left;
-		width: 100%;
+	section.informacion .texto{
 		text-align: center;
+		margin-top: 50px;
+		font-family: 'Montserrat', sans-serif;	
+		max-width: unset;
+		width: 100%;	
 	}
-	section.productos .producto  .inverso-informacion{
-		float: left;
-		width: 100%;
-	}
-	section.productos .producto .informacion .texto{
-		padding-top: 35px; 
-		font-size: 14px; 
-	}
-	section.productos .producto .informacion .lista{
-		padding-top: 15px; 
-		font-size: 14px; 
-		width: 100%;
-		float: left;
-		text-align: justify;
+	section.informacion .texto .titulo{
+		width: 100%;	
 	}
 	
-	section.productos .producto .informacion .lista p{
-		font-size: 14px; 
-		margin: 5px 0;
-	}
-	section.productos .producto .informacion .ver-mas{
-		display: inline-block;
-	}
+	
 
 }
 
 /* Large Mobile : 480px. */
 
 @media only screen and (max-width: 767px) {
-	
-	section.informacion .imagen{	
-		margin: 0 25%;
-		width: 50%;
-	}
-
-	section.informacion .texto{
-		margin-top: 50px;
-		font-family: 'Montserrat', sans-serif;	
-		max-width: 100%;	
-	}
 }
 
 /* Small Mobile : 320px. */

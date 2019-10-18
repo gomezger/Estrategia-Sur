@@ -7,7 +7,7 @@
     <meta name="keywords" content="Acero Latina, Paneles Aislantes, Frio Latina, Bervill, representación comercial, construcción sustentable">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Refrigeración Modular | Estrategia Sur | Paneles Aislantes | Bahía Blanca</title>
+    <title>Sistemas de Refrigeración | Estrategia Sur | Paneles Aislantes | Bahía Blanca</title>
 
     <!-- Icono -->
     <link rel="icon" type="image/png" href="img/logo.png" />
@@ -58,10 +58,10 @@
     <!-- HEADER End -->
 
     <!-- TITULO -->
-    <section class="titulo bg-dark fondo-frio">
-        <h1>Refrigeración Modular</h1>
+    <section class="titulo bg-dark fondo-bervill">
+        <h1>Sistemas de Refrigeración</h1>
         <a href="index#paneles-aislantes">
-            <img class="marca" width="170px"  alt="Friolatina" title="Friolatina" src="img/logos_empresas/friolatina.jpg"/>
+            <img class="marca" width="170px"  alt="Bervill" title="Bervill" src="img/logos_empresas/bervill.jpg"/>
         </a>
     </section>
     <!-- TITULO ENDS-->
@@ -71,13 +71,13 @@
     <!-- Descripción -->
     <article class="descripcion pt-4 pb-4 text-center">
 		<div class="mx-auto col-12 col-sm-10 col-md-10 col-lg-9 col-xl-6 p-0 m-0 pl-1 pr-1 pl-md-2 pr-md-2 container">
-            Friolatina es proveedora de soluciones integrales en cámaras frigoríficas modulares, cerramientos y proyectos llave en mano.
+            Bervill se dedidca a la fabricación de Equipamientos frigoríficos y unidades condensadoras.
         </div>
     </article>
     <!-- descripcion ENDS-->
 
     <!-- INFORMACION -->
-    <section class="col-12 p-0 informacion ">
+    <section class="col-12 p-0 informacion d-none">
 		<div class="mx-auto col-12 col-sm-10 col-md-10 col-lg-9 col-xl-8 p-0 m-0 pl-1 pr-1 pl-md-2 pr-md-2 container">
             
             <div class="p-0 bloque float-left col-12">
