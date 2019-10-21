@@ -77,15 +77,15 @@
     <!-- descripcion ENDS-->
 
     <!-- INFORMACION -->
-    <section class="col-12 p-0 informacion d-none">
-		<div class="mx-auto col-12 col-sm-10 col-md-10 col-lg-9 col-xl-8 p-0 m-0 pl-1 pr-1 pl-md-2 pr-md-2 container">
+    <section class="col-12 p-0 informacion">
+		<div class="container">
             
-            <div class="p-0 bloque float-left col-12">
+            <div class="p-0 bloque float-left col-12 d-none">
                 <div class="imagen float-left">
-                    <img src="img/refrigeracion-modular/img-friolatina-generic.png" />
+                    <img src="img/sistemas-refrigeracion/bervill-equipocomercial.png" />
                 </div>
                 <div class="texto float-left">
-                    <h3 class="titulo p-0">Cámaras <strong>móviles</strong> (entre 11 y 16 m³)</h3>
+                    <h3 class="titulo p-0">Equipos <strong>comerciales</strong></h3>
                     <div class="subtitulo col-12 p-0 text-info">FRÍOMOVIL</div>
                     <div class="titulo-segundo col-12 p-0 text-secondary">CÁMARA FRIGORÍFICA MÓVIL</div>
                     <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>A 2,18 x 2,98 x 2,20 m (1 eje)</div>
@@ -95,69 +95,170 @@
 
             <div class="p-0 bloque float-left col-12">
                 <div class="imagen float-left">
-                    <img src="img/refrigeracion-modular/img-friolatina-2.png" />
+                    <img src="img/sistemas-refrigeracion/bervill-equipocomercial.png" />
                 </div>
                 <div class="texto float-left">
-                    <h3 class="titulo p-0">Mini <strong>cámaras</strong> (entre 3 a 39 m³)</h3>
-                    <div class="subtitulo col-12 p-0 text-info">MINICELLA</div>
-                    <div class="titulo-segundo col-12 p-0 text-secondary">CÁMARA FRIGORÍFICA MÓVIL</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Cámara frigorífica para pequeñas superficies de fácil montaje.</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Variedad de medidas. Único espesor en 100 mm con sistema de encastre con gancho.</div>
+                    <h3 class="titulo p-0">Equipos <strong>comerciales</strong></h3>
+                    <p class="parrafo primero col-12 p-0 text-dark">
+                        Las unidades de refrigeración BERVILL pueden ser de tipo split o compacto y se 
+                        caracterizan por su fácil y rápido montaje además de su gran versatilidad de 
+                        utilización.
+                    </p>
+                    <p class="parrafo col-12 p-0 text-dark">
+                        En aplicaciones de media temperatura, el rango de trabajo
+                        es de 15 ºC a -5 ºC y aplicaciones de baja temperatura, el rango de trabajo es de -10 ºC hasta 
+                        -25ºC. Ambos tipos de equipos (MT o BT) son provistos con refrigerante R-404 A.
+                    </p>
+                    <p class="parrafo col-12 p-0 text-dark">
+                        Las principales características de los equipos de la línea comercial son:
+                    </p>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Ciclo de trabajo completamente automático.</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Deshielo por gas caliente.</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Controlador de temperatura digital con funciones programables.</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Motoventiladores de bajo nivel sonoro.</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Evaporadores completamente desarrollados en aluminio, cobre y chapa galvanizada cubierta con 
+                    pintura electrostática lo que los hace muy resistentes a la corrosión.</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Elementos eléctricos y frigoríficos de 1ª calidad a nivel mundial. (Danfoss, 
+                    Emerson, Ebm Papst, Schneider Electric, Siemens, Phoenix Contact, entre otros)</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Certificación de sello de seguridad eléctrica.</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Fabricación con procesos certificados por Norma ISO 9001/2008.</div>
+                    
                 </div>
             </div>
+
+            
+            <div class="p-0 bloque float-left col-12">
+                <div class="imagen float-left">
+                    <img src="img/sistemas-refrigeracion/bervill-equipos-industriales-ok.png" />
+                </div>
+                <div class="texto float-left">
+                    <h3 class="titulo p-0">Equipos <strong>industriales</strong></h3>
+                    <p class="parrafo primero col-12 p-0 text-dark">
+                        Los equipos industriales BERVILL pueden ser del tipo compactos o Split. 
+                        Utilizables en aplicaciones que requieran una potencia de 10 HP hasta 15 HP.
+                    </p>
+                    <p class="parrafo col-12 p-0 text-dark">
+                        Las principales características de los equipos de la línea industrial son:
+                    </p>
+                    <div class="subtitulo col-12 p-0 text-info">UNIDADES DE MEDIA TEMPERATURA</div>
+                    <p class="parrafo col-12 p-0 text-dark">
+                        En aplicaciones de media temperatura, el rango de trabajo de 15 ºC a -5 ºC y 
+                        aplicaciones de baja temperatura, el rango de trabajo de -10 ºC hasta -25ºC.
+                        Ambos tipos de equipos (MT o BT) son provistos con refrigerante R-404 A.
+                    </p>
+                    <div class="subtitulo col-12 p-0 text-info">UNIDADES DE BAJA TEMPERATURA</div>
+                    <p class="parrafo col-12 p-0 text-dark">
+                        Denominamos equipos de baja temperatura a aquellos que trabajan en un rango de 
+                        -10 grados a -25 grados centígrados.
+                    </p>
+                    <p class="parrafo col-12 p-0 text-dark">
+                        Sirven perfectamente en la conservación y en el congelamiento de 
+                        productos de la industria alimenticia y también
+                        en industrias que requieran de estos rangos de temperatura
+                    </p>
+                </div>
+            </div>
+
 
             <div class="p-0 bloque float-left col-12">
                 <div class="imagen float-left">
-                    <img src="img/refrigeracion-modular/img-friolatina-3.png" />
+                    <img src="img/sistemas-refrigeracion/img-3-bervill.png" />
                 </div>
                 <div class="texto float-left">
-                    <h3 class="titulo p-0">Cámaras <strong>industriales</strong> (desde 40 a 1200 m³)</h3>
-                    <div class="subtitulo col-12 p-0 text-info">MAXICELLA</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Cámara frigorífica para grandes superficies. Variedad de medidas y espesores</div>
+                    <h3 class="titulo p-0">Minicentrales <strong>frigoríficas</strong></h3>
+                    <p class="parrafo primero col-12 p-0 text-dark">
+                        Las minicentrales frigoríficas Bervill responden al concepto de producto 
+                        “listo para su uso” consiguiendo así un funcionamiento de una gran fiabilidad.
+                    </p>
+                    <p class="parrafo col-12 p-0 text-dark">
+                        El rango de potencias de las mismas, abarca desde los 20 HP hasta los 30 HP 
+                        en media temperatura y desde los 15 HP hasta los 30Hp en baja temperatura.
+                    </p>
+                    <p class="parrafo col-12 p-0 text-dark">
+                        Son constituidas sobre un rack (módulo base), condensador y evaporador remotos, 
+                        esto permite que nuestras centrales tengan una gran versatilidad de instalación 
+                        de acuerdo a los diversos requerimientos.
+                    </p>
+                    <p class="parrafo col-12 p-0 text-dark">
+                        Tienen la cualidad de ser ecológicas; el refrigerante empleado en las mismas es 
+                        R-404 A. Han sido pensadas además para un uso eficiente de la energía (sistema 
+                        de descongelamiento por gas caliente y pump-down).
+                    </p>
                 </div>
-            </div>
-
-            <div class="p-0 bloque float-left col-12">
-                <div class="imagen float-left">
-                    <img src="img/refrigeracion-modular/img-friolatina-4.png" />
-                </div>
-                <div class="texto float-left">
-                    <h3 class="titulo p-0">Puertas y <strong>portones</strong></h3>
-                    <div class="titulo-segundo col-12 p-0 text-secondary mt-1">FRIGORÍFICOS</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Batientes</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Troneras</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Corredizos</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Levadizos seccionales o guillotina</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Automatización</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Accesorios</div>
-                    <div class="titulo-segundo col-12 p-0 text-secondary mt-4">ESPECIALES</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Atmósfera controlada</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Cortinas rápidas</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Cortinas en PVC</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Cortafuego</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Walking cooler</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Paso aéreo batiente y corredizo</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Puntos de carga: rampa niveladora, abrigo de muelle, portón seccional levadizo.</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Accesorios</div>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Automatización</div>                    
-                </div>
-            </div>
-
-
-            <div class="p-0 bloque float-left col-12">
-                <div class="imagen float-left">
-                    <img src="img/refrigeracion-modular/img-friolatina-4-ok.png" />
-                </div>
-                <div class="texto float-left">
-                    <h3 class="titulo p-0">Túneles de congelado</h3>
-                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Cámara para congelado rápido.</div>
-                </div>
-            </div>
+            </div>            
         
+            <div class="p-0 bloque float-left col-12">
+                <div class="imagen float-left">
+                    <img src="img/sistemas-refrigeracion/bervill-centrales-ok.png" />
+                </div>
+                <div class="texto float-left">
+                    <h3 class="titulo p-0">Centrales <strong>multicompresoras</strong></h3>
+                    <p class="parrafo primero col-12 p-0 text-dark">
+                        Las centrales multicompresores Bervill responden al concepto de “producto a 
+                        medida”. Este concepto aplica a nuestras centrales porque las mismas no son 
+                        de una potencia determinada, sino que su potencia y diseño van de acuerdo a 
+                        cada aplicación y necesidad de nuestros clientes.
+                    </p>
+                    <p class="parrafo col-12 p-0 text-dark">
+                        En líneas generales, se fabrican tres tipos de centrales:
+                    </p>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Baja temperatura: su rango de aplicación es de -10° a -25°C</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Media temperatura: su rango de aplicación es 15° a -5°C</div>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Alta temperatura: su rango de aplicación es 25° a 15°C.</div>
+                    <p class="parrafo col-12 p-0 text-dark">
+                        El rango de potencias de nuestras centrales multicompresores es muy amplio, 
+                        abarcando desde los 30HP hasta los 200HP para aplicaciones de media temperatura 
+                        y desde los 30HP hasta los 120HP en aplicaciones de baja temperatura.
+                    </p>
+                    <p class="parrafo col-12 p-0 text-dark">
+                        Alineándonos con la protección y preservación del medio ambiente nuestras centrales 
+                        se construyen en todas las aplicaciones con gas refrigerante R-404 A. Tienen la
+                         particularidad de poder trabajar en modos de ahorro de energía, como así también 
+                         realizar descongelamientos tanto eléctrico como por gas caliente con principio de
+                          funcionamiento tipo PUMP DOWN.
+                    </p>
+                </div>
+            </div>
+
+
+            
+
+            <div class="p-0 bloque float-left col-12">
+                <div class="imagen float-left">
+                    <img src="img/sistemas-refrigeracion/bervill-tuneles-ok.png" />
+                </div>
+                <div class="texto float-left">
+                    <h3 class="titulo p-0"> Túneles <strong>de congelado</strong></h3>
+                    <p class="parrafo primero col-12 p-0 text-dark">
+                        Se entiende por túnel de congelado a todo recinto del tipo frigorífico en el 
+                        cual se consiga una congelación rápida de un producto, sea del tipo que sea.
+                    </p>
+                    <p class="parrafo col-12 p-0 text-dark">
+                        La línea de túneles de congelado o abatidores de Bervill, concentran una alta 
+                        experiencia en el desarrollo y fabricación de este tipo de soluciones frigoríficas 
+                        en Argentina y también en diversas partes del mundo.
+                    </p>
+                    <p class="parrafo col-12 p-0 text-dark">
+                        Son fabricados bajo estrictos estándares de calidad y desarrollados con una sólida 
+                        base de Ingeniería con tecnología de última generación, como ser el caso de los 
+                        módulos de protección electrónicos para compresor con puerto de comunicación.
+                    </p>
+                    <p class="parrafo col-12 p-0 text-dark">
+                        Los túneles de congelados Bervill tienen un rango de temperatura que varía 
+                        entre -15°C a -35°C.
+                    </p>
+                </div>
+            </div>   
         </div>
     </section>
     <!-- INFORMACION FIN-->
 
+    
+
+
+    <!-- OTROS -->
+    <?php include('bloques/otros-productos.php'); ?>
+    <!-- OTROS -->
 
 
 

@@ -77,8 +77,8 @@
     <!-- descripcion ENDS-->
 
     <!-- INFORMACION -->
-    <section class="col-12 p-0 informacion ">
-		<div class="mx-auto col-12 col-sm-10 col-md-10 col-lg-9 col-xl-8 p-0 m-0 pl-1 pr-1 pl-md-2 pr-md-2 container">
+    <section class="col-12 p-0 informacion">
+		<div class="container">
             
             <div class="p-0 bloque float-left col-12">
                 <div class="imagen float-left">
@@ -158,6 +158,11 @@
     </section>
     <!-- INFORMACION FIN-->
 
+
+
+    <!-- OTROS -->
+    <?php include('bloques/otros-productos.php'); ?>
+    <!-- OTROS -->
 
 
 

@@ -30,7 +30,7 @@ section.informacion{
 	padding-top: 70px!important;	
 	font-family: 'Montserrat', sans-serif;	
 	background-color: rgba(12, 24, 80, 0.027);
-	float: left;
+	display: block;
 }
 section.informacion .bloque{	
 	margin-bottom: 45px;
@@ -41,18 +41,19 @@ section.informacion .bloque{
 
 section.informacion .imagen{	
 	margin-right: 50px;
-	max-width: 30%;
+	width: 30%;
+	max-width: 400px;
 }
 
 section.informacion .texto{
 	margin-top: 50px;
 	font-family: 'Montserrat', sans-serif;	
 	max-width: 60%;	
+	color: #022a3a!important;
 }
-
 section.informacion .texto .titulo{
 	font-weight: normal;
-	font-size: 30px;	
+	font-size: 33px;	
 	margin-bottom: 5px;	
 }
 section.informacion .texto .subtitulo{
@@ -64,7 +65,28 @@ section.informacion .texto .titulo-segundo{
 	font-size: 18px;	
 	margin-bottom: 10px;
 }
+section.informacion .texto .parrafo{	
+	font-size: 17px;	
+	text-align: justify;
+}
+section.informacion .texto .parrafo.primero{	
+	margin-top: 15px;
+}
+section.informacion .texto .info{	
+	font-size: 17px;	
+	text-align: justify;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
 
+
+.fondo-oscuro-cat{
+	background-color: #13333e;
+}
+
+.single-features:hover{
+	background-color: unset;
+}
 
 
 /*....................  Resposive Media Styles  .......................*/
