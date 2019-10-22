@@ -129,8 +129,8 @@
     <!-- TITULO ENDS-->
 
     <!-- Sucursales begin -->
-    <section class="pr-0 pl-0 sucursales col-12 float-left">
-        <div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-3 pr-3 pl-md-0 pr-md-0 container">
+    <section class="pr-0 pl-0 sucursales col-12 float-left clearfix">
+        <div class="container">
           
           <div class="get mt-3 text-center text-md-right">
             <button class="btn btn-info mt-3" onclick="sucursalCercana()">
@@ -140,7 +140,10 @@
           </div>
 
           <!-- BAHIA BLANCA CASA CENTRAL -->
-          <div id="sucursal-0" class="sucursal col-12 float-left ">
+          <div class="sucursal col-12 float-left ">
+            <div class="ancla float-left">
+                <div id="sucursal-0" class="punto"></div>
+            </div>
             <h3 class="titulo clearfix">Estrategia Sur | Casa Central<span class="d-none ml-2 text-dark cercana-0">(más cercana)</span></h3>
             <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
@@ -184,7 +187,10 @@
           <!-- FIN BAHIA BLANCA CASA CENTRAL -->
           
           <!-- NEUQuEN CASA CENTRAL -->
-          <div id="sucursal-1" class="sucursal col-12 float-left ">
+          <div class="sucursal col-12 float-left ">
+            <div class="ancla float-left">
+                <div id="sucursal-1" class="punto"></div>
+            </div>
             <h3 class="titulo clearfix">Jorge Fernández & Reinaldo Hermosilla<span class="d-none ml-2 text-dark cercana-1">(más cercana)</span></h3>
             <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
@@ -228,7 +234,10 @@
           <!-- FIN NEUQuEN CASA CENTRAL -->
 
           <!-- zapala CASA CENTRAL -->
-          <div id="sucursal-2" class="sucursal col-12 float-left ">
+          <div class="sucursal col-12 float-left ">
+            <div class="ancla float-left">
+                <div id="sucursal-2" class="punto"></div>
+            </div>
             <h3 class="titulo clearfix">Arquitecta Leda Gropa<span class="d-none ml-2 text-dark cercana-2">(más cercana)</span></h3>
             <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
@@ -268,7 +277,10 @@
           <!-- FIN zapala CASA CENTRAL -->    
           
           <!-- añelo CASA CENTRAL -->
-          <div id="sucursal-3" class="sucursal col-12 float-left ">
+          <div class="sucursal col-12 float-left ">
+            <div class="ancla float-left">
+                <div id="sucursal-3" class="punto"></div>
+            </div>
             <h3 class="titulo clearfix">Arquitecto Pedro Montes de Oca<span class="d-none ml-2 text-dark cercana-3">(más cercana)</span></h3>
             <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
@@ -308,7 +320,10 @@
           <!-- Añelo CASA CENTRAL --> 
           
           <!-- Trelew CASA CENTRAL -->
-          <div id="sucursal-4" class="sucursal col-12 float-left ">
+          <div class="sucursal col-12 float-left ">
+            <div class="ancla float-left">
+                <div id="sucursal-0" class="punto"></div>
+            </div>
             <h3 class="titulo clearfix">Mario Chaparro<span class="d-none ml-2 text-dark cercana-4">(más cercana)</span></h3>
             <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
@@ -350,6 +365,7 @@
     </section>
     <!-- Sucursales end -->
 
+    <div class="clearfix"></div>
     
     <!-- CONTACTO Y FOOTER BEGIN -->
     <?php include('bloques/footer.php'); ?>
@@ -395,8 +411,10 @@
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
+
       </div>
     </div>
+
 
     <!-- Js Plugins -->
     <script src="js/bootstrap.min.js"></script>
