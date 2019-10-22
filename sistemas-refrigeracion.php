@@ -71,7 +71,7 @@
     <!-- Descripción -->
     <article class="descripcion pt-4 pb-4 text-center">
 		<div class="mx-auto col-12 col-sm-10 col-md-10 col-lg-9 col-xl-6 p-0 m-0 pl-1 pr-1 pl-md-2 pr-md-2 container">
-            Bervill se dedidca a la fabricación de Equipamientos frigoríficos y unidades condensadoras.
+            Bervill se dedica a la fabricación de Equipamientos frigoríficos y unidades condensadoras.
         </div>
     </article>
     <!-- descripcion ENDS-->
@@ -257,7 +257,10 @@
 
 
     <!-- OTROS -->
-    <?php include('bloques/otros-productos.php'); ?>
+    <?php 
+        $_GET['ocultar'] = 2;
+        include('bloques/otros-productos.php'); 
+    ?>
     <!-- OTROS -->
 
 

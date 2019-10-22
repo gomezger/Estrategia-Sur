@@ -266,6 +266,13 @@
     <!-- caracteristicas end -->
 
 
+    <!-- OTROS -->
+    <?php 
+        $_GET['ocultar'] = -1;
+        $_GET['ocultar_acero'] = 2;
+        include('bloques/otros-productos.php'); 
+    ?>
+    <!-- OTROS -->
 
 
 

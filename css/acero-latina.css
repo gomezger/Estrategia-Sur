@@ -1,3 +1,12 @@
+
+.fondo-oscuro-cat{
+	background-color: #13333e;
+}
+
+.single-features:hover{
+	background-color: unset;
+}
+
 .botones{
 	font-family: 'Montserrat', sans-serif;	
 }

@@ -154,16 +154,31 @@
                 </div>
             </div>
         
+
+            <div class="p-0 bloque float-left col-12">
+                <div class="imagen float-left">
+                    <img src="img/refrigeracion-modular/img-friolatina-5-1.png" />
+                </div>
+                <div class="texto float-left">
+                    <h3 class="titulo p-0">Proyectos especiales</h3>
+                    <div class="info col-12 p-0"><i class="fas fa-angle-right mr-2"></i>Soluciones integrales para aislar/refrigerar.</div>
+                </div>
+            </div>
+        
         </div>
     </section>
     <!-- INFORMACION FIN-->
 
 
 
-    <!-- OTROS -->
-    <?php include('bloques/otros-productos.php'); ?>
-    <!-- OTROS -->
+    
 
+    <!-- OTROS -->
+    <?php 
+        $_GET['ocultar'] = 1;
+        include('bloques/otros-productos.php'); 
+    ?>
+    <!-- OTROS -->
 
 
     <!-- CONTACTO Y FOOTER BEGIN -->

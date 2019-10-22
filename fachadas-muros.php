@@ -270,7 +270,17 @@
     </section>
     <!-- productos end -->
 
-    <div class="clearfix"></div>
+    <div class="clearfix"></div>    
+
+    <!-- OTROS -->
+    <?php 
+        $_GET['ocultar'] = -1;
+        $_GET['ocultar_acero'] = 1;
+        include('bloques/otros-productos.php'); 
+    ?>
+    <!-- OTROS -->
+
+    <div class="clearfix"></div>   
 
     <!-- CONTACTO Y FOOTER BEGIN -->
     <?php include('bloques/footer.php'); ?>

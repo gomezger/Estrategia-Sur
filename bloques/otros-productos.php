@@ -1,3 +1,18 @@
+<?php 
+    if(isset($_GET['ocultar'])){
+        $ocultar = $_GET['ocultar'];
+    }
+    if(isset($_GET['ocultar_acero'])){
+        $ocultar_acero = $_GET['ocultar_acero'];
+    }
+?>
+
+<!--
+    0: acero latina
+    1: frioaltina
+    2: bervill
+ -->
+
 <div class="clearfix"></div>    
 
 <!-- Features Section Begin -->
@@ -11,7 +26,9 @@
         <div class="row">                
             <h2 class="text-center col-12 pt-0 pb-0 mb-5 features-paneles clearfix text-light">Otros productos</h2>
 
-            <div class="col-md-4" onclick="abrirDesplazarDos('acero')">
+            <?php if((isset($ocultar) && $ocultar!=0)){ ?>
+
+            <div class="col-md-4 <?php if(isset($ocultar) && $ocultar!=-1) echo'dos-features'; ?>" onclick="abrirDesplazarDos('acero')">
                 <div class="single-features features-paneles border-0">
                     <div class="features-img">
                         <img src="img/features/acero-latina.jpg" alt="Acero Latina">
@@ -25,7 +42,11 @@
                     </div>
                 </div>
             </div>
-            <a class="col-md-4" href="refrigeracion-modular">
+            <?php } ?>
+
+            <?php if((isset($ocultar) && $ocultar!=1)){ ?>
+
+            <a class="col-md-4 <?php if(isset($ocultar) && $ocultar!=-1) echo'dos-features'; ?>" href="refrigeracion-modular">
                 <div class="single-features features-paneles border-0">
                     <div class="features-img">
                         <img src="img/features/frio-latina.jpg" alt="Frio Latina">
@@ -39,7 +60,11 @@
                     </div>
                 </div>
             </a>
-            <a class="col-md-4" href="sistemas-refrigeracion">
+            <?php } ?>
+
+            <?php if((isset($ocultar) && $ocultar!=2)){ ?>
+
+            <a class="col-md-4 <?php if(isset($ocultar) && $ocultar!=-1) echo'dos-features'; ?>" href="sistemas-refrigeracion">
                 <div class="single-features features-paneles border-0">
                     <div class="features-img">
                         <img src="img/features/bervill.jpg" alt="Bervill">
@@ -53,12 +78,15 @@
                     </div>
                 </div>
             </a>
+            <?php } ?>
         </div>
         <!-- SEGUNDA FILA: ACERO LATINA -->
         <div class="row">
             <h2 class="text-center col-12 pt-0 pb-4 mb-4 second-features features-acero clearfix text-light">Paneles térmicos</h2>
-            <a href="techos-cubiertas" class="col-md-4">
-                <div class="single-features second-features features-acero  border-0">
+            
+            <?php if(((isset($ocultar_acero) && $ocultar_acero!=0)) || !isset($ocultar_acero)){ ?>
+            <a href="techos-cubiertas" class="col-md-4 <?php if(isset($ocultar) && $ocultar==-1 && isset($ocultar_acero)) echo'dos-features'; ?>">
+                <div class="single-features second-features features-acero border-0">
                     <div class="features-img" >
                         <img class="rounded-circle" src="img/features/techos.png" alt="Nova Fusión">
                     </div>
@@ -71,7 +99,11 @@
                     </div>
                 </div>
             </a>
-            <a href="fachadas-muros" class="col-md-4">
+            <?php } ?>
+
+            
+            <?php if(((isset($ocultar_acero) && $ocultar_acero!=1)) || !isset($ocultar_acero)){ ?>
+            <a href="fachadas-muros" class="col-md-4 <?php if(isset($ocultar) && $ocultar==-1 && isset($ocultar_acero)) echo'dos-features'; ?>">
                 <div class="single-features second-features features-acero border-0">
                     <div class="features-img">
                         <img class="rounded-circle" src="img/features/muros.png" alt="Casa Latina">
@@ -85,7 +117,11 @@
                     </div>
                 </div>
             </a>
-            <a href="pisos-entrepisos" class="col-md-4">
+            <?php } ?>
+
+            
+            <?php if(((isset($ocultar_acero) && $ocultar_acero!=2)) || !isset($ocultar_acero)){ ?>
+            <a href="pisos-entrepisos" class="col-md-4 <?php if(isset($ocultar) && $ocultar==-1 && isset($ocultar_acero)) echo'dos-features'; ?>">
                 <div class="single-features second-features features-acero border-0">
                     <div class="features-img">
                         <img class="rounded-circle" src="img/features/pisos.png" alt="Casa Latina">
@@ -99,6 +135,7 @@
                     </div>
                 </div>
             </a>
+            <?php } ?>
         </div>
         <div class="row">
             <h2 class="text-center col-12 pt-3 pb-4 mb-4 second-features features-prox clearfix">PRÓXIMAMENTE</h2>

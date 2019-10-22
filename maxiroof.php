@@ -163,6 +163,12 @@
     <!-- caracteristicas end -->
 
 
+    <!-- OTROS -->
+    <?php 
+        $_GET['ocultar'] = -1;
+        include('bloques/otros-productos.php'); 
+    ?>
+    <!-- OTROS -->
 
 
 
