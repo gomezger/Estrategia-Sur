@@ -71,7 +71,7 @@
     <!-- Descripción -->
     <article class="descripcion pt-4 pb-4 text-center">
 		<div class="mx-auto col-12 col-sm-10 col-md-10 col-lg-9 col-xl-6 p-0 m-0 pl-1 pr-1 pl-md-2 pr-md-2 container">
-            Friolatina es proveedora de soluciones integrales en cámaras frigoríficas modulares, cerramientos y proyectos llave en mano.
+            Estrategia Sur representa comercialmente a la marca Friolatina, la cual es proveedora de soluciones integrales en cámaras frigoríficas modulares, cerramientos y proyectos llave en mano.
         </div>
     </article>
     <!-- descripcion ENDS-->
