@@ -700,8 +700,8 @@ ol {
 
 .single-features .feature-text .feature-icon {
 	display: inline-block;
-	height: 65px;
-	width: 65px;
+	height: 50px;
+	width: 50px;
 	background: rgb(153, 58, 58);
 	border-radius: 50%;
 	line-height: 62px;
