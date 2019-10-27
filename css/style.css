@@ -723,8 +723,9 @@ ol {
 	border-radius: 50%;
 	line-height: 59px;
 	margin-bottom: 25px;
+	padding-top: 2px;
 	margin-top: -34px;
-	font-size: 38px;
+	font-size: 30px;
 }
 
 .single-features .feature-text .feature-icon-mas-redondo{
