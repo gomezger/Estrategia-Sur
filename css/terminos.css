@@ -1,0 +1,64 @@
+.titulo-terminos{
+    font-size: 30px !important;
+}
+
+.titulo-departamento{
+    font-size: 26px !important;
+    text-transform: unset !important;
+}
+
+.subtitulo-departamento{
+    text-transform: unset !important;
+}
+
+.parrafo, p{
+    font-size: 18px !important;
+}
+.parrafo .item{
+    width: 5%;
+    max-width: 50px;
+}
+.parrafo .texto{
+    width: 85%;
+}
+
+
+.boton-contacto{
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+}
+
+.btn-contacto{
+    background-color: #336666;
+    border: solid 1px #336666;
+    text-transform: uppercase;
+    font-size: 20px !important;
+    padding: 2px 5px !important;
+}
+
+.btn-contacto:hover{
+    color: white !important;
+    background-color: #336666 !important;
+}
+
+
+
+@media only screen and (max-width: 991px) {	
+    .titulo-terminos{
+        font-size: 26   px !important;
+    }
+    .titulo-departamento{
+        font-size: 23px !important;
+    }
+    .parrafo, p{
+        font-size: 17px !important;
+    }
+    .boton-contacto{
+        bottom: 10px;
+        right: 10px;
+    }
+    .btn-contacto{
+        font-size: 15px !important;
+    }
+}

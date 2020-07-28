@@ -7,7 +7,7 @@
     <meta name="keywords" content="Acero Latina, Paneles Aislantes, Frio Latina, Bervill, representación comercial, construcción sustentable">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sección | Estrategia Sur | Paneles Aislantes | Bahía Blanca</title>
+    <title>Términos y condiciones | Estrategia Sur | Paneles Aislantes | Bahía Blanca</title>
 
     <!-- Icono -->
     <link rel="icon" type="image/png" href="img/logo.png" />
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/header.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/sucursales.css" type="text/css">
-    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="stylesheet" href="css/terminos.css" type="text/css">
 
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -47,7 +47,7 @@
     
     <!-- TITULO -->
     <section class="titulo">
-        <h1>Panel FOILROOF Trapezoidal o Sinusoidal</h1>
+        <h1>Términos y condiciones</h1>
         <a href="index">
             <img class="marca d-none" alt="Acerolatina" title="Acerolatina" src="img/logos_empresas/acerolatina.jpg"/>
         </a>
@@ -55,49 +55,81 @@
     <!-- TITULO ENDS-->
 
     <section class="pr-0 pl-0 sucursales col-12 float-left clearfix nosotros-section">
-      <div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-3 pr-3 pl-md-0 pr-md-0 pt-5 container">
+      <div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-3 pr-3 pl-md-0 pr-md-0 pt-4 pt-md-5 container">
+        <h1 class="text-left col-12 mt-0 pt-0 pb-0 mb-3 pl-0 pl-md-2 titulo-terminos text-danger">Panel FOILROOF Trapezoidal o Sinusoidal</h1>
         
-        <div class="col-12 p-0 float-left mb-5">
-          <h2 class="text-left col-12 mt-0 pt-3 pb-0 mb-4 pl-0 pl-md-2 titulo-departamento">PRECIO : USD 17,00 x m²</h2>
-          <p class=" departamento ml-0 ml-md-3 col-12 pl-0"><i class="fas fa-check mr-4"></i>El precio no incluye IVA.</p>
-          <p class=" departamento ml-0 ml-md-3 col-12 pl-0"><i class="fas fa-check mr-4"></i>No incluye flete.</p>
-          <p class=" departamento ml-0 ml-md-3 col-12 pl-0"><i class="fas fa-check mr-4"></i>No incluye accesorios de fijación, ni montaje.</p>
-          <p class=" departamento ml-0 ml-md-3 col-12 pl-0"><i class="fas fa-check mr-4"></i>Valor del dólar equivale al tipo vendedor del Banco de la Nación Argentina, del día de formalizada la operación.</p>
-          <p class=" departamento ml-0 ml-md-3 col-12 pl-0"><i class="fas fa-check mr-4"></i>Forma de pago: Contado anticipado. <span class="text-danger">(Consultar por otras opciones).</span></p>
+        <div class="col-12 p-0 float-left mb-3">
+          <h2 class="text-left col-12 mt-0 pt-3 pb-0 mb-4 pl-0 pl-md-2 titulo-departamento">Precio: USD 17,00 x m²</h2>
+          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
+            <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
+            <div class="texto p-0 float-left">El precio no incluye IVA.</div>            
+          </div>
+          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
+            <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
+            <div class="texto p-0 float-left">No incluye flete.</div>            
+          </div>
+          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
+            <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
+            <div class="texto p-0 float-left">No incluye accesorios de fijación, ni montaje</div>            
+          </div>
+          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
+            <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
+            <div class="texto p-0 float-left">El valor del dólar equivale al tipo vendedor del Banco de la Nación Argentina, del día de formalizada la operación.</div>            
+          </div>
+          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
+            <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
+            <div class="texto p-0 float-left">Forma de pago: Contado anticipado. <span class="text-danger">(Consultar por otras opciones).</span></div>            
+          </div>
         </div>
 
-        <div class="col-12 p-0 float-left mb-1">
+        <div class="col-12 p-0 float-left mb-0">
           <h2 class="text-left col-12 mt-0 pt-3 pb-0 mb-4 pl-0 pl-md-2 titulo-departamento">Especificaciones técnicas</h2>
-          <p class=" departamento ml-0 ml-md-3 col-12 pl-0"><i class="fas fa-check mr-4"></i>Cara exterior de acero galvanizado de 0,5 mm de espesor.</p>
-          <p class=" departamento ml-0 ml-md-3 col-12 pl-0"><i class="fas fa-check mr-4"></i>Aislación Poliuretano de 10 mm de espesor. (Consultar precio por otros espesores).</p>
-          <p class=" departamento ml-0 ml-md-3 col-12 pl-0"><i class="fas fa-check mr-4"></i>Cara interior Foil de polietileno Blanco de 0,08 mm de espesor.</p>
-        </div>
 
-        <div class="boton-contacto mb-4 text-right">
-          <a type="button" href="#contacto" class="btn btn-info text-light">Contacto</a>
-        </div>
+          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
+            <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
+            <div class="texto p-0 float-left">Cara exterior de acero galvanizado de 0,5 mm de espesor.</div>            
+          </div>
+          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
+            <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
+            <div class="texto p-0 float-left">Aislación Poliuretano de 10 mm de espesor. <span class="text-danger">(Consultar precio por otros espesores).</span></div>            
+          </div>
+          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
+            <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
+            <div class="texto p-0 float-left">Cara interior Foil de polietileno Blanco de 0,08 mm de espesor.</div>            
+          </div>
 
+        </div>
 
         <div class="col-12 p-0 float-left">
           <h2 class="text-left col-12 mt-0 pt-3 pb-0 mb-4 pl-0 pl-md-2 titulo-departamento">Fabricación y logística</h2>
-          <h3 class="col-12 titulo-departamento mb-4 pl-0 pl-md-2 ">Plazo de entrega: </h3>
-          <p class=" departamento ml-0 ml-md-3 col-12 pl-0"><i class="fas fa-check mr-4"></i>Para compras mayores a 400 m², el plazo será de 15 días.</p>
-          <p class=" departamento ml-0 ml-md-3 col-12 pl-0"><i class="fas fa-check mr-4"></i>Para compras menores a 400 m², el plazo de entrega dependerá de fecha de producción.</p>
-          <p class=" departamento ml-0 ml-md-3 col-12 pl-0">Los espesores indicados son nominales.</p>
-          <p class=" departamento ml-0 ml-md-3 col-12 pl-0">La mercadería se entrega puesta sobre camión, en las plantas industriales de Acerolatina sita en Navarra s/n entre Barcelona y Galicia (1748). Gral. Rodriguez, Buenos Aires, Argentina; o en Carril Rodriguez Peña 1009. Gral. Gutierrez. Maipú, Mendoza, Argentina. A conveniencia del comprador.</p>
-          <p class=" departamento ml-0 ml-md-3 col-12 pl-0">La mercadería deberá retirarse de la planta en un plazo máximo de 7 días corridos a partir de la fecha que se le informe su disponibilidad.</p>    
+          <h3 class="col-12 subtitulo-departamento mb-4 pl-0 pl-md-2 ">Plazo de entrega: </h3>
+
+          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
+            <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
+            <div class="texto p-0 float-left">Para compras mayores a 400 m², el plazo será de 15 días.</div>            
+          </div>
+
+          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
+            <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
+            <div class="texto p-0 float-left">Para compras menores a 400 m², el plazo de entrega dependerá de la fecha de producción.</div>            
+          </div>
+
+          <p class="parrafo ml-0 ml-md-3 col-12 pl-0">Los espesores indicados son nominales.</p>
+          <p class=" parrafo ml-0 ml-md-3 col-12 pl-0">La mercadería se entrega puesta sobre camión, en las plantas industriales de Acerolatina sita en Navarra s/n entre Barcelona y Galicia (1748). Gral. Rodriguez, Buenos Aires, Argentina; o en Carril Rodriguez Peña 1009. Gral. Gutierrez. Maipú, Mendoza, Argentina. A conveniencia del comprador.</p>
+          <p class=" parrafo ml-0 ml-md-3 col-12 pl-0">La mercadería deberá retirarse de la planta en un plazo máximo de 7 días corridos a partir de la fecha que se le informe su disponibilidad.</p>    
         </div>
 
-        <div class="col-12 p-0 float-left mt-4">
-          <p class=" departamento ml-0 ml-md-3 col-12 pl-0 text-danger"><b>Para solicitar una cotización, comuníquese o envíe el formulario de contacto adjunto.</b></p>    
+        <div class="col-12 p-0 float-left mt-4 mb-3 mb-md-0">
+          <p class=" parrafo ml-0 ml-md-3 col-12 pl-0 text-danger"><b>Para solicitar una cotización, comuníquese o envíe el formulario de contacto adjunto.</b></p>    
         </div>
 
-        <div class="boton-contacto mb-4 text-right">
-          <a type="button" href="#contacto" class="btn btn-info text-light">Contacto</a>
-        </div>
       </div>
     </section>
     
+
+    <div class="boton-contacto mb-0 mb-md-4">
+      <a type="button" href="#contacto" class="btn btn-info text-light btn-contacto">Contacto</a>
+    </div>
 
     <div class="clearfix"></div>
     

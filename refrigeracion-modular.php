@@ -46,7 +46,7 @@
     
     <!-- botones Begin -->
     <?php 
-        $lugar_volver_url = 'index#paneles-aislantes';
+        $lugar_volver_url = '#paneles-aislantes';
         $lugar_volver = 'Paneles Aislantes';
         include('bloques/botones.php');         
     ?>
