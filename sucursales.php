@@ -41,10 +41,10 @@
         //Datos de sucursales
         const sucursales = [
           [0, "Bahía Blanca", [-38.75896,-62.28665]],
-          [1, "Neuquén", [-38.967685,-68.07071]],
-          [2, "Zapala", [-38.894071,-70.08688]],
-          [3, "Añelo", [-38.356708, -68.764427]],
-          [4, "Trelew", [-43.260738,-65.347481]],
+          [1, "Tres Arroyos", [-38.3788155,-60.3088302]],
+          [2, "Zapala", [-38.8912,-70.089916]],
+          [3, "El Bolsón", [-41.9605229, -71.5347201]],
+          [4, "Esquel", [-42.9154942,-71.3241716]],
         ];
        
         function sucursalCercana(){
@@ -186,46 +186,37 @@
           </div>
           <!-- FIN BAHIA BLANCA CASA CENTRAL -->
           
-          <!-- NEUQuEN CASA CENTRAL -->
+          <!-- Sebastián Tiemersma (Estructuras Tiemersma) -->
           <div class="sucursal col-12 float-left ">
             <div class="ancla float-left">
                 <div id="sucursal-1" class="punto"></div>
             </div>
-            <h3 class="titulo clearfix">Jorge Fernández & Reinaldo Hermosilla<span class="d-none ml-2 text-dark cercana-1">(más cercana)</span></h3>
+            <h3 class="titulo clearfix">Sebastián Tiemersma (Estructuras Tiemersma)<span class="d-none ml-2 text-dark cercana-1">(más cercana)</span></h3>
             <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
                 <i class="far fa-building mr-2"></i>
-                Int. Chaneton 1195
+                Ruta 3 - km 494,4 (Sector B)
               </div>
               <div class="fila col-12 p-0">
                 <i class="fas fa-map-marker-alt mr-2"></i>
-                Neuquén Capital
-              </div>
-              <div class="fila col-12 p-0">
-                <i class="fas fa-globe-europe mr-2"></i>
-                Neuquén, Argentina
+                Parque Industrial de Tres Arroyos
               </div>
             </div>
             <div class="col-12 col-md-4 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
-                <i class="fas fa-phone mr-2"></i>
-                  Teléfono: +54 9 299 6356025
-              </div>
-              <div class="fila col-12 p-0">
-                <i class="fas fa-phone mr-2"></i>
-                  Teléfono: +54 9 299 6011310
-              </div>
-              <div class="fila col-12 p-0">
                 <i class="far fa-envelope mr-2"></i>
-                  info.neuquen@estrategiasur.com.ar
+                info.tresarroyos@estrategiasur.com.ar 
+              </div>
+              <div class="fila col-12 p-0">
+                <i class="fas fa-globe-europe mr-2"></i>
+                Buenos Aires, Argentina
               </div>
             </div>
             <div class="col-12 col-md-3 m-0 h-100 mt-2 d-inline-block text-center text-md-right float-left ">
               <button onclick="mostrarMapa(1)" type="button" class="btn btn-success mb-4 mb-md-2"><i class="fas fa-map-marked-alt mr-2"></i>Mapa</button>
-              <a href="tel:2996356025" class="btn btn-success mb-4 mb-md-2 ml-2 d-md-none"><i class="fas fa-phone mr-2 "></i>Llamar</a>
             </div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12408.347281293818!2d-68.0707097!3d-38.9676855!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x263ace44644d88fe!2sHojalateria%20Hermosilla!5e0!3m2!1ses!2sar!4v1570483211463!5m2!1ses!2sar"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12509.62432154732!2d-60.3214017555646!3d-38.38585880486853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95926e7b08fb4de3%3A0x94028b8bb5530a99!2sParque%20Industrial%2C%20Tres%20Arroyos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1595968836276!5m2!1ses!2sar"
               style="border:0" allowfullscreen
               class="col-12 p-0 mt-1 mapa-1 o-1 d-none float-left"
             >
@@ -238,37 +229,32 @@
             <div class="ancla float-left">
                 <div id="sucursal-2" class="punto"></div>
             </div>
-            <h3 class="titulo clearfix">Arquitecta Leda Gropa<span class="d-none ml-2 text-dark cercana-2">(más cercana)</span></h3>
+            <h3 class="titulo clearfix">Ingeniero Gilberto Groppa (FINES SRL)<span class="d-none ml-2 text-dark cercana-2">(más cercana)</span></h3>
             <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
                 <i class="far fa-building mr-2"></i>
-                Aluminé 1469
+                Rioja y Aluminé (8340)
               </div>
               <div class="fila col-12 p-0">
                 <i class="fas fa-map-marker-alt mr-2"></i>
                 Zapala
+              </div>
+            </div>
+            <div class="col-12 col-md-4 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
+              <div class="fila col-12 p-0">
+                <i class="far fa-envelope mr-2"></i>
+                info.zapala@estrategiasur.com.ar
               </div>
               <div class="fila col-12 p-0">
                 <i class="fas fa-globe-europe mr-2"></i>
                 Neuquén, Argentina
               </div>
             </div>
-            <div class="col-12 col-md-4 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
-              <div class="fila col-12 p-0">
-                <i class="fas fa-phone mr-2"></i>
-                  Teléfono: +54 9 2942 356413
-              </div>
-              <div class="fila col-12 p-0">
-                <i class="far fa-envelope mr-2"></i>
-                info.zapala@estrategiasur.com.ar
-              </div>
-            </div>
             <div class="col-12 col-md-3 m-0 h-100 mt-2 d-inline-block text-center text-md-right float-left ">
               <button onclick="mostrarMapa(2)" type="button" class="btn btn-success mb-4 mb-md-2"><i class="fas fa-map-marked-alt mr-2"></i>Mapa</button>
-              <a href="tel:2942356413" class="btn btn-success mb-4 mb-md-2 ml-2 d-md-none"><i class="fas fa-phone mr-2 "></i>Llamar</a>
             </div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12421.232067805691!2d-70.0868802!3d-38.8940711!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1fc74b7757911db3!2sFines%20SRL!5e0!3m2!1ses!2sar!4v1570483228670!5m2!1ses!2sar"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24843.46836678749!2d-70.089916!3d-38.8912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960d757cbbd3eb2d%3A0xa40b0b8c3c354692!2zQWx1bWluw6kgJiBMYSBSaW9qYSwgWmFwYWxhLCBOZXVxdcOpbg!5e0!3m2!1ses!2sar!4v1595968925716!5m2!1ses!2sar"
               style="border:0" allowfullscreen
               class="col-12 p-0 mt-1 mapa-2 o-2 d-none float-left"
             >
@@ -276,34 +262,30 @@
           </div>
           <!-- FIN zapala CASA CENTRAL -->    
           
-          <!-- añelo CASA CENTRAL -->
+          <!-- Marcelo José Pozo (Ingeniero Civil) CASA CENTRAL -->
           <div class="sucursal col-12 float-left ">
             <div class="ancla float-left">
                 <div id="sucursal-3" class="punto"></div>
             </div>
-            <h3 class="titulo clearfix">Arquitecto Pedro Montes de Oca<span class="d-none ml-2 text-dark cercana-3">(más cercana)</span></h3>
+            <h3 class="titulo clearfix">Marcelo José Pozo (Ingeniero Civil)<span class="d-none ml-2 text-dark cercana-3">(más cercana)</span></h3>
             <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
                 <i class="far fa-building mr-2"></i>
-                Ruta provincial 7, km 98, Lote 11
+                Avenida San Martín 3262. Planta Alta. Oficina B.
               </div>
               <div class="fila col-12 p-0">
                 <i class="fas fa-map-marker-alt mr-2"></i>
-                Añelo
-              </div>
-              <div class="fila col-12 p-0">
-                <i class="fas fa-globe-europe mr-2"></i>
-                Neuquén, Argentina
+                El Bolsón 
               </div>
             </div>
             <div class="col-12 col-md-4 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
-                <i class="fas fa-phone mr-2"></i>
-                  Teléfono: +54 9 221 601-8715
+                <i class="far fa-envelope mr-2"></i>
+                info.elbolson@estrategiasur.com.ar 
               </div>
               <div class="fila col-12 p-0">
-                <i class="far fa-envelope mr-2"></i>
-                info.anelo@estrategiasur.com.ar
+                <i class="fas fa-globe-europe mr-2"></i>
+                Río Negro, Argentina
               </div>
             </div>
             <div class="col-12 col-md-3 m-0 h-100 mt-2 d-inline-block text-center text-md-right float-left ">
@@ -311,7 +293,7 @@
               <a href="tel:2216018715" class="btn btn-success mb-4 mb-md-2 ml-2 d-md-none"><i class="fas fa-phone mr-2 "></i>Llamar</a>
             </div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11812.686863039247!2d-68.77794427756766!3d-38.3541570157619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDIxJzI0LjIiUyA2OMKwNDUnNTEuOSJX!5e0!3m2!1ses!2sar!4v1570540160965!5m2!1ses!2sar"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11867.40631861274!2d-71.5347201!3d-41.9605229!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcbc867bf39f3e5e1!2sAb%20Construcciones%20Srl!5e0!3m2!1ses!2sar!4v1595969196492!5m2!1ses!2sar"
               style="border:0" allowfullscreen
               class="col-12 p-0 mt-1 mapa-3 o-3 d-none float-left"
             >
@@ -324,29 +306,25 @@
             <div class="ancla float-left">
                 <div id="sucursal-0" class="punto"></div>
             </div>
-            <h3 class="titulo clearfix">Mario Chaparro<span class="d-none ml-2 text-dark cercana-4">(más cercana)</span></h3>
+            <h3 class="titulo clearfix">Luis Betanzo (Nahuel Equipamientos S.R.L)<span class="d-none ml-2 text-dark cercana-4">(más cercana)</span></h3>
             <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
                 <i class="far fa-building mr-2"></i>
-                26 De Noviembre Norte 350
+                9 De Julio 745
               </div>
               <div class="fila col-12 p-0">
                 <i class="fas fa-map-marker-alt mr-2"></i>
-                Trelew
-              </div>
-              <div class="fila col-12 p-0">
-                <i class="fas fa-globe-europe mr-2"></i>
-                Chubut, Argentina
+                Esquel
               </div>
             </div>
             <div class="col-12 col-md-4 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
-                <i class="fas fa-phone mr-2"></i>
-                  Teléfono: +54 9 280 4347205
+                <i class="far fa-envelope mr-2"></i>
+                info.esquel@estrategiasur.com.ar 
               </div>
               <div class="fila col-12 p-0">
-                <i class="far fa-envelope mr-2"></i>
-                info.trelew@estrategiasur.com.ar
+                <i class="fas fa-globe-europe mr-2"></i>
+                Chubut, Argentina
               </div>
             </div>
             <div class="col-12 col-md-3 m-0 h-100 mt-2 d-inline-block text-center text-md-right float-left ">
@@ -354,7 +332,7 @@
               <a href="tel:2804347205" class="btn btn-success mb-4 mb-md-2 ml-2 d-md-none"><i class="fas fa-phone mr-2 "></i>Llamar</a>
             </div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11622.22186043036!2d-65.3474813!3d-43.2607376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x428aead46593a37a!2sMetal%C3%BArgica%20Chaparro%20Alquiler%20de%20Hidrogruas!5e0!3m2!1ses!2sar!4v1570483260744!5m2!1ses!2sar"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11687.914040836831!2d-71.3241716!3d-42.9154942!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5980b7787a24444e!2sNahuel%20Equipamientos!5e0!3m2!1ses!2sar!4v1595969330753!5m2!1ses!2sar"
               style="border:0" allowfullscreen
               class="col-12 p-0 mt-1 mapa-4 o-4 d-none float-left"
             >
