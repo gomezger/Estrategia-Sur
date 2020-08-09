@@ -68,26 +68,6 @@
                 <a href="#paneles-aislantes" class="primary-btn boton-carousel mt-2 p-3">Ver info</a>
             </div>
         </div>
-        <div class="slide-items owl-carousel">
-            <div class="single-slide set-bg" data-setbg="img/carousel1.jpg">
-                <!-- <a href="https://www.youtube.com/watch?v=SEVuD_djKrU" class="play-btn pop-up"><i class="fa fa-play"></i></a> -->
-                
-                <a href="#paneles-asilantes" class="logo-carousel p-0 m-0">
-                    <img class="col-12 p-0 m-0" src="img/logos_empresas/friolatina.jpg">
-                    <div onclick="abrirDesplazar('paneles')" class="leer-mas col-12 h-100">Leer más</div>
-                </a>
-                <a href="#paneles-asilantes" class="logo-carousel p-0 m-0">
-                    <img class="col-12 p-0 m-0" src="img/logos_empresas/acerolatina.jpg">
-                    <div onclick="abrirDesplazarDos('acero')" class="leer-mas col-12 h-100">Leer más</div>
-                </a>
-                <a href="#paneles-asilantes" class="logo-carousel p-0 m-0">
-                    <img class="col-12 p-0 m-0" src="img/logos_empresas/bervill.jpg">
-                    <div onclick="abrirDesplazar('paneles')" class="leer-mas col-12 h-100">Leer más</div>
-                </a>
-                <h1 class="title-carousel mt-4 mb-4">Estrategia Sur</h1>
-                <a href="#paneles-aislantes" class="primary-btn boton-carousel mt-2 p-3">Ver info</a>
-            </div>
-        </div>  
     </section>
     <!-- Hero Slider End -->
 

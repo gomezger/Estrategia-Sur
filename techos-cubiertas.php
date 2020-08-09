@@ -73,6 +73,22 @@
             <div class="clearfix"></div>
 
             <!-- PRODUCTOS -->
+            <a href="#simpletech" onclick="despalzar('simpletech')"  class="producto sombreado">
+                <div class="imagen">
+                    <img alt="Simpletech" title="Simpletech" src="img/techos-cubiertas/simpletech-s.png">
+                </div>
+                <div class="mas">
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+            <a href="#foilroof-sinusoidal" class="producto">
+                <div class="imagen">
+                    <img alt="foilroof" title="foilroof" src="img/techos-cubiertas/foilroof-s.png">
+                </div>
+                <div class="mas">
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
             <a href="#tejatech" onclick="despalzar('tejatech')"  class="producto sombreado">
                 <div class="imagen">
                     <img alt="Tejateh" title="Tejateh" src="img/techos-cubiertas/tejatech.png">
@@ -84,14 +100,6 @@
             <a href="#foilroof-trapezoidal" class="producto sombreado">
                 <div class="imagen">
                     <img alt="foilroof" title="foilroof" src="img/techos-cubiertas/foilroof-t.png">
-                </div>
-                <div class="mas">
-                    <i class="fas fa-plus"></i>
-                </div>
-            </a>
-            <a href="#foilroof-sinusoidal" class="producto">
-                <div class="imagen">
-                    <img alt="foilroof" title="foilroof" src="img/techos-cubiertas/foilroof-s.png">
                 </div>
                 <div class="mas">
                     <i class="fas fa-plus"></i>
@@ -318,6 +326,38 @@
             </div>
         </div>
         <!-- MAXIROOF end -->
+        
+        <!-- SIMPLETECH begin-->
+        <div class="producto" >
+            <div class="ancla float-left">
+                <div id="simpletech"  class="punto"></div>
+            </div>
+            <div class="imagen">
+                <img src="img/techos-cubiertas/productos/img-simpletech.png" />
+            </div>
+            <div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 container">
+                <div class="informacion">
+                    <div class="titulo">
+                        <img src="img/techos-cubiertas/titulos/simpletech.png" />
+                        
+                        <img class="ml-3" width="40px" src="img/s-10.png">
+                        <img class="ml-3" width="40px" src="img/pur.png">
+
+                    </div>
+                    <div class="texto">
+                        Panel en núcleo de poliuretano (PUR) de 10 mm con recubrimiento en cara superior de acero galvanizado, e inferior con foil de polipropileno. Este panel está fabricado en proceso de línea contínua y es ideal para el uso de cubiertas.
+                    </div>
+                    <div class="lista">
+                        <p><i class="fas fa-check mr-2"></i>Fácil montaje y rapidez de instalación.</p>
+                        <p><i class="fas fa-check mr-2"></i>Óptimo aislamiento térmico.</p>
+                    </div>
+                    <a href="simpletech" class="btn btn-warning ver-mas">Ver más</a>
+
+                    <div class="clearfix mb-md-5 pb-md-5"></div>
+                    <div class="clearfix pb-md-5"></div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- productos end -->
 

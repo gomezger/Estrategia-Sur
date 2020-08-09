@@ -113,8 +113,10 @@ section.titulo .marca{
 	width: 100%;
 	margin: 20px 0;
 	padding: 0; 
+}
 
-	
+.caracteristicas .imagen-carateristica{
+	max-width: 450px;
 }
 .caracteristicas .titulo{
     float: left; 

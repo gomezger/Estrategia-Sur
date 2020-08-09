@@ -18,6 +18,11 @@
     width: 5%;
     max-width: 50px;
 }
+.parrafo .subtilde{
+    max-width: 50px;
+    font-size: 12px;
+    margin-top: 3px;
+}
 .parrafo .texto{
     width: 85%;
 }
@@ -43,10 +48,25 @@
 }
 
 
+.imagen-logo{
+    width: 400px;
+    max-width: 80%;
+    float: left;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.imagen-pur{
+    width: 80px;
+    max-width: 15%;
+    float: left;
+}
+
+
 
 @media only screen and (max-width: 991px) {	
     .titulo-terminos{
-        font-size: 26   px !important;
+        font-size: 26px !important;
     }
     .titulo-departamento{
         font-size: 23px !important;

@@ -56,10 +56,7 @@
 
     <section class="pr-0 pl-0 sucursales col-12 float-left clearfix nosotros-section">
       <div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-3 pr-3 pl-md-0 pr-md-0 pt-4 pt-md-5 container">
-        <div class="text-left col-12 mt-0 pt-0 pb-0 mb-3 pl-0 pl-md-2 titulo-terminos text-danger">
-          <img class="imagen-logo"src="img/terminos/Logo-Simpletech-S-10.png">
-          <img class="imagen-pur" src="img/terminos/PUR.png">
-        </div>
+        <h1 class="text-left col-12 mt-0 pt-0 pb-0 mb-3 pl-0 pl-md-2 titulo-terminos text-danger">Panel FOILROOF Trapezoidal o Sinusoidal</h1>
         
         <div class="col-12 p-0 float-left mb-3">
           <h2 class="text-left col-12 mt-0 pt-3 pb-0 mb-4 pl-0 pl-md-2 titulo-departamento">Precio: USD 17,00 x m²</h2>
@@ -90,68 +87,36 @@
 
           <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
             <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
-            <div class="texto p-0 float-left"><b>Cara exterior</b> de acero revestido galvanizado de 0,4 mm de espesor con un ancho útil de 0,988 metros (+/-2 mm). Acabado de la chapa: Sinusoidal. <span class="text-danger">(Por otros materiales/colores: cincalum, electrocincado 	&lt;&lt;prepintado blanco	&gt;&gt;; consultar precio).</span></div>            
+            <div class="texto p-0 float-left">Cara exterior de acero galvanizado de 0,5 mm de espesor.</div>            
           </div>
           <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
             <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
-            <div class="texto p-0 float-left"><b>Aislación</b> Poliuretano de 10 mm de espesor (PUR). Densidad total nominal 38 kg/m3 aprox. (+/-2). <span class="text-danger"><a class="text-info" href="techos-cubiertas">(Por otros espesores, consultar nuestra línea de productos)</a></span></div>            
+            <div class="texto p-0 float-left">Aislación Poliuretano de 10 mm de espesor. <span class="text-danger">(Consultar precio por otros espesores).</span></div>            
           </div>
           <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
             <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
-            <div class="texto p-0 float-left"><b>Cara interior</b> Foil de Polipropileno Blanco de alta resistencia de 0,08 mm de espesor.</div>            
-          </div>
-          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
-            <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
-            <div class="texto p-0 float-left"><b>Largos</b> Máximo, hasta 14 metros. Mínimo, 4 metros. <span class="text-danger">(Otra longitud consultar).</span></div>            
-          </div>
-          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
-            <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
-            <div class="texto p-0 float-left">Los espesores indicados son nominales.</div>            
+            <div class="texto p-0 float-left">Cara interior Foil de polietileno Blanco de 0,08 mm de espesor.</div>            
           </div>
 
         </div>
 
         <div class="col-12 p-0 float-left">
           <h2 class="text-left col-12 mt-0 pt-3 pb-0 mb-4 pl-0 pl-md-2 titulo-departamento">Fabricación y logística</h2>
+          <h3 class="col-12 subtitulo-departamento mb-4 pl-0 pl-md-2 ">Plazo de entrega: </h3>
 
           <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
             <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
-            <div class="texto p-0 float-left">Plazo de entrega:</div>            
-          </div>
-
-          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
-            <div class="tilde subtilde float-left pl-5 pr-4"><i class="fas fa-stop"></i></div>
             <div class="texto p-0 float-left">Para compras mayores a 400 m², el plazo será de 15 días.</div>            
           </div>
 
           <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
-            <div class="tilde subtilde float-left pl-5 pr-4"><i class="fas fa-stop"></i></div>
-            <div class="texto p-0 float-left">Para compras menores a 400 m², el plazo de entrega dependerá de la fecha de producción.</div>            
-          </div>
-
-          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
-            <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
-            <div class="texto p-0 float-left">La mercadería se entrega puesta sobre camión, a conveniencia del comprador, en las plantas industriales de Acerolatina sita en:</div>            
-          </div>
-
-          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
-            <div class="tilde subtilde float-left pl-5 pr-4"><i class="fas fa-stop"></i></div>
-            <div class="texto p-0 float-left">Navarra s/n entre Barcelona y Galicia (1748). Gral. Rodriguez, Buenos Aires, Argentina.</div>            
-          </div>
-
-          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
-            <div class="tilde subtilde float-left pl-5 pr-4"><i class="fas fa-stop"></i></div>
-            <div class="texto p-0 float-left">Carril Rodriguez Peña 1009. Gral. Gutierrez. Maipú, Mendoza, Argentina.</div>            
-          </div>
-
-
-
-          <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
             <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
             <div class="texto p-0 float-left">Para compras menores a 400 m², el plazo de entrega dependerá de la fecha de producción.</div>            
           </div>
 
-          <p class=" parrafo ml-0 ml-md-3 col-12 pl-0">La mercadería deberá retirarse de la planta en un plazo máximo de 7 días corridos, a partir de la fecha que se le informe su disponibilidad.</p>
+          <p class="parrafo ml-0 ml-md-3 col-12 pl-0">Los espesores indicados son nominales.</p>
+          <p class=" parrafo ml-0 ml-md-3 col-12 pl-0">La mercadería se entrega puesta sobre camión, en las plantas industriales de Acerolatina sita en Navarra s/n entre Barcelona y Galicia (1748). Gral. Rodriguez, Buenos Aires, Argentina; o en Carril Rodriguez Peña 1009. Gral. Gutierrez. Maipú, Mendoza, Argentina. A conveniencia del comprador.</p>
+          <p class=" parrafo ml-0 ml-md-3 col-12 pl-0">La mercadería deberá retirarse de la planta en un plazo máximo de 7 días corridos a partir de la fecha que se le informe su disponibilidad.</p>    
         </div>
 
         <div class="col-12 p-0 float-left mt-4 mb-3 mb-md-0">
