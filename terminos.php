@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/header.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/sucursales.css" type="text/css">
-    <link rel="stylesheet" href="css/terminos.css" type="text/css">
+    <link rel="stylesheet" href="css/terminos.css?date=09-08-20" type="text/css">
 
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

@@ -130,34 +130,29 @@
 		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-md-2 pr-md-2 container">
             <h6 class="titulo pt-5">Tabla de cargas admisibles</h6>
             <span class="separador"></span>
-            <div class="info text-center">
-                <img class="d-inline-block" src="img/techos-cubiertas/tejatech/tabla.jpg" />
+            <div class="info text-left">
+                <img class="d-inline-block" style="max-width: 1000px;" src="img/techos-cubiertas/simpletech/cargas.jpg" />
                 <p class="texto-tablas col-12 col-sm-10 col-xl-9 d-inline-block mt-5 text-justify p-0 text-dark">
-                    Las luces L en metros correspondientes a las sobrecargas P (kg/m2) uniformemente 
-                    distribuídas, han sido obtenidas por pruebas de carga efectuadas en nuetros 
-                    laboratorios y garantizan simultáneamente una flecha F < L/200 considerando 
-                    como sección resistente solo la chapa (no se ha considerado la portación del 
-                    poliuretano) de conformidad con las normas existentes.
+                    Las luces (L) en metros correspondientes a una sobrecarga (P) uniformemente 
+                    distribuída, medida en kgf/m2. Las mismas garantizan una flecha menor o igual a L/200. 
+                    Los datos utilizados son a partir de pruebas de cargas realizadas en laboratorio. 
                 </p>
             </div>
         </div>
 
         
 		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 container">
-            <h6 class="titulo mt-3">Detalle de encuentros</h6>
+            <h6 class="titulo mt-3">Detalle de solape</h6>
             <span class="separador"></span>
             <div class="col-12 p-0 text-center mb-4">
-                <img class="d-inline-block col-12 col-md-6 m-0 p-0 float-left" src="img/techos-cubiertas/tejatech/img-tejatech-ok-1-1.jpg" />
-                <img class="d-inline-block col-12 col-md-6 m-0 p-0 float-left" src="img/techos-cubiertas/tejatech/img-caract-2-OK-1.jpg" />
+                <img class="d-inline-block col-12 m-0 p-0 float-left clearfix" style="max-width: 1000px" src="img/techos-cubiertas/simpletech/solapa.jpg" />
+                <div class="clearfix">
+                    <img class="d-inline-block col-12 m-0 p-0 float-left" style="max-width: 800px" src="img/techos-cubiertas/simpletech/solape2.jpg" />
+                </div>
+                
             </div>
         </div>
 
-
-        <!-- tiene:
-                -Detalles constructivos y accesorios completos
-                -Detalles
-        -->
-        <?php include('bloques/fondo-producto-techos.php'); ?>
 
     </section>
     <!-- caracteristicas end -->
