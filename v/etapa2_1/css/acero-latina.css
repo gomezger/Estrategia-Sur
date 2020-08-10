@@ -1,0 +1,517 @@
+.botones{
+	font-family: 'Montserrat', sans-serif;	
+}
+.botones .subir{
+	text-align: center;
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+	border-radius: 100%;
+	border: solid 2px #FFF;
+	color: #FFF;
+	padding-top: 6px;
+	width: 50px;
+	height: 50px;
+	font-size: 21px;
+	background-color: rgba(0, 0, 0, 0.349);
+	cursor: pointer;
+	z-index: 10;
+}
+
+.botones  .volver{
+	text-align: center;
+	position: fixed;
+	bottom: 30px;
+	left: 20px;
+	border-radius: 30px;
+	border: solid 1.5px #FFF;
+	color: #FFF;
+	padding: 0 20px;
+	padding-top: 11px;
+	width: auto;	
+	height: 50px;
+	font-size: 18px;
+	background-color: rgba(0, 0, 0, 0.349);
+	cursor: pointer;
+	z-index: 10;
+	text-shadow: 2px 2px 10px #000000;
+}
+
+.botones  .volver .texto{
+	float: right;
+	margin-top: -1px;
+}
+
+
+
+section.titulo{
+	width: 100%;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 30px 0;
+	background-image: url('../img/slide-techosmurosentrepisos.jpg');
+	background-position: center;
+	background-size: 100% auto;
+	font-family: 'Montserrat', sans-serif; 
+}
+
+section.titulo h1{
+	color: #FFF;
+    font-size: 50px;
+    margin-bottom: 10px;
+	display: inline-block;
+}
+
+section.titulo h2{
+	color: #FFF;
+	font-size: 18px;
+}
+section.titulo .marca{
+	display: inline-block;
+	margin-top: -25px;
+	margin-left: 40px;
+	border-radius: 5px;
+}
+
+
+.portada{
+	display: block;
+	padding: 60px 0;
+	min-height: 300px;
+	text-align: center;
+	background-image: url('../img/bg-white-2.jpg');
+	background-position: center;
+	background-size: 100% auto;
+}
+.portada .producto{
+	width: 24%;
+	display: inline-block;
+	padding: 0;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.portada .producto .imagen{
+	width: 100%;
+	display: inline-block;
+	padding: 0;
+}
+.portada .producto .imagen img{
+	width: 95%;
+	display: inline-block;
+	padding: 0;
+}
+.portada .producto .mas{
+	margin-top: 25px;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	background-color: #f58100;
+	border-radius: 100%;
+	color: #FFF;
+	padding-top: 7px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.ventajas{
+	width: 100%;
+	display: block;
+	text-align: center;
+	background-image: url('../img/bg-green.jpg');
+	background-position: center;
+	background-size: 100% auto;
+	padding: 50px 0;
+	float: left;
+}
+
+.ventajas-muros{
+	background-image: url('../img/bg-orange.jpg');
+}
+
+.ventajas .titulo{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 28px;
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif; 
+}
+
+.ventajas .ventaja{
+	display: inline-block;
+	float: left;
+	width: 20%;
+	padding: 0 10px;
+	margin: 20px 0;
+	color: #c8ff9f;
+	font-weight: bold;
+}
+
+.ventajas .ventaja-muros{
+	width: 20%;
+	margin: 0% 2.5%;
+}
+.ventajas .ventaja-pisos{
+	width: 15%;
+	margin: 0% 0.6%;
+}
+
+.ventajas .ventaja .imagen{
+	display: inline-block;
+/* 	height: 140px;
+ */	overflow: hidden;
+}
+.ventajas .ventaja .imagen-muros{
+	height: 200px;
+}
+.ventajas .ventaja .imagen-pisos{
+	height: 150px;
+}
+
+.ventajas .ventaja .texto{
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+section.banner{
+	overflow: hidden;
+	width: 100%;
+	display: block;
+	text-align: center;
+	background-image: url('../img/bg-blue.jpg');
+	background-position: center;
+	background-size: 100% auto;
+	padding: 20px 0;
+	margin-bottom: 0;
+}
+
+section.banner h2{
+	color: #FFF;
+	padding-top: 30px;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif; 
+	font-weight: normal;
+}
+
+section.productos{
+	margin-top: 0;
+	width: 100%;
+	float: left;
+	clear: both;
+}
+
+section.productos .producto{
+	background-color: #13333e;
+	float: left;
+	clear: both;
+	width: 100%;
+	position: relative;
+}
+section.productos .fondo2{
+	background-color: #0f2e38;
+}
+section.productos .fondo3{
+	background-color: #ffffff;
+}
+section.productos .fondo4{
+	background-color: #f1f1f1;
+}
+section.productos .producto .imagen{
+	width: 49%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+section.productos .producto .imagen img{
+	width: 100%;
+}
+section.productos .producto .inverso-imagen{
+	width: 49%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+section.productos .producto .inverso-imagen img{
+	width: 100%;
+}
+section.productos .producto .informacion{
+	padding-top: 40px; 
+	padding-bottom: 40px; 
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 49%;
+	max-width: 700px;
+	float: right;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: rgb(238, 238, 238);
+}
+section.productos .producto  .inverso-informacion{
+	padding-top: 60px; 
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 49%;
+	max-width: 700px;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: rgb(238, 238, 238);
+}
+
+section.productos .producto .blanco{
+	color: rgb(0, 0, 0);
+}
+section.productos .producto .informacion .texto{
+	padding-top: 30px; 
+	width: 100%;
+	float: left;
+	text-align: justify;
+}
+section.productos .producto .informacion .lista{
+	padding-top: 30px; 
+	width: 100%;
+	float: left;
+	text-align: justify;
+}
+
+section.productos .producto .informacion .lista p{
+	color: rgb(238, 238, 238);
+	margin: 5px 0;
+}
+section.productos .producto .informacion .lista-blanca p{
+	color: rgb(15, 15, 15);
+}
+section.productos .producto .informacion .ver-mas{
+	margin-top: 30px; 
+	background-color: #ff6900;
+	color: rgb(238, 238, 238);
+	border-radius: 0;
+	text-transform: uppercase;
+	border: 0;
+	padding: 5px 25px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+section.adaptacion{
+	background-color: #acbbbf;
+}
+
+
+/*....................  Resposive Media Styles  .......................*/
+
+@media (max-width: 1650px) {
+
+	section.productos{
+	}
+	section.productos .producto{
+		height: auto;
+	}
+	section.productos .fondo2{
+	}
+	section.productos .producto .imagen{
+		width: 49%;
+	}
+	section.productos .producto .imagen img{
+	}
+	section.productos .producto .inverso-imagen{
+		width: 49%;
+	}
+	section.productos .producto .informacion{
+		padding-top: 25px; 
+		font-size: 13px;
+	}
+	section.productos .producto  .inverso-informacion{
+		padding-top: 25px; 
+		font-size: 13px;
+	}
+	section.productos .producto .informacion .texto{
+		padding-top: 10px; 
+	}
+	section.productos .producto .informacion .lista{
+		padding-top: 10px; 
+	}
+
+	section.productos .producto .informacion .lista p{
+		margin: 2px 0;
+		font-size: 13px;
+	}
+	section.productos .producto .informacion .ver-mas{
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1400px) {
+	section.productos .producto .imagen{
+		width: 52%;
+	}
+	section.productos .producto .inverso-imagen{
+		width: 52%;
+	}
+	section.productos .producto .informacion .ver-mas{
+		margin-top: 10px;
+		font-size: 15px;
+	}
+}
+
+
+/* Medium Device : 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	section.productos .producto .imagen{
+		top: auto;
+	}
+	section.productos .producto .inverso-imagen{
+		top: auto;
+	}
+}
+
+/* Tablet : 768px. */
+
+@media only screen and (max-width: 991px) {	
+
+	section.titulo{
+		background-size: auto 150%;
+		background-position: center bottom;
+		padding: 15px 0;
+	}
+
+	section.titulo h1{
+		width: 100%;
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	
+	section.titulo h2{
+		font-size: 16px;
+		margin-top: 0px;
+	}
+	section.titulo .marca{
+		margin-top: 0px;
+		margin-left: 10px;
+		width: 100px;
+	}	
+	
+	.portada .producto{
+		width: 49%;
+		margin-top: 0;
+	}
+
+	section.productos .producto .imagen{
+		position: unset;
+		float: left;
+		width: 100%;
+	}
+	section.productos .producto .inverso-imagen{
+		position: unset;
+		float: left;
+		width: 100%;
+	}
+	section.productos .producto .informacion{
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	section.productos .producto  .inverso-informacion{
+		float: left;
+		width: 100%;
+	}
+	section.productos .producto .informacion .texto{
+		padding-top: 35px; 
+		font-size: 14px; 
+	}
+	section.productos .producto .informacion .lista{
+		padding-top: 15px; 
+		font-size: 14px; 
+		width: 100%;
+		float: left;
+		text-align: justify;
+	}
+	
+	section.productos .producto .informacion .lista p{
+		font-size: 14px; 
+		margin: 5px 0;
+	}
+	section.productos .producto .informacion .ver-mas{
+		display: inline-block;
+	}
+
+}
+
+/* Large Mobile : 480px. */
+
+@media only screen and (max-width: 767px) {
+
+	.botones{
+
+	}
+	.botones .subir{
+		bottom: 8px;
+		right: 8px;	
+	}
+	
+	.botones  .volver{
+		bottom: 8px;
+		left: 8px;	
+		width: 50px;
+		padding-left: 17px;
+	}
+	.botones .volver .texto{
+		display: none;
+		float: right;/* 
+		margin-top: -0.5px;	
+		text-transform: uppercase; */	
+	}
+	
+	h2.titulo{
+		font-size: 30px;
+		margin-top: 80px;
+		background-size: auto 100%;
+	}
+	.pur-pir{
+		display: inline-block;
+		width: 35px;
+		margin-top: 10px;
+	}
+	.portada{
+		padding-top: 0px;
+	}
+	.portada .titulo{
+		font-size: 35px;
+	}	
+	.ventajas{
+		background-size: auto 100%;
+	}
+	.ventajas .ventaja{
+		width: 50%;
+	}
+}
+
+/* Small Mobile : 320px. */
+
+@media only screen and (max-width: 479px) {
+	.portada{
+		background-size: auto 100%; 
+	}
+	.portada .producto{
+		width: 49%;
+		padding: 0x 15%;  
+		margin-bottom: 0px;
+		padding-bottom: 15px;
+	}
+	.sombreado{
+		/* background-color: rgba(0, 0, 0, 0.061); */
+	}
+	.ventajas .ventaja{
+		width: 40%;
+		margin: 0 4.5%;
+	}
+	.ventajas  .ventaja-muros{
+		margin-bottom: 0px;
+	}
+	.ventajas  .ventaja-muros .texto{
+		margin-bottom: 40px;
+	}
+}

@@ -131,7 +131,7 @@
             <h6 class="titulo pt-5">Tabla de cargas admisibles</h6>
             <span class="separador"></span>
             <div class="info text-left">
-                <img class="d-inline-block" style="max-width: 1000px;" src="img/techos-cubiertas/simpletech/cargas.jpg" />
+                <img class="d-inline-block" style="max-width: 100%; width: 1000px;" src="img/techos-cubiertas/simpletech/cargas.jpg" />
                 <p class="texto-tablas col-12 col-sm-10 col-xl-9 d-inline-block mt-5 text-justify p-0 text-dark">
                     Las luces (L) en metros correspondientes a una sobrecarga (P) uniformemente 
                     distribuída, medida en kgf/m2. Las mismas garantizan una flecha menor o igual a L/200. 
@@ -145,9 +145,9 @@
             <h6 class="titulo mt-3">Detalle de solape</h6>
             <span class="separador"></span>
             <div class="col-12 p-0 text-center mb-4">
-                <img class="d-inline-block col-12 m-0 p-0 float-left clearfix" style="max-width: 1000px" src="img/techos-cubiertas/simpletech/solapa.jpg" />
+                <img class="d-inline-block col-12 m-0 p-0 float-left clearfix" style="max-width: 100%; width: 1000px;" src="img/techos-cubiertas/simpletech/solapa.jpg" />
                 <div class="clearfix">
-                    <img class="d-inline-block col-12 m-0 p-0 float-left" style="max-width: 800px" src="img/techos-cubiertas/simpletech/solape2.jpg" />
+                    <img class="d-inline-block col-12 m-0 p-0 float-left" style="max-width: 100%; width: 800px;" src="img/techos-cubiertas/simpletech/solape2.jpg" />
                 </div>
                 
             </div>

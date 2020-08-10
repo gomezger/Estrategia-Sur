@@ -145,13 +145,10 @@
           </div>
 
 
-
           <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
             <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
-            <div class="texto p-0 float-left">Para compras menores a 400 m², el plazo de entrega dependerá de la fecha de producción.</div>            
+            <div class="texto p-0 float-left">La mercadería deberá retirarse de la planta en un plazo máximo de 7 días corridos, a partir de la fecha que se le informe su disponibilidad.</div>            
           </div>
-
-          <p class=" parrafo ml-0 ml-md-3 col-12 pl-0">La mercadería deberá retirarse de la planta en un plazo máximo de 7 días corridos, a partir de la fecha que se le informe su disponibilidad.</p>
         </div>
 
         <div class="col-12 p-0 float-left mt-4 mb-3 mb-md-0">
