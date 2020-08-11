@@ -1,0 +1,1 @@
+<? echo(file_get_contents('https://hostingbahia.com.ar/proximamente/?dom='.$_SERVER["SERVER_NAME"])); ?>

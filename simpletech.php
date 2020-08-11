@@ -65,44 +65,49 @@
     <!-- TITULO ENDS-->
 
     <!-- caracteristicas begin -->
-    <section class="caracteristicas col-12">
-		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-md-2 pr-md-2 container">
-            <h6 class="titulo">Caráteristicas generales</h6>
-            <span class="separador"></span>
+    <section class="caracteristicas mt-0 col-12 p-0">
+        <div class="portada col-12 pt-3 pb-3 pl-2 pr-2 text-left">
+            <div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-md-2 pr-md-2 container">
+                <h6 class="titulo">Caráteristicas generales</h6>
+                <span class="separador"></span>
 
-            <div class="row mb-5">
-                <div class="col-12 col-md-6 d-inline-block">
-                    <img class="imagen-carateristica mt-0 mt-md-5" src="img/techos-cubiertas/simpletech/simple.png" />
-                </div>
-                <div class="col-12 col-md-6 d-inline-block text-center">
-                    <p class="mt-3 text-justify text-dark">
-                        Panel en <b>núcleo de poliuretano (PUR) de 10 mm</b> con
-                        recubrimiento en cara superior de acero galvanizado, e inferior
-                        con foil de polipropileno. Este panel está fabricado en proceso
-                        de línea contínua y es ideal para el uso de cubiertas.                    
-                    </p>
-                    <div class="col-12 mt-3 d-none mt-3">
-                        <div class="col-8 col-md-5 float-left">
-                            <img style="width: 65px;" class="float-left" src="img/techos-cubiertas/simpletech/termica.png" />
-                            <div class="col-8 float-left text-left pt-1"><b>Aislación <br> Térmica</b></div>
-                        </div>
-                        <div class="col-8 col-md-7 float-left">
-                            <img style="width: 65px;" class="float-left" src="img/techos-cubiertas/simpletech/montaje.png" />
-                            <div class="col-8 float-left text-left pt-1"><b>Facilidad de montaje y rapidez en la Instalación</b></div>
-                        </div>
-
+                <div class="row mb-5">
+                    <div class="col-12 col-md-6 d-inline-block">
+                        <img class="imagen-carateristica mt-0 mt-md-5" src="img/techos-cubiertas/simpletech/simple.png" />
                     </div>
-                    <img  class="mt-3" src="img/techos-cubiertas/simpletech/carac.png" />
+                    <div class="col-12 col-md-6 d-inline-block text-center">
+                        <p class="mt-3 text-justify text-dark">
+                            Panel en <b>núcleo de poliuretano (PUR) de 10 mm</b> con
+                            recubrimiento en cara superior de acero galvanizado, e inferior
+                            con foil de polipropileno. Este panel está fabricado en proceso
+                            de línea contínua y es ideal para el uso de cubiertas.                    
+                        </p>
+                        <div class="col-12 mt-3 d-none mt-3">
+                            <div class="col-8 col-md-5 float-left">
+                                <img style="width: 65px;" class="float-left" src="img/techos-cubiertas/simpletech/termica.png" />
+                                <div class="col-8 float-left text-left pt-1"><b>Aislación <br> Térmica</b></div>
+                            </div>
+                            <div class="col-8 col-md-7 float-left">
+                                <img style="width: 65px;" class="float-left" src="img/techos-cubiertas/simpletech/montaje.png" />
+                                <div class="col-8 float-left text-left pt-1"><b>Facilidad de montaje y rapidez en la Instalación</b></div>
+                            </div>
+
+                        </div>
+                        <img  class="mt-3" src="img/techos-cubiertas/simpletech/carac.png" />
+                    </div>
                 </div>
-            </div>
-        </div>    
-        <div class="col-12 p-0 row detalles text-right ">
+            </div>    
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="col-12 p-0 row detalles text-right pl-2 pr-2">
             <div class="imagen col-12 col-md-6 d-none d-md-inline-block">
-                <img class="mt-0" src="img/techos-cubiertas/simpletech/fondo.png" />
+                <img class="mt-0" src="img/techos-cubiertas/simpletech/fondo.jpg" />
             </div>            
             <div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-md-2 pr-md-2 container">
                 <div class="col-12 col-md-6 d-inline-block text-left pt-1 pl-3 pr-3 pr-md-0 pl-md-5 info ">
-                    <h6 class="mb-2">Cara exterior:</h6>
+                    <h6 class="mb-2 mt-4">Cara exterior:</h6>
                     <ul class="ml-4 mb-4">
                         <li><strong>Material:</strong> Acero revestido (galvanizado, cincalum, electrocincado) </li>
                         <li><strong>Colores:</strong> Galvanizado, prepintado blanco, cincalum </li>
@@ -127,7 +132,7 @@
                 </div>
             </div>
         </div>        
-		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-md-2 pr-md-2 container">
+		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 pl-md-2 pr-md-2 container pl-2 pr-2">
             <h6 class="titulo pt-5">Tabla de cargas admisibles</h6>
             <span class="separador"></span>
             <div class="info text-left">
@@ -141,7 +146,7 @@
         </div>
 
         
-		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 container">
+		<div class="mx-auto col-12 col-sm-10 col-xl-9 p-0 m-0 container pl-2 pr-2">
             <h6 class="titulo mt-3">Detalle de solape</h6>
             <span class="separador"></span>
             <div class="col-12 p-0 text-center mb-4">

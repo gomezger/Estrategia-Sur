@@ -1,0 +1,342 @@
+
+section.titulo{
+	width: 100%;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 30px 0;
+	background-image: url('../img/slide-techosmurosentrepisos.jpg');
+	background-position: center;
+	background-size: 100% auto;
+	font-family: 'Montserrat', sans-serif; 
+}
+
+section.titulo h1{
+	color: #FFF;
+    font-size: 50px;
+    margin-bottom: 10px;
+	display: inline-block;
+}
+
+section.titulo h2{
+	color: #FFF;
+	font-size: 18px;
+}
+section.titulo .marca{
+	display: inline-block;
+	margin-top: -25px;
+	margin-left: 40px;
+	width: 175px;
+	border-radius: 5px;
+}
+
+.portada{
+	display: block;
+	padding: 60px 0;
+	min-height: 300px;
+	text-align: center;
+	background-image: url('../img/bg-white-2.jpg');
+	background-position: center;
+	background-size: 100% auto;
+}
+
+.portada .imagen{
+    float:left; 
+    max-width: 30%;
+}
+.portada .imagen img{
+    width: 300px;
+}
+
+.portada .texto{
+    float:left; 
+    max-width: 70%;
+    font-size: 20px;
+    text-align: justify;
+    padding: 35px 80px;
+    color: rgb(44, 44, 44);
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.razones{
+	display: block;
+	background-color: #13333e;
+	padding: 70px 0;
+    float: left; 
+	color: white;
+	width: 100%;
+	text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.razones h6.titulo{
+	display: block;
+	font-weight: normal;
+	color: white;
+    float: left; 
+	font-size: 28px;
+	width: 100%;
+	text-align: center;
+}
+.razones .separador{
+	display: inline-block;
+	background-color: #FFF;
+	margin: 20px 0; 
+	margin-bottom: 40px;
+	width: 120px;
+	height: 1px;
+}
+
+.razones .item{
+	width: 100%;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.razones .item .numero{
+	width: 70px;
+	max-width: 10%;
+	font-size: 20px;
+	margin-top: 0px; 
+}
+.razones .item .texto{
+	max-width: 90%;
+	font-size: 16px;
+}
+
+.caracteristicas{
+    font-family: 'Montserrat', sans-serif; 
+    float: left; 
+	display: block;
+	width: 100%;
+	margin: 20px 0;
+	padding: 0; 
+
+	
+}
+.caracteristicas .titulo{
+    float: left; 
+	display: block;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	width: 100%;
+	font-size: 25px;
+    font-family: 'Montserrat', sans-serif; 
+}
+.caracteristicas .separador{
+	display: inline-block;
+	background-color: rgb(41, 41, 41);
+	margin: 15px 0; 
+	margin-bottom: 40px;
+	width: 35px;
+	height: 1px;
+}
+
+.caracteristicas .detalles{
+	position: relative;
+	color: rgb(61, 61, 61);
+	overflow: hidden;
+}
+.caracteristicas .detalles .imagen{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+}
+.caracteristicas .detalles .info{
+	line-height: 30px;
+}
+
+.texto-tablas{
+	color: rgb(61, 61, 61);
+	font-size: 17px;
+	line-height: 30px;
+
+}
+
+.accesorios {
+	background-color: #13333e !important;
+	color: white;
+	font-size: 17px;
+	line-height: 40px;
+	text-align: left;
+}
+
+.bloque{
+	float:left;
+	padding: 10px;
+}
+
+.bloque .titulo{
+	font-family: 'Montserrat', 'sans-serif';
+	font-size: 16px;
+	font-weight: 500;
+	color: #333;
+}
+.bloque .sinfondo{
+}
+.bloque .lista li{
+	font-size: 15px;
+	border: 0px;
+	background-color: unset;
+}
+.bloque .lista li span{
+	color: #ff6b00;
+	font-weight: 600;
+}
+
+/*....................  Resposive Media Styles  .......................*/
+
+@media (max-width: 1650px) {
+
+	.portada .texto{
+		padding: 0px 80px;
+		font-size: 17px;
+		line-height: 35px;
+	}
+	
+	.caracteristicas .detalles .info{
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1400px) {
+	
+}
+
+
+/* Medium Device : 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+/* Tablet : 768px. */
+
+@media only screen and (max-width: 991px) {	
+	section.titulo{
+		text-shadow: 4px 4px 25px rgb(0, 0, 0);
+		background-position: center bottom;
+		padding: 15px 0;
+		background-size: auto 100%;
+	}
+
+	section.titulo h1{
+		font-size: 33px;
+		margin-bottom: 10px;
+	}
+	
+	section.titulo h2{
+		font-size: 16px;
+		margin-top: 15px;
+	}
+	section.titulo .marca{
+		margin-top: 0px;
+		margin-left: 0px;
+		width: 100px;
+	}	
+	
+	.portada{
+		padding: 20px 0;
+		background-size: auto 100%;
+	}
+	.portada .imagen{
+		margin-left: 15%;
+		margin-right: 15%;
+		max-width: 70%;
+	}
+	.portada .imagen img{
+		width: 100%;
+	}
+	.portada .texto{
+		max-width: 100%;
+		font-size: 15px;
+		padding: 35px 20px;
+		line-height: 30px;
+	}
+
+	.razones{
+		padding: 20px 0;
+	}
+	
+	.razones h6.titulo{
+		font-size: 22px;
+		width: 98%;
+		text-align: center;
+	}
+	.razones .separador{
+		margin: 20px 0; 
+		margin-bottom: 25px;
+		width: 100px;
+	}
+	
+	.razones .item{
+		width: 100%;
+		padding: 0 10px;
+		margin-bottom: 20px;
+	}
+	
+	.razones .item .numero{
+		max-width: 8%;
+		font-size: 17px;
+		margin-top: -2px; 
+	}
+	.razones .item .texto{
+		max-width: 90%;
+		text-align: justify;
+		font-size: 14px;
+	}
+
+	
+	.caracteristicas{
+		width: 100%;
+		padding: 0 15px;
+		text-align: center;
+
+		
+	}
+	.caracteristicas .titulo{
+		width: 100%;
+		font-size: 23px;
+	}
+	.caracteristicas .separador{
+		background-color: rgb(41, 41, 41);
+	}
+
+	.caracteristicas .detalles{
+	}
+	.caracteristicas .detalles .imagen{
+		position: unset;
+		float: left;
+		width: 100%;
+	}
+	.caracteristicas .detalles .info{
+		line-height: 30px;
+		padding: 0 15px;
+	}
+
+	.texto-tablas{
+		font-size: 15px;
+		line-height: 28px;
+
+	}
+	.accesorios {
+		font-size: 15px;
+		line-height: 30px;
+	}
+	
+
+}
+
+/* Large Mobile : 480px. */
+
+@media only screen and (max-width: 767px) {
+}
+
+/* Small Mobile : 320px. */
+
+@media only screen and (max-width: 320px) {
+}

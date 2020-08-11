@@ -1,0 +1,199 @@
+
+
+section.fondo-frio{
+	background-image: url('../img/refrigeracion-modular/title-friolatina.jpg');
+}
+section.fondo-bervill{
+	background-image: url('../img/sistemas-refrigeracion/title-bervill.jpg');
+}
+
+section.titulo h1{
+	color: #FFF;
+    font-size: 50px;
+    margin-bottom: 10px;
+	display: inline-block;
+}
+
+section.titulo h2{
+	color: #FFF;
+	font-size: 18px;
+}
+section.titulo .marca{
+	display: inline-block;
+	margin-top: -25px;
+	margin-left: 40px;
+	border-radius: 5px;
+}
+
+
+section.informacion{
+	padding-top: 70px!important;	
+	font-family: 'Montserrat', sans-serif;	
+	background-color: rgba(12, 24, 80, 0.027);
+	display: block;
+}
+section.informacion .bloque{	
+	margin-bottom: 45px;
+	padding-bottom: 45px!important;
+	float: left;
+	border-bottom: 1px rgba(255, 255, 255, 0.582) solid;
+}
+
+section.informacion .imagen{	
+	margin-right: 50px;
+	width: 30%;
+	max-width: 400px;
+}
+
+section.informacion .texto{
+	margin-top: 50px;
+	font-family: 'Montserrat', sans-serif;	
+	max-width: 60%;	
+	color: #022a3a!important;
+}
+section.informacion .texto .titulo{
+	font-weight: normal;
+	font-size: 33px;	
+	margin-bottom: 5px;	
+}
+section.informacion .texto .subtitulo{
+	font-size: 18px;	
+	margin-bottom: 10px;
+	font-weight: 500;	
+}
+section.informacion .texto .titulo-segundo{
+	font-size: 18px;	
+	margin-bottom: 10px;
+}
+section.informacion .texto .parrafo{	
+	font-size: 17px;	
+	text-align: justify;
+}
+section.informacion .texto .parrafo.primero{	
+	margin-top: 15px;
+}
+section.informacion .texto .info{	
+	font-size: 17px;	
+	text-align: justify;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+
+
+.fondo-oscuro-cat{
+	background-color: #13333e;
+}
+
+.single-features:hover{
+	background-color: unset;
+}
+
+
+/*....................  Resposive Media Styles  .......................*/
+
+@media (max-width: 1650px) {
+
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1400px) {
+}
+
+
+/* Medium Device : 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	section.informacion .texto{
+		margin-top: 10px;
+	}
+	section.informacion .texto .titulo{
+		font-size: 25px;	
+	}
+	
+}
+
+/* Tablet : 768px. */
+
+@media only screen and (max-width: 991px) {	
+
+	section.titulo{
+		background-size: auto 150%;
+		background-position: center bottom;
+		padding: 15px 0;
+	}
+
+	section.titulo h1{
+		width: 100%;
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	
+	section.titulo h2{
+		font-size: 16px;
+		margin-top: 0px;
+	}
+	section.titulo .marca{
+		margin-top: 0px;
+		margin-left: 10px;
+		width: 100px;
+	}	
+
+	section.informacion{
+		padding-top: 35px!important;	
+		font-family: 'Montserrat', sans-serif;	
+	}
+	
+	section.informacion .imagen{	
+		margin: 0 15%;
+		width: 70%;
+		max-width: unset;
+	}
+	section.informacion .imagen img{	
+		width: 100%;
+	}
+
+	section.informacion .texto{
+		text-align: center;
+		margin-top: 50px;
+		font-family: 'Montserrat', sans-serif;	
+		max-width: unset;
+		width: 100%;	
+	}
+	section.informacion .texto .titulo{
+		width: 100%;	
+	}
+	
+	
+
+}
+
+/* Large Mobile : 480px. */
+
+@media only screen and (max-width: 767px) {
+}
+
+/* Small Mobile : 320px. */
+
+@media only screen and (max-width: 479px) {
+	.portada{
+		background-size: auto 100%; 
+	}
+	.portada .producto{
+		width: 49%;
+		padding: 0x 15%;  
+		margin-bottom: 0px;
+		padding-bottom: 15px;
+	}
+	.sombreado{
+		/* background-color: rgba(0, 0, 0, 0.061); */
+	}
+	.ventajas .ventaja{
+		width: 40%;
+		margin: 0 4.5%;
+	}
+	.ventajas  .ventaja-muros{
+		margin-bottom: 0px;
+	}
+	.ventajas  .ventaja-muros .texto{
+		margin-bottom: 40px;
+	}
+}
