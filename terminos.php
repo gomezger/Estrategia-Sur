@@ -94,7 +94,7 @@
           </div>
           <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
             <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>
-            <div class="texto p-0 float-left"><b>Aislación</b> Poliuretano de 10 mm de espesor (PUR). Densidad total nominal 38 kg/m3 aprox. (+/-2). <span class="text-danger"><a class="text-info" href="techos-cubiertas">(Por otros espesores, consultar nuestra línea de productos)</a></span></div>            
+            <div class="texto p-0 float-left"><b>Aislación</b> Poliuretano de 10 mm de espesor (PUR). Densidad total nominal 38 kg/m3 aprox. (+/-2). <span class="text-danger"><a class="text-danger" href="techos-cubiertas">Por otros espesores, consultar nuestra línea de productos. (Click aquí).</a></span></div>            
           </div>
           <div class=" parrafo ml-0 ml-md-3 col-12 pl-0 mb-3 float-left">
             <div class="tilde float-left pr-3"><i class="fas fa-check"></i></div>

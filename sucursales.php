@@ -45,6 +45,7 @@
           [2, "Zapala", [-38.8912,-70.089916]],
           [3, "El Bolsón", [-41.9605229, -71.5347201]],
           [4, "Esquel", [-42.9154942,-71.3241716]],
+          [5, "Río Grande", [-53.7791643,-67.7735574]],
         ];
        
         function sucursalCercana(){
@@ -262,7 +263,7 @@
           </div>
           <!-- FIN zapala CASA CENTRAL -->    
           
-          <!-- Marcelo José Pozo (Ingeniero Civil) CASA CENTRAL -->
+          <!--bolson CASA CENTRAL -->
           <div class="sucursal col-12 float-left ">
             <div class="ancla float-left">
                 <div id="sucursal-3" class="punto"></div>
@@ -290,7 +291,6 @@
             </div>
             <div class="col-12 col-md-3 m-0 h-100 mt-2 d-inline-block text-center text-md-right float-left ">
               <button onclick="mostrarMapa(3)" type="button" class="btn btn-success mb-4 mb-md-2"><i class="fas fa-map-marked-alt mr-2"></i>Mapa</button>
-              <a href="tel:2216018715" class="btn btn-success mb-4 mb-md-2 ml-2 d-md-none"><i class="fas fa-phone mr-2 "></i>Llamar</a>
             </div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11867.40631861274!2d-71.5347201!3d-41.9605229!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcbc867bf39f3e5e1!2sAb%20Construcciones%20Srl!5e0!3m2!1ses!2sar!4v1595969196492!5m2!1ses!2sar"
@@ -299,12 +299,12 @@
             >
             </iframe>
           </div>
-          <!-- Añelo CASA CENTRAL --> 
+          <!-- Bolson CASA CENTRAL --> 
           
-          <!-- Trelew CASA CENTRAL -->
+          <!-- Esquel CASA CENTRAL -->
           <div class="sucursal col-12 float-left ">
             <div class="ancla float-left">
-                <div id="sucursal-0" class="punto"></div>
+                <div id="sucursal-4" class="punto"></div>
             </div>
             <h3 class="titulo clearfix">Luis Betanzo (Nahuel Equipamientos S.R.L)<span class="d-none ml-2 text-dark cercana-4">(más cercana)</span></h3>
             <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
@@ -329,7 +329,6 @@
             </div>
             <div class="col-12 col-md-3 m-0 h-100 mt-2 d-inline-block text-center text-md-right float-left ">
               <button onclick="mostrarMapa(4)" type="button" class="btn btn-success mb-4 mb-md-2"><i class="fas fa-map-marked-alt mr-2"></i>Mapa</button>
-              <a href="tel:2804347205" class="btn btn-success mb-4 mb-md-2 ml-2 d-md-none"><i class="fas fa-phone mr-2 "></i>Llamar</a>
             </div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11687.914040836831!2d-71.3241716!3d-42.9154942!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5980b7787a24444e!2sNahuel%20Equipamientos!5e0!3m2!1ses!2sar!4v1595969330753!5m2!1ses!2sar"
@@ -338,7 +337,41 @@
             >
             </iframe>
           </div>
-          <!-- Trelew CASA CENTRAL -->   
+          <!-- Esquel CASA CENTRAL -->  
+
+          <!-- Rio Grande CASA CENTRAL -->
+          <div class="sucursal col-12 float-left ">
+            <div class="ancla float-left">
+                <div id="sucursal-5" class="punto"></div>
+            </div>
+            <h3 class="titulo clearfix">Mariela Hopczak (Arquitecta)<span class="d-none ml-2 text-dark cercana-5">(más cercana)</span></h3>
+            <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
+              <div class="fila col-12 p-0">
+                <i class="fas fa-map-marker-alt mr-2"></i>
+                Río Grande
+              </div>
+            </div>
+            <div class="col-12 col-md-4 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
+              <div class="fila col-12 p-0">
+                <i class="far fa-envelope mr-2"></i>
+                info.riogrande@estrategiasur.com.ar 
+              </div>
+              <div class="fila col-12 p-0">
+                <i class="fas fa-globe-europe mr-2"></i>
+                Tierra del Fuego, Argentina
+              </div>
+            </div>
+            <div class="col-12 col-md-3 m-0 h-100 mt-2 d-inline-block text-center text-md-right float-left ">
+              <button onclick="mostrarMapa(5)" type="button" class="btn btn-success mb-4 mb-md-2"><i class="fas fa-map-marked-alt mr-2"></i>Mapa</button>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75442.55923896503!2d-67.77355735294559!3d-53.77916434283016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4b1644a97ec1cb%3A0x48273f4501527328!2sR%C3%ADo%20Grande%2C%20Tierra%20del%20Fuego!5e0!3m2!1ses-419!2sar!4v1597262535291!5m2!1ses-419!2sar"
+              style="border:0" allowfullscreen
+              class="col-12 p-0 mt-1 mapa-5 o-5 d-none float-left"
+            >
+            </iframe>
+          </div>
+          <!-- Rio Grande CASA CENTRAL -->   
         </div>
     </section>
     <!-- Sucursales end -->
