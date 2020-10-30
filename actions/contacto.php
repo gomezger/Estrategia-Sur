@@ -31,7 +31,7 @@ $mensaje   = '
 	</html>';
 
 try{	
-	enviarCorreo('info@estrategiasur.com.ar','Consulta enviada desde la web',$mensaje,$correo,$nombre);
+	enviarCorreo('no-replay@estrategiasur.com.ar','Consulta enviada desde la web',$mensaje,$correo,$nombre);
 	echo '<meta http-equiv="refresh" content="0; url=../?t='.e('¡Se envió el mensaje correctamente!').'#contacto">';
 }catch(Exception $e){
 	echo '<meta http-equiv="refresh" content="0; url=../?t='.e('¡Hubo un error al enviar el mensaje!').'#contacto">';
@@ -86,9 +86,10 @@ function enviarCorreo($to,$asunto,$mensaje,$from,$from_name=NULL,$archivo=NULL){
 		$mail->addAttachment($archivo['tmp_name'],$archivo['name']);
 	
 	//enviar correo
-	if(!$mail->send()){
-		throw new Exception($mail->ErrorInfo);
-	}
+	//if(!$mail->send()){
+		
+	///}
+	throw new Exception('Momentaneamente no estamos recibiendo correos.');
 }
 
 ?>

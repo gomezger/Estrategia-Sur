@@ -133,12 +133,12 @@
     <section class="pr-0 pl-0 sucursales col-12 float-left clearfix">
         <div class="container">
           
-          <div class="get mt-3 text-center text-md-right">
+          <!-- <div class="get mt-3 text-center text-md-right">
             <button class="btn btn-info mt-3" onclick="sucursalCercana()">
               <i class="fas fa-map-marker-alt mr-2"></i>
               Buscar sucursal más cercana
             </button>     
-          </div>
+          </div> -->
 
           <!-- BAHIA BLANCA CASA CENTRAL -->
           <div class="sucursal col-12 float-left ">
@@ -146,7 +146,7 @@
                 <div id="sucursal-0" class="punto"></div>
             </div>
             <h3 class="titulo clearfix">Estrategia Sur | Casa Central<span class="d-none ml-2 text-dark cercana-0">(más cercana)</span></h3>
-            <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
+            <!-- <div class="col-12 col-md-5 p-0 pl-0 pl-md-2 m-0 d-inline-block float-left ">
               <div class="fila col-12 p-0">
                 <i class="far fa-building mr-2"></i>
                 Int. Haroldo Casanova 3349 (Oficina 2 - Centro de Desarrollo)
@@ -173,13 +173,13 @@
                 <i class="far fa-envelope mr-2"></i>
                   info@estrategiasur.com.ar
               </div>
-            </div>
-            <div class="col-12 col-md-3 m-0 h-100 mt-2 d-inline-block text-center text-md-right float-left ">
+            </div> -->
+            <div class="col-12 col-md-3 m-0 h-100 mt-2 d-inline-block text-left float-left ">
               <button onclick="mostrarMapa(0)" type="button" class="btn btn-success mb-4 mb-md-2"><i class="fas fa-map-marked-alt mr-2"></i>Mapa</button>
               <a href="tel:2914360055" class="btn btn-success mb-4 mb-md-2 ml-2 d-md-none"><i class="fas fa-phone mr-2 "></i>Llamar</a>
             </div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31055.154297102614!2d-62.287013097863564!3d-38.76677088150657!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x41b9a383b5ab43c8!2sEstrategia%20Sur%20-%20Agencia%20Comercial!5e0!3m2!1ses!2sar!4v1570473498814!5m2!1ses!2sar"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199222.69753532365!2d-62.39645670692251!3d-38.72114597412733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcabdc1302bd%3A0x76d1d88d241e7a11!2sBah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1603924660349!5m2!1ses!2sar"
               style="border:0" allowfullscreen
               class="col-12 p-0 mt-1 mapa-0 o-0 d-none float-left"
             >
@@ -187,7 +187,7 @@
           </div>
           <!-- FIN BAHIA BLANCA CASA CENTRAL -->
           
-          <!-- Sebastián Tiemersma (Estructuras Tiemersma) -->
+          <!-- Sebastián Tiemersma (Estructuras Tiemersma)
           <div class="sucursal col-12 float-left ">
             <div class="ancla float-left">
                 <div id="sucursal-1" class="punto"></div>
@@ -225,7 +225,7 @@
           </div>
           <!-- FIN NEUQuEN CASA CENTRAL -->
 
-          <!-- zapala CASA CENTRAL -->
+          <!-- zapala CASA CENTRAL
           <div class="sucursal col-12 float-left ">
             <div class="ancla float-left">
                 <div id="sucursal-2" class="punto"></div>
@@ -263,7 +263,7 @@
           </div>
           <!-- FIN zapala CASA CENTRAL -->    
           
-          <!--bolson CASA CENTRAL -->
+          <!--bolson CASA CENTRAL
           <div class="sucursal col-12 float-left ">
             <div class="ancla float-left">
                 <div id="sucursal-3" class="punto"></div>
@@ -301,7 +301,7 @@
           </div>
           <!-- Bolson CASA CENTRAL --> 
           
-          <!-- Esquel CASA CENTRAL -->
+          <!-- Esquel CASA CENTRAL
           <div class="sucursal col-12 float-left ">
             <div class="ancla float-left">
                 <div id="sucursal-4" class="punto"></div>
@@ -339,7 +339,7 @@
           </div>
           <!-- Esquel CASA CENTRAL -->  
 
-          <!-- Rio Grande CASA CENTRAL -->
+          <!-- Rio Grande CASA CENTRAL
           <div class="sucursal col-12 float-left ">
             <div class="ancla float-left">
                 <div id="sucursal-5" class="punto"></div>

@@ -6,8 +6,8 @@
         <div class="row ">
             <div class="col-lg-6">
                 <div class="contact-info">
-                    <div class="contact-details">
-                        <ul class="address">
+                    <!-- <div class="contact-details">
+                            <ul class="address">
                             <li>
                                 <i class="far fa-building"></i>
                                 <span class="pl-2">Int. Haroldo Casanova 3349 (Oficina 2 - Centro de Desarrollo)</span>
@@ -29,7 +29,7 @@
                                 <a href="sucursales" class="pl-1 text-dark">Buscar sucursal más cercana</a>                                
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                     <div id="mensaje-contacto" class="mensaje-formulario col-12 float-left clearfix m-0 p-0 mb-4 text-center text-sm-left"></div>
                     <div class="contact-form">
                         <form class="col-12 p-0" action="actions/contacto.php" method="post">
@@ -58,7 +58,7 @@
         </div>
     </div>
     <div class="map"><iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31055.154297102614!2d-62.287013097863564!3d-38.76677088150657!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x41b9a383b5ab43c8!2sEstrategia%20Sur%20-%20Agencia%20Comercial!5e0!3m2!1ses!2sar!4v1570473498814!5m2!1ses!2sar"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199222.69753532365!2d-62.39645670692251!3d-38.72114597412733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcabdc1302bd%3A0x76d1d88d241e7a11!2sBah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1603924660349!5m2!1ses!2sar"
             style="border:0" allowfullscreen></iframe></div>
 </section>
 <!-- Contact Section End -->
